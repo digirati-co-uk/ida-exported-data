@@ -127,35 +127,34 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                 if anno["@id"].startswith(
                     "https://transcriptions.dlcs-ida.org/annotations/"
                 ):
-                    r = requests.get(anno["@id"])
-                    if r.status_code == requests.codes.ok:
-                        j = r.json()
-                    else:
-                        j = None
-                        print(f"{r.status_code}: {r.url}")
-                    if j:
-                        partial_base = str(anno["@id"].replace(
-                                "https://transcriptions.dlcs-ida.org/annotations/", ""
-                            ))
-                        qs = parse_qs(unquote(partial_base.split("/")[-1]))
-                        if (image := qs.get("image", [])[0]) is not None:
-                            image_uuid = image.split("/")[-1]
-                            anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}" \
-                                      f"/ocr_{image_uuid}/annotations.json"
-                            filepath = os.path.join(
-                                path_base,
-                                f"iiif/annotations/{manifest_id}",
-                                f"ocr_{image_uuid}/annotations.json"
-                            )
-                            _dir = os.path.dirname(filepath)
-                            Path(_dir).mkdir(parents=True, exist_ok=True)
-                            j["@id"] = anno_id
-                            anno["@id"] = anno_id
-                            with open(filepath, "w", encoding="utf-8") as f:
-                                print(filepath)
-                                json.dump(j, f, indent=2, ensure_ascii=False)
-                        else:
-                            print("Erk")
+                    partial_base = str(anno["@id"].replace(
+                            "https://transcriptions.dlcs-ida.org/annotations/", ""
+                        ))
+                    qs = parse_qs(unquote(partial_base.split("/")[-1]))
+                    if (image := qs.get("image", [])[0]) is not None:
+                        image_uuid = image.split("/")[-1]
+                        anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}" \
+                                  f"/ocr_{image_uuid}/annotations.json"
+                        filepath = os.path.join(
+                            path_base,
+                            f"iiif/annotations/{manifest_id}",
+                            f"ocr_{image_uuid}/annotations.json"
+                        )
+                        if not os.path.exists(filepath):
+                            r = requests.get(anno["@id"])
+                            if r.status_code == requests.codes.ok:
+                                j = r.json()
+                            else:
+                                j = None
+                                print(f"{r.status_code}: {r.url}")
+                            if j:
+                                _dir = os.path.dirname(filepath)
+                                Path(_dir).mkdir(parents=True, exist_ok=True)
+                                j["@id"] = anno_id
+                                anno["@id"] = anno_id
+                                with open(filepath, "w", encoding="utf-8") as f:
+                                    print(filepath)
+                                    json.dump(j, f, indent=2, ensure_ascii=False)
                 elif anno["@id"].startswith(
                         "https://annotations.dlcs-ida.org/annotationlist/"
                 ):
@@ -167,18 +166,26 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                         ),
                         "annotations.json"
                     )
-                    _dir = os.path.dirname(filepath)
-                    Path(_dir).mkdir(parents=True, exist_ok=True)
-                    anno_url_base = str(anno["@id"].replace(
-                        "https://annotations.dlcs-ida.org/annotationlist/", ""
-                    )) + "annotations.json"
-                    anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}/" \
-                              f"{anno_url_base}"
-                    oa_content = oa_from_id(identifier=anno["@id"].split("/")[-2], request_uri=anno_id)
-                    anno["@id"] = anno_id
-                    print(f"OA: {filepath} : {anno_id}")
-                    with open(filepath, "w", encoding="utf-8") as f:
-                        json.dump(oa_content, f, indent=2, ensure_ascii=False)
+                    if not os.path.exists(filepath):
+                        r = requests.get(anno["@id"])
+                        if r.status_code == requests.codes.ok:
+                            j = r.json()
+                        else:
+                            j = None
+                            print(f"{r.status_code}: {r.url}")
+                    if j:
+                        _dir = os.path.dirname(filepath)
+                        Path(_dir).mkdir(parents=True, exist_ok=True)
+                        anno_url_base = str(anno["@id"].replace(
+                            "https://annotations.dlcs-ida.org/annotationlist/", ""
+                        )) + "annotations.json"
+                        anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}/" \
+                                  f"{anno_url_base}"
+                        oa_content = oa_from_id(identifier=anno["@id"].split("/")[-2], request_uri=anno_id)
+                        anno["@id"] = anno_id
+                        print(f"OA: {filepath} : {anno_id}")
+                        with open(filepath, "w", encoding="utf-8") as f:
+                            json.dump(oa_content, f, indent=2, ensure_ascii=False)
         return c
 
 
