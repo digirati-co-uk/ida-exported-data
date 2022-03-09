@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_142_cvs-124-209/ocr_00cab266-c946-4bcc-a151-7ac39325d016/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f1d6ae2ad20b954704f51def42eda346/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_142_cvs-124-209/canvas/c147#xywh=575,2098,1210,369",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "議 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f1d6ae2ad20b954704f51def42eda346/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_142_cvs-124-209/canvas/c147#xywh=874,2321,641,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Sheep dipping, Laguma, N. Nex, ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

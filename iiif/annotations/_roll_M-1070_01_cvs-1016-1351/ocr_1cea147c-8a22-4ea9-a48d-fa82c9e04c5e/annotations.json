@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-1016-1351/ocr_1cea147c-8a22-4ea9-a48d-fa82c9e04c5e/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d09636a57a4b5d65460792e201349d68/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-1016-1351/canvas/c1058#xywh=523,1219,998,108",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Arizona Superintendency ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d09636a57a4b5d65460792e201349d68/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-1016-1351/canvas/c1058#xywh=532,1340,986,72",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Apr 23, 1877( 1639) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

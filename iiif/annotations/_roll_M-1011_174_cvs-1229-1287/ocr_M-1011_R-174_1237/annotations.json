@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_174_cvs-1229-1287/ocr_M-1011_R-174_1237/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e3af5094b6bca9617f15fa2374de4cc5/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-1229-1287/canvas/c1236#xywh=930,1189,78,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Zuni ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e3af5094b6bca9617f15fa2374de4cc5/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-1229-1287/canvas/c1236#xywh=726,1267,467,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1934 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

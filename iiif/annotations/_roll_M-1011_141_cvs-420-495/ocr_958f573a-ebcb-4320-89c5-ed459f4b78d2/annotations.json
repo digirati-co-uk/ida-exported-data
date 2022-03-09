@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_141_cvs-420-495/ocr_958f573a-ebcb-4320-89c5-ed459f4b78d2/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/256a4164b254e87a79116fec506a4da3/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_141_cvs-420-495/canvas/c453#xywh=986,1239,325,44",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Southern Navajo ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/256a4164b254e87a79116fec506a4da3/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_141_cvs-420-495/canvas/c453#xywh=881,1322,496,44",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1933 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

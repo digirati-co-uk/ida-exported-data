@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_142_cvs-124-209/ocr_a11f2422-5087-43c2-830d-03611437b391/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f73408358e1073d34c8acac2d4c757fd/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_142_cvs-124-209/canvas/c142#xywh=527,2176,576,50",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Indian mothers are bringing ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f73408358e1073d34c8acac2d4c757fd/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_142_cvs-124-209/canvas/c142#xywh=1128,2188,630,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "their babies in for treatment ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f73408358e1073d34c8acac2d4c757fd/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_142_cvs-124-209/canvas/c142#xywh=910,2231,381,40",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "A mother at Jomos. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

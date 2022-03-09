@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_174_cvs-808-874/ocr_M-1011_R-174_0826/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/743234633cb625b4125853581fe05ebe/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-808-874/canvas/c825#xywh=487,284,710,55",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Grazing Scene and Zuni Sheep. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/743234633cb625b4125853581fe05ebe/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-808-874/canvas/c825#xywh=400,361,1215,81",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Toiena ere, ad ng land show i. ng sheep and inntos: turnier ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

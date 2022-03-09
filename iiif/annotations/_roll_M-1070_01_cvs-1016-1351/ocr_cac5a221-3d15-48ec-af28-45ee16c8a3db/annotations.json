@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-1016-1351/ocr_cac5a221-3d15-48ec-af28-45ee16c8a3db/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2a78da23dcb70611e18744a3fb8134c6/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-1016-1351/canvas/c1105#xywh=533,1206,946,87",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Arizona Superintendency ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2a78da23dcb70611e18744a3fb8134c6/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-1016-1351/canvas/c1105#xywh=525,1314,938,65",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "May 8, 1877( 1645) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

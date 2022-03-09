@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_174_cvs-1229-1287/ocr_M-1011_R-174_1230/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0c6fdff2bcb470ee93aa395359e84524/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-1229-1287/canvas/c1229#xywh=974,1123,77,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Zuni ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0c6fdff2bcb470ee93aa395359e84524/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-1229-1287/canvas/c1229#xywh=794,1202,422,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1934 Narrative Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

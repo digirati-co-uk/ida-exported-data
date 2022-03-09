@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-1016-1351/ocr_156bc6e2-0fc5-42c3-b91c-a3c6f1c8d3d9/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a8ebb1c395d8d1eb49b0aeddb5a20012/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-1016-1351/canvas/c1072#xywh=516,1217,971,101",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Arizona Superintendenay ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a8ebb1c395d8d1eb49b0aeddb5a20012/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-1016-1351/canvas/c1072#xywh=493,1327,966,67",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Apr. 26, 1871( 1635) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_174_cvs-1002-1050/b4d467b6d2577f4f6630fa0aa23e01ec/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-1002-1050/canvas/c1020",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/b4d467b6d2577f4f6630fa0aa23e01ec/2bc9b623-a745-478b-882f-ea01f4513571",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_174\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_174</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_174"
+        }
+      ]
+    },
+    {
+      "created": "2017-12-25T03:41:00.674Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-1002-1050/canvas/c1020#xywh=1410,536,110,48",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/b4d467b6d2577f4f6630fa0aa23e01ec/c99f4d31-029f-4847-bc89-dba723d3f4a9",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "weeks"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/weeks\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/weeks</a>",
+          "format": "application/html"
+        }
+      ]
+    },
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_174_cvs-1002-1050/canvas/c1020",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/b4d467b6d2577f4f6630fa0aa23e01ec/9cafe24e-c0a0-4b71-b6c2-b02e2fa64ba2",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Series"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/series/m-1011\">https://omeka.dlcs-ida.org/s/ida/page/topics/series/m-1011</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011"
+        }
+      ]
+    }
+  ]
+}
