@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-120-130/ocr_cda8777b-57fc-4ed4-b477-e6b2cad19e1d/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/35f338ea274f0c4352254bfab980f73d/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-120-130/canvas/c120#xywh=591,1194,849,77",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Albuquerque School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/35f338ea274f0c4352254bfab980f73d/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-120-130/canvas/c120#xywh=589,1300,825,82",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Sept 30 1886( 5607 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

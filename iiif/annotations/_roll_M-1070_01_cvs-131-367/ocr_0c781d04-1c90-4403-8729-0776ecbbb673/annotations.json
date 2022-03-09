@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-131-367/ocr_0c781d04-1c90-4403-8729-0776ecbbb673/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/39e2274f50e2e4322cdb6796f72b34da/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-131-367/canvas/c131#xywh=622,1247,813,81",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Albuquerque School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/39e2274f50e2e4322cdb6796f72b34da/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-131-367/canvas/c131#xywh=605,1355,793,70",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mar 10, 1888( 847 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}
