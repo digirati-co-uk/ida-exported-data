@@ -42,7 +42,7 @@ def fetch(
             new_id = (
                 iiif["id"].replace(
                     "https://manifests.dlcs-ida.org/",
-                    f"https://digirati-co-uk.github.io/ida-mothballing/iiif/iiif3/{_type}/",
+                    f"https://digirati-co-uk.github.io/ida-exported-data/iiif/iiif3/{_type}/",
                 )
                 + f"{_type}.json"
             )
@@ -58,7 +58,7 @@ def fetch(
                 (
                     iiif["id"].replace(
                         "https://presley.dlcs-ida.org/",
-                        f"https://digirati-co-uk.github.io/ida-mothballing/iiif/iiif3/{_type}/",
+                        f"https://digirati-co-uk.github.io/ida-exported-data/iiif/iiif3/{_type}/",
                     )
                     + f"{_type}.json"
                 )
@@ -82,7 +82,7 @@ def fetch(
             new_id = (
                 iiif["@id"].replace(
                     "https://manifests.dlcs-ida.org/",
-                    f"https://digirati-co-uk.github.io/ida-mothballing/iiif/{_type}/",
+                    f"https://digirati-co-uk.github.io/ida-exported-data/iiif/{_type}/",
                 )
                 + f"{_type}.json"
             )
@@ -99,7 +99,7 @@ def fetch(
                 (
                     iiif["@id"].replace(
                         "https://presley.dlcs-ida.org/",
-                        f"https://digirati-co-uk.github.io/ida-mothballing/iiif/{_type}/",
+                        f"https://digirati-co-uk.github.io/ida-exported-data/iiif/{_type}/",
                     )
                     + f"{_type}.json"
                 )
@@ -118,7 +118,7 @@ def fetch(
                 json.dump(iiif, f, indent=2, ensure_ascii=False)
 
 
-def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github/ida-mothballing"):
+def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github/ida-exported-data"):
     if not iiif3:
         anno_list = c.get("otherContent")
         if anno_list:
@@ -135,7 +135,7 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                         qs = parse_qs(unquote(partial_base.split("/")[-1]))
                         if (image := qs.get("image", [])[0]) is not None:
                             image_uuid = image.split("/")[-1]
-                            anno_id = f"https://digirati-co-uk.github.io/ida-mothballing/iiif/annotations/{manifest_id}" \
+                            anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}" \
                                       f"/ocr_{image_uuid}/annotations.json"
                             filepath = os.path.join(
                                 path_base,
@@ -164,7 +164,7 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                         anno_url_base = str(anno["@id"].replace(
                             "https://annotations.dlcs-ida.org/annotationlist/", ""
                         )) + "annotations.json"
-                        anno_id = f"https://digirati-co-uk.github.io/ida-mothballing/iiif/annotations/{manifest_id}/" \
+                        anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}/" \
                                   f"{anno_url_base}"
                         j["@id"] = anno_id
                         anno["@id"] = anno_id
@@ -196,7 +196,7 @@ def harvest_annotations(manifest_filepath, iiif3=False):
 
 
 def fetch_all_annos():
-    manifests = glob.glob("/Volumes/MMcG_SSD/Github/ida-mothballing/iiif/manifest/idatest01/*/manifest.json")
+    manifests = glob.glob("/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/idatest01/*/manifest.json")
     for manifest_f in manifests:
         print(manifest_f)
         harvest_annotations(manifest_f, False)
@@ -204,16 +204,16 @@ def fetch_all_annos():
 
 # fetch_all_annos()
 
-# with open("./iiif/collection/rollcollection.json", "r") as coll_file:
-#     coll = json.load(coll_file)
-#     for manifest in coll["members"]:
-#         manifest_id = manifest["@id"]
-#         print(manifest_id)
-#         fetch(at_id=manifest_id, upgrade=False)
-
-with open("./collection/top.json", "r") as coll_file:
+with open("./iiif/collection/rollcollection.json", "r") as coll_file:
     coll = json.load(coll_file)
     for manifest in coll["members"]:
         manifest_id = manifest["@id"]
         print(manifest_id)
         fetch(at_id=manifest_id, upgrade=False)
+
+# with open("./iiif/collection/top.json", "r") as coll_file:
+#     coll = json.load(coll_file)
+#     for manifest in coll["members"]:
+#         manifest_id = manifest["@id"]
+#         print(manifest_id)
+#         fetch(at_id=manifest_id, upgrade=False)
