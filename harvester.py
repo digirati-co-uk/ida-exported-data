@@ -6,6 +6,7 @@ from pathlib import Path
 import base64
 from urllib.parse import unquote, urlparse, parse_qs
 import glob
+from elucidate import oa_from_id
 
 upgrader = Upgrader(flags={"default_lang": "en"})
 
@@ -123,12 +124,16 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
         anno_list = c.get("otherContent")
         if anno_list:
             for anno in anno_list:
-                r = requests.get(anno["@id"])
-                if r.status_code == requests.codes.ok:
-                    j = r.json()
-                    if anno["@id"].startswith(
-                        "https://transcriptions.dlcs-ida.org/annotations/"
-                    ):
+                if anno["@id"].startswith(
+                    "https://transcriptions.dlcs-ida.org/annotations/"
+                ):
+                    r = requests.get(anno["@id"])
+                    if r.status_code == requests.codes.ok:
+                        j = r.json()
+                    else:
+                        j = None
+                        print(f"{r.status_code}: {r.url}")
+                    if j:
                         partial_base = str(anno["@id"].replace(
                                 "https://transcriptions.dlcs-ida.org/annotations/", ""
                             ))
@@ -147,32 +152,33 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                             j["@id"] = anno_id
                             anno["@id"] = anno_id
                             with open(filepath, "w", encoding="utf-8") as f:
+                                print(filepath)
                                 json.dump(j, f, indent=2, ensure_ascii=False)
-                    elif anno["@id"].startswith(
-                            "https://annotations.dlcs-ida.org/annotationlist/"
-                    ):
-                        filepath = os.path.join(
-                            path_base,
-                            f"iiif/annotations/{manifest_id}",
-                            anno["@id"].replace(
-                                "https://annotations.dlcs-ida.org/annotationlist/", ""
-                            ),
-                            "annotations.json"
-                        )
-                        _dir = os.path.dirname(filepath)
-                        Path(_dir).mkdir(parents=True, exist_ok=True)
-                        anno_url_base = str(anno["@id"].replace(
+                        else:
+                            print("Erk")
+                elif anno["@id"].startswith(
+                        "https://annotations.dlcs-ida.org/annotationlist/"
+                ):
+                    filepath = os.path.join(
+                        path_base,
+                        f"iiif/annotations/{manifest_id}",
+                        anno["@id"].replace(
                             "https://annotations.dlcs-ida.org/annotationlist/", ""
-                        )) + "annotations.json"
-                        anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}/" \
-                                  f"{anno_url_base}"
-                        j["@id"] = anno_id
-                        anno["@id"] = anno_id
-                        with open(filepath, "w", encoding="utf-8") as f:
-                            json.dump(j, f, indent=2, ensure_ascii=False)
-                else:
-                    print(r.url)
-                    print(r.status_code)
+                        ),
+                        "annotations.json"
+                    )
+                    _dir = os.path.dirname(filepath)
+                    Path(_dir).mkdir(parents=True, exist_ok=True)
+                    anno_url_base = str(anno["@id"].replace(
+                        "https://annotations.dlcs-ida.org/annotationlist/", ""
+                    )) + "annotations.json"
+                    anno_id = f"https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/{manifest_id}/" \
+                              f"{anno_url_base}"
+                    oa_content = oa_from_id(identifier=anno["@id"].split("/")[-2], request_uri=anno_id)
+                    anno["@id"] = anno_id
+                    print(f"OA: {filepath} : {anno_id}")
+                    with open(filepath, "w", encoding="utf-8") as f:
+                        json.dump(oa_content, f, indent=2, ensure_ascii=False)
         return c
 
 
@@ -186,8 +192,6 @@ def harvest_annotations(manifest_filepath, iiif3=False):
                         in canvases]
         manifest["sequences"][0]["canvases"] = new_canvases
         with open(manifest_filepath, "w") as f:
-            print("Dumping JSON")
-            print(json.dumps(manifest, indent=2))
             json.dump(manifest, f, ensure_ascii=False, indent=2)
     else:
         pass
@@ -212,4 +216,5 @@ def fetch_all_manifests(collections=("./iiif/collection/rollcollection.json", ".
                 fetch(at_id=manifest_id, upgrade=False)
 
 
-fetch_all_manifests(collections=("./iiif/collection/top.json",))
+# fetch_all_manifests(collections=("./iiif/collection/top.json",))
+fetch_all_annos()
