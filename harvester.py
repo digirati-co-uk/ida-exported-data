@@ -7,6 +7,8 @@ import base64
 from urllib.parse import unquote, urlparse, parse_qs
 import glob
 from elucidate import oa_from_id
+from tqdm import tqdm
+
 
 upgrader = Upgrader(flags={"default_lang": "en"})
 
@@ -15,6 +17,7 @@ def fetch(
     at_id,
     path_base="/Volumes/MMcG_SSD/Github/ida-exported-data",
     rewrite_id=True,
+    replace=False,
     upgrade=True,
 ):
     r = requests.get(at_id, headers={"accept": "application/json"})
@@ -49,10 +52,12 @@ def fetch(
             )
             iiif["id"] = new_id
             filepath = os.path.join(path_base, "/".join(new_id.split("/")[4:]))
-            _dir = os.path.dirname(filepath)
-            Path(_dir).mkdir(parents=True, exist_ok=True)
-            with open(filepath, "w", encoding="utf-8") as f:
-                json.dump(iiif, f, indent=2, ensure_ascii=False)
+            if not os.path.exists(filepath) or replace is True:
+                tqdm.write(new_id)
+                _dir = os.path.dirname(filepath)
+                Path(_dir).mkdir(parents=True, exist_ok=True)
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(iiif, f, indent=2, ensure_ascii=False)
         elif iiif["id"].startswith("https://presley.dlcs-ida.org/"):
             _type = iiif["type"].lower()
             new_id = (
@@ -67,16 +72,15 @@ def fetch(
                 .replace("/iiif/iiif3/manifest/iiif/", "/iiif/iiif3/manifest/")
             )
             iiif["id"] = new_id
-            print(new_id)
-            print(new_id.split("/"))
             filepath = os.path.join(
                 path_base, "iiif/iiif3/manifest/", "/".join(new_id.split("/")[7:])
             )
-            print(filepath)
-            _dir = os.path.dirname(filepath)
-            Path(_dir).mkdir(parents=True, exist_ok=True)
-            with open(filepath, "w", encoding="utf-8") as f:
-                json.dump(iiif, f, indent=2, ensure_ascii=False)
+            if not os.path.exists(filepath) or replace is True:
+                tqdm.write(new_id)
+                _dir = os.path.dirname(filepath)
+                Path(_dir).mkdir(parents=True, exist_ok=True)
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(iiif, f, indent=2, ensure_ascii=False)
     elif iiif and not upgrade:
         if iiif["@id"].startswith("https://manifests.dlcs-ida.org/"):
             _type = iiif["@type"].lower().replace("sc:", "")
@@ -89,11 +93,12 @@ def fetch(
             )
             iiif["@id"] = new_id
             filepath = os.path.join(path_base, "/".join(new_id.split("/")[4:]))
-            print(filepath)
-            _dir = os.path.dirname(filepath)
-            Path(_dir).mkdir(parents=True, exist_ok=True)
-            with open(filepath, "w", encoding="utf-8") as f:
-                json.dump(iiif, f, indent=2, ensure_ascii=False)
+            if not os.path.exists(filepath) or replace is True:
+                tqdm.write(new_id)
+                _dir = os.path.dirname(filepath)
+                Path(_dir).mkdir(parents=True, exist_ok=True)
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(iiif, f, indent=2, ensure_ascii=False)
         elif iiif["@id"].startswith("https://presley.dlcs-ida.org/"):
             _type = iiif["@type"].lower().replace("sc:", "")
             new_id = (
@@ -108,15 +113,15 @@ def fetch(
                 .replace("/iiif/manifest/iiif/", "/iiif/manifest/")
             )
             iiif["@id"] = new_id
-            print(new_id.split("/"))
             filepath = os.path.join(
                 path_base, "iiif/manifest/idatest01", "/".join(new_id.split("/")[7:])
             )
-            print(filepath)
-            _dir = os.path.dirname(filepath)
-            Path(_dir).mkdir(parents=True, exist_ok=True)
-            with open(filepath, "w", encoding="utf-8") as f:
-                json.dump(iiif, f, indent=2, ensure_ascii=False)
+            if not os.path.exists(filepath) or replace is True:
+                tqdm.write(new_id)
+                _dir = os.path.dirname(filepath)
+                Path(_dir).mkdir(parents=True, exist_ok=True)
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(iiif, f, indent=2, ensure_ascii=False)
 
 
 def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github/ida-exported-data"):
@@ -146,14 +151,14 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                                 j = r.json()
                             else:
                                 j = None
-                                print(f"{r.status_code}: {r.url}")
+                                tqdm.write(f"{r.status_code}: {r.url}")
                             if j:
                                 _dir = os.path.dirname(filepath)
                                 Path(_dir).mkdir(parents=True, exist_ok=True)
                                 j["@id"] = anno_id
                                 anno["@id"] = anno_id
                                 with open(filepath, "w", encoding="utf-8") as f:
-                                    print(filepath)
+                                    tqdm.write(filepath)
                                     json.dump(j, f, indent=2, ensure_ascii=False)
                 elif anno["@id"].startswith(
                         "https://annotations.dlcs-ida.org/annotationlist/"
@@ -172,7 +177,7 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                             j = r.json()
                         else:
                             j = None
-                            print(f"{r.status_code}: {r.url}")
+                            tqdm.write(f"{r.status_code}: {r.url}")
                         if j:
                             _dir = os.path.dirname(filepath)
                             Path(_dir).mkdir(parents=True, exist_ok=True)
@@ -183,7 +188,7 @@ def fetch_annos(c, manifest_id, iiif3=False, path_base="/Volumes/MMcG_SSD/Github
                                       f"{anno_url_base}"
                             oa_content = oa_from_id(identifier=anno["@id"].split("/")[-2], request_uri=anno_id)
                             anno["@id"] = anno_id
-                            print(f"OA: {filepath} : {anno_id}")
+                            tqdm.write(f"OA: {filepath} : {anno_id}")
                             with open(filepath, "w", encoding="utf-8") as f:
                                 json.dump(oa_content, f, indent=2, ensure_ascii=False)
         return c
@@ -208,8 +213,8 @@ def harvest_annotations(manifest_filepath, iiif3=False):
 
 def fetch_all_annos():
     manifests = glob.glob("/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/idatest01/*/manifest.json")
-    for manifest_f in manifests:
-        print(manifest_f)
+    for manifest_f in tqdm(manifests):
+        tqdm.write(manifest_f)
         harvest_annotations(manifest_f, False)
 
 
@@ -219,9 +224,9 @@ def fetch_all_manifests(collections=("./iiif/collection/rollcollection.json", ".
             coll = json.load(coll_file)
             for manifest in coll["members"]:
                 manifest_id = manifest["@id"]
-                print(manifest_id)
+                tqdm.write(manifest_id)
                 fetch(at_id=manifest_id, upgrade=False)
 
 
-# fetch_all_manifests(collections=("./iiif/collection/top.json",))
-fetch_all_annos()
+fetch_all_manifests(collections=("./iiif/collection/newtop.json",))
+# fetch_all_annos()

@@ -1,0 +1,3174 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/manifest.json",
+  "@type": "sc:Manifest",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Santa Fe Indian School Yearbooks, 1959-1960."
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Default sequence",
+      "canvases": [
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c1",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/553f5db4-aa4b-4a57-9440-ddf839f75714/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/553f5db4-aa4b-4a57-9440-ddf839f75714",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3300,
+          "width": 2537,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/553f5db4-aa4b-4a57-9440-ddf839f75714/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/553f5db4-aa4b-4a57-9440-ddf839f75714/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3300,
+                "width": 2537,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/553f5db4-aa4b-4a57-9440-ddf839f75714",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3300,
+                  "width": 2537,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c1"
+            }
+          ],
+          "label": "1",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2537&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc1&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F553f5db4-aa4b-4a57-9440-ddf839f75714&height=3300",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/f16cbe9133fa7d8742153390f561eaae/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c2",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/a4400fbc-acef-4672-b5f7-234756d76242/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/a4400fbc-acef-4672-b5f7-234756d76242",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/a4400fbc-acef-4672-b5f7-234756d76242/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/a4400fbc-acef-4672-b5f7-234756d76242/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/a4400fbc-acef-4672-b5f7-234756d76242",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c2"
+            }
+          ],
+          "label": "2",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2539&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc2&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fa4400fbc-acef-4672-b5f7-234756d76242&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c3",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/572c92b7-f9ad-4b28-afd4-f35c30b6e7e4/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/572c92b7-f9ad-4b28-afd4-f35c30b6e7e4",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 307,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3304,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/572c92b7-f9ad-4b28-afd4-f35c30b6e7e4/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/572c92b7-f9ad-4b28-afd4-f35c30b6e7e4/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3304,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/572c92b7-f9ad-4b28-afd4-f35c30b6e7e4",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3304,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c3"
+            }
+          ],
+          "label": "3",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2539&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc3&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F572c92b7-f9ad-4b28-afd4-f35c30b6e7e4&height=3304",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c4",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/09c49eec-e0af-4aea-a474-c05e02f9bb8b/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/09c49eec-e0af-4aea-a474-c05e02f9bb8b",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3300,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/09c49eec-e0af-4aea-a474-c05e02f9bb8b/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/09c49eec-e0af-4aea-a474-c05e02f9bb8b/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3300,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/09c49eec-e0af-4aea-a474-c05e02f9bb8b",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3300,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c4"
+            }
+          ],
+          "label": "4",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc4&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F09c49eec-e0af-4aea-a474-c05e02f9bb8b&height=3300",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/3dc62345c5f1cd0837ad5c5adbdb7440/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c5",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/010fd20c-bbb8-48e8-b74e-768943e36945/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/010fd20c-bbb8-48e8-b74e-768943e36945",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/010fd20c-bbb8-48e8-b74e-768943e36945/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/010fd20c-bbb8-48e8-b74e-768943e36945/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/010fd20c-bbb8-48e8-b74e-768943e36945",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c5"
+            }
+          ],
+          "label": "5",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2541&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc5&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F010fd20c-bbb8-48e8-b74e-768943e36945&height=3295",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c6",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/70534c22-ce6e-4cc6-a1dc-6bd2436854f6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/70534c22-ce6e-4cc6-a1dc-6bd2436854f6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3302,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/70534c22-ce6e-4cc6-a1dc-6bd2436854f6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/70534c22-ce6e-4cc6-a1dc-6bd2436854f6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3302,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/70534c22-ce6e-4cc6-a1dc-6bd2436854f6",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3302,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c6"
+            }
+          ],
+          "label": "6",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2541&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc6&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F70534c22-ce6e-4cc6-a1dc-6bd2436854f6&height=3302",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c7",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/86b5153d-6550-4257-b588-a4d3130f7e5f/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/86b5153d-6550-4257-b588-a4d3130f7e5f",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3299,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/86b5153d-6550-4257-b588-a4d3130f7e5f/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/86b5153d-6550-4257-b588-a4d3130f7e5f/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3299,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/86b5153d-6550-4257-b588-a4d3130f7e5f",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3299,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c7"
+            }
+          ],
+          "label": "7",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2541&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc7&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F86b5153d-6550-4257-b588-a4d3130f7e5f&height=3299",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c8",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/80bff503-1f47-4713-beb6-1968700aeb99/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/80bff503-1f47-4713-beb6-1968700aeb99",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/80bff503-1f47-4713-beb6-1968700aeb99/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/80bff503-1f47-4713-beb6-1968700aeb99/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/80bff503-1f47-4713-beb6-1968700aeb99",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c8"
+            }
+          ],
+          "label": "8",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc8&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F80bff503-1f47-4713-beb6-1968700aeb99&height=3297",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c9",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/1b775473-57f7-4bf7-8f32-cd6e06c6dcf2/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/1b775473-57f7-4bf7-8f32-cd6e06c6dcf2",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/1b775473-57f7-4bf7-8f32-cd6e06c6dcf2/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/1b775473-57f7-4bf7-8f32-cd6e06c6dcf2/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/1b775473-57f7-4bf7-8f32-cd6e06c6dcf2",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c9"
+            }
+          ],
+          "label": "9",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc9&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F1b775473-57f7-4bf7-8f32-cd6e06c6dcf2&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c10",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/0e4c8a92-8263-4b3b-9058-f453977bf309/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/0e4c8a92-8263-4b3b-9058-f453977bf309",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/0e4c8a92-8263-4b3b-9058-f453977bf309/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/0e4c8a92-8263-4b3b-9058-f453977bf309/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/0e4c8a92-8263-4b3b-9058-f453977bf309",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c10"
+            }
+          ],
+          "label": "10",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc10&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F0e4c8a92-8263-4b3b-9058-f453977bf309&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c11",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/99946f31-2755-4295-bf7e-eee8331f2832/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/99946f31-2755-4295-bf7e-eee8331f2832",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3298,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/99946f31-2755-4295-bf7e-eee8331f2832/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/99946f31-2755-4295-bf7e-eee8331f2832/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3298,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/99946f31-2755-4295-bf7e-eee8331f2832",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3298,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c11"
+            }
+          ],
+          "label": "11",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2541&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc11&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F99946f31-2755-4295-bf7e-eee8331f2832&height=3298",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c12",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/842a6e7e-54fc-4a94-a3f1-e7eccb3e54ee/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/842a6e7e-54fc-4a94-a3f1-e7eccb3e54ee",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3304,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/842a6e7e-54fc-4a94-a3f1-e7eccb3e54ee/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/842a6e7e-54fc-4a94-a3f1-e7eccb3e54ee/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3304,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/842a6e7e-54fc-4a94-a3f1-e7eccb3e54ee",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3304,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c12"
+            }
+          ],
+          "label": "12",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc12&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F842a6e7e-54fc-4a94-a3f1-e7eccb3e54ee&height=3304",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c13",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/50527bb5-5c58-463f-96a7-088e7f0d9aa4/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/50527bb5-5c58-463f-96a7-088e7f0d9aa4",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3300,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/50527bb5-5c58-463f-96a7-088e7f0d9aa4/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/50527bb5-5c58-463f-96a7-088e7f0d9aa4/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3300,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/50527bb5-5c58-463f-96a7-088e7f0d9aa4",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3300,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c13"
+            }
+          ],
+          "label": "13",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc13&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F50527bb5-5c58-463f-96a7-088e7f0d9aa4&height=3300",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c14",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/11376319-6beb-41b2-99d5-331b1b5708b6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/11376319-6beb-41b2-99d5-331b1b5708b6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/11376319-6beb-41b2-99d5-331b1b5708b6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/11376319-6beb-41b2-99d5-331b1b5708b6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/11376319-6beb-41b2-99d5-331b1b5708b6",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c14"
+            }
+          ],
+          "label": "14",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc14&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F11376319-6beb-41b2-99d5-331b1b5708b6&height=3297",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c15",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/af2db06a-5ebb-46cd-8b31-0bb82199abd6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/af2db06a-5ebb-46cd-8b31-0bb82199abd6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3304,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/af2db06a-5ebb-46cd-8b31-0bb82199abd6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/af2db06a-5ebb-46cd-8b31-0bb82199abd6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3304,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/af2db06a-5ebb-46cd-8b31-0bb82199abd6",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3304,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c15"
+            }
+          ],
+          "label": "15",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc15&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Faf2db06a-5ebb-46cd-8b31-0bb82199abd6&height=3304",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c16",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/52e99a43-0931-4b0b-b65e-107de34fe858/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/52e99a43-0931-4b0b-b65e-107de34fe858",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3300,
+          "width": 2537,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/52e99a43-0931-4b0b-b65e-107de34fe858/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/52e99a43-0931-4b0b-b65e-107de34fe858/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3300,
+                "width": 2537,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/52e99a43-0931-4b0b-b65e-107de34fe858",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3300,
+                  "width": 2537,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c16"
+            }
+          ],
+          "label": "16",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2537&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc16&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F52e99a43-0931-4b0b-b65e-107de34fe858&height=3300",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c17",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c853c82a-cb1b-4aa8-8ba2-d00497a2f95e/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c853c82a-cb1b-4aa8-8ba2-d00497a2f95e",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c853c82a-cb1b-4aa8-8ba2-d00497a2f95e/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c853c82a-cb1b-4aa8-8ba2-d00497a2f95e/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c853c82a-cb1b-4aa8-8ba2-d00497a2f95e",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c17"
+            }
+          ],
+          "label": "17",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc17&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fc853c82a-cb1b-4aa8-8ba2-d00497a2f95e&height=3295",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c18",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/4c3a13e4-a112-459a-aa23-8a4cd5afbaf9/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/4c3a13e4-a112-459a-aa23-8a4cd5afbaf9",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3304,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/4c3a13e4-a112-459a-aa23-8a4cd5afbaf9/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/4c3a13e4-a112-459a-aa23-8a4cd5afbaf9/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3304,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/4c3a13e4-a112-459a-aa23-8a4cd5afbaf9",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3304,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c18"
+            }
+          ],
+          "label": "18",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc18&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F4c3a13e4-a112-459a-aa23-8a4cd5afbaf9&height=3304",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c19",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/7e318498-1ef0-40d0-b3e8-518e62eed418/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/7e318498-1ef0-40d0-b3e8-518e62eed418",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3300,
+          "width": 2542,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/7e318498-1ef0-40d0-b3e8-518e62eed418/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/7e318498-1ef0-40d0-b3e8-518e62eed418/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3300,
+                "width": 2542,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/7e318498-1ef0-40d0-b3e8-518e62eed418",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3300,
+                  "width": 2542,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c19"
+            }
+          ],
+          "label": "19",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2542&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc19&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F7e318498-1ef0-40d0-b3e8-518e62eed418&height=3300",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c20",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/4500b968-70ce-4ee2-96f1-fbc967afa385/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/4500b968-70ce-4ee2-96f1-fbc967afa385",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/4500b968-70ce-4ee2-96f1-fbc967afa385/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/4500b968-70ce-4ee2-96f1-fbc967afa385/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/4500b968-70ce-4ee2-96f1-fbc967afa385",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c20"
+            }
+          ],
+          "label": "20",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc20&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F4500b968-70ce-4ee2-96f1-fbc967afa385&height=3297",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c21",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/411b88de-36c4-449b-835f-9267523c0b97/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/411b88de-36c4-449b-835f-9267523c0b97",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/411b88de-36c4-449b-835f-9267523c0b97/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/411b88de-36c4-449b-835f-9267523c0b97/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/411b88de-36c4-449b-835f-9267523c0b97",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c21"
+            }
+          ],
+          "label": "21",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc21&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F411b88de-36c4-449b-835f-9267523c0b97&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/2074f1aa1593cf6efc633e2ae9ea93a7/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c22",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/9373003e-f26b-42b9-bd1f-da2263a1beca/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/9373003e-f26b-42b9-bd1f-da2263a1beca",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/9373003e-f26b-42b9-bd1f-da2263a1beca/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/9373003e-f26b-42b9-bd1f-da2263a1beca/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/9373003e-f26b-42b9-bd1f-da2263a1beca",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c22"
+            }
+          ],
+          "label": "22",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc22&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F9373003e-f26b-42b9-bd1f-da2263a1beca&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/6a4dcb1a30624dca5406c061a1ea240b/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c23",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/7569f3b0-3227-4e6e-bfdc-b6e9035b4ca2/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/7569f3b0-3227-4e6e-bfdc-b6e9035b4ca2",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/7569f3b0-3227-4e6e-bfdc-b6e9035b4ca2/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/7569f3b0-3227-4e6e-bfdc-b6e9035b4ca2/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/7569f3b0-3227-4e6e-bfdc-b6e9035b4ca2",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c23"
+            }
+          ],
+          "label": "23",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc23&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F7569f3b0-3227-4e6e-bfdc-b6e9035b4ca2&height=3297",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/1a62bc8196d47d835e05092ce671db34/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c24",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/daad3e83-473f-4035-ae66-76a9fd6b3ca4/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/daad3e83-473f-4035-ae66-76a9fd6b3ca4",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3300,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/daad3e83-473f-4035-ae66-76a9fd6b3ca4/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/daad3e83-473f-4035-ae66-76a9fd6b3ca4/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3300,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/daad3e83-473f-4035-ae66-76a9fd6b3ca4",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3300,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c24"
+            }
+          ],
+          "label": "24",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2541&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc24&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fdaad3e83-473f-4035-ae66-76a9fd6b3ca4&height=3300",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/21af4911198cc3f1be6f755e8999169f/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c25",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/edd3b4a8-9650-47c3-835e-46d2ff17915e/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/edd3b4a8-9650-47c3-835e-46d2ff17915e",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 307,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3303,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/edd3b4a8-9650-47c3-835e-46d2ff17915e/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/edd3b4a8-9650-47c3-835e-46d2ff17915e/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3303,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/edd3b4a8-9650-47c3-835e-46d2ff17915e",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3303,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c25"
+            }
+          ],
+          "label": "25",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc25&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fedd3b4a8-9650-47c3-835e-46d2ff17915e&height=3303",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/d3a101e6a1a3e912787a2376d02bb675/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c26",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/d674a17f-4fea-4a86-a791-a18c3bf5eb07/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/d674a17f-4fea-4a86-a791-a18c3bf5eb07",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2542,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/d674a17f-4fea-4a86-a791-a18c3bf5eb07/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/d674a17f-4fea-4a86-a791-a18c3bf5eb07/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2542,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/d674a17f-4fea-4a86-a791-a18c3bf5eb07",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2542,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c26"
+            }
+          ],
+          "label": "26",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2542&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc26&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fd674a17f-4fea-4a86-a791-a18c3bf5eb07&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/df0b447e12a52c75d7e605965554c6b1/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c27",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/ab9dac28-af02-4636-8953-a12de07c14e4/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/ab9dac28-af02-4636-8953-a12de07c14e4",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3303,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/ab9dac28-af02-4636-8953-a12de07c14e4/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/ab9dac28-af02-4636-8953-a12de07c14e4/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3303,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/ab9dac28-af02-4636-8953-a12de07c14e4",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3303,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c27"
+            }
+          ],
+          "label": "27",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc27&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fab9dac28-af02-4636-8953-a12de07c14e4&height=3303",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/2c51c746dab3bb0ad51eb16df95c90f8/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c28",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/1f8548e8-f8e4-45bc-9c27-7a61347bd61b/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/1f8548e8-f8e4-45bc-9c27-7a61347bd61b",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 307,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2537,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/1f8548e8-f8e4-45bc-9c27-7a61347bd61b/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/1f8548e8-f8e4-45bc-9c27-7a61347bd61b/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2537,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/1f8548e8-f8e4-45bc-9c27-7a61347bd61b",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2537,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c28"
+            }
+          ],
+          "label": "28",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2537&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc28&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F1f8548e8-f8e4-45bc-9c27-7a61347bd61b&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/fc31d25756be8c2d052bf921517a0c37/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c29",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/d0bdbbad-12c1-4e7f-87e3-179bc2baeb73/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/d0bdbbad-12c1-4e7f-87e3-179bc2baeb73",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/d0bdbbad-12c1-4e7f-87e3-179bc2baeb73/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/d0bdbbad-12c1-4e7f-87e3-179bc2baeb73/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/d0bdbbad-12c1-4e7f-87e3-179bc2baeb73",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c29"
+            }
+          ],
+          "label": "29",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2541&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc29&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fd0bdbbad-12c1-4e7f-87e3-179bc2baeb73&height=3296",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/f04a08cb65336219a063aed5a0d8a829/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c30",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/feeedc20-65e7-45ad-a7a3-ee1a8f1537e9/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/feeedc20-65e7-45ad-a7a3-ee1a8f1537e9",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3304,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/feeedc20-65e7-45ad-a7a3-ee1a8f1537e9/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/feeedc20-65e7-45ad-a7a3-ee1a8f1537e9/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3304,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/feeedc20-65e7-45ad-a7a3-ee1a8f1537e9",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3304,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c30"
+            }
+          ],
+          "label": "30",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc30&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Ffeeedc20-65e7-45ad-a7a3-ee1a8f1537e9&height=3304",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/91686f2e0c3ebfdf2d13db2f546cba2e/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c31",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/b75366f3-6492-4242-9115-f4cf2b3adf84/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/b75366f3-6492-4242-9115-f4cf2b3adf84",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/b75366f3-6492-4242-9115-f4cf2b3adf84/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/b75366f3-6492-4242-9115-f4cf2b3adf84/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/b75366f3-6492-4242-9115-f4cf2b3adf84",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c31"
+            }
+          ],
+          "label": "31",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc31&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fb75366f3-6492-4242-9115-f4cf2b3adf84&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c32",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/73dc58b7-44bf-4ff2-95bb-3e786330761a/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/73dc58b7-44bf-4ff2-95bb-3e786330761a",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/73dc58b7-44bf-4ff2-95bb-3e786330761a/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/73dc58b7-44bf-4ff2-95bb-3e786330761a/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/73dc58b7-44bf-4ff2-95bb-3e786330761a",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c32"
+            }
+          ],
+          "label": "32",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc32&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F73dc58b7-44bf-4ff2-95bb-3e786330761a&height=3296",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c33",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/eeaef20c-7b9a-48ce-b9e9-4076cbe5f0dd/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/eeaef20c-7b9a-48ce-b9e9-4076cbe5f0dd",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3303,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/eeaef20c-7b9a-48ce-b9e9-4076cbe5f0dd/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/eeaef20c-7b9a-48ce-b9e9-4076cbe5f0dd/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3303,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/eeaef20c-7b9a-48ce-b9e9-4076cbe5f0dd",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3303,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c33"
+            }
+          ],
+          "label": "33",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc33&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Feeaef20c-7b9a-48ce-b9e9-4076cbe5f0dd&height=3303",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/453691c290fac2ce4ff0d6566221a518/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c34",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/509cb2bc-dd76-4f9c-856a-0e37fd157240/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/509cb2bc-dd76-4f9c-856a-0e37fd157240",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 999,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 999,
+                  "height": 1300
+                },
+                {
+                  "width": 307,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3303,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/509cb2bc-dd76-4f9c-856a-0e37fd157240/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/509cb2bc-dd76-4f9c-856a-0e37fd157240/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3303,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/509cb2bc-dd76-4f9c-856a-0e37fd157240",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3303,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c34"
+            }
+          ],
+          "label": "34",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc34&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F509cb2bc-dd76-4f9c-856a-0e37fd157240&height=3303",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c35",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/b7c88071-57ef-4681-8492-954197f6e6cb/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/b7c88071-57ef-4681-8492-954197f6e6cb",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3298,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/b7c88071-57ef-4681-8492-954197f6e6cb/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/b7c88071-57ef-4681-8492-954197f6e6cb/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3298,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/b7c88071-57ef-4681-8492-954197f6e6cb",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3298,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c35"
+            }
+          ],
+          "label": "35",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc35&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fb7c88071-57ef-4681-8492-954197f6e6cb&height=3298",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/85d6ee4075ac3e452f9083be029143b5/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c36",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/f8eb9884-ab04-45ba-bb25-2e8f54c90454/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/f8eb9884-ab04-45ba-bb25-2e8f54c90454",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3301,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/f8eb9884-ab04-45ba-bb25-2e8f54c90454/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/f8eb9884-ab04-45ba-bb25-2e8f54c90454/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3301,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/f8eb9884-ab04-45ba-bb25-2e8f54c90454",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3301,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c36"
+            }
+          ],
+          "label": "36",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc36&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Ff8eb9884-ab04-45ba-bb25-2e8f54c90454&height=3301",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/f32e5f0f74ca691a4dccb0956da3aa1e/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c37",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/19ce97c5-6b48-463f-8754-15119778528a/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/19ce97c5-6b48-463f-8754-15119778528a",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3293,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/19ce97c5-6b48-463f-8754-15119778528a/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/19ce97c5-6b48-463f-8754-15119778528a/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3293,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/19ce97c5-6b48-463f-8754-15119778528a",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3293,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c37"
+            }
+          ],
+          "label": "37",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc37&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F19ce97c5-6b48-463f-8754-15119778528a&height=3293",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c38",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/23f2abd8-cb1c-4da1-8c8c-262a0c5c5689/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/23f2abd8-cb1c-4da1-8c8c-262a0c5c5689",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3299,
+          "width": 2543,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/23f2abd8-cb1c-4da1-8c8c-262a0c5c5689/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/23f2abd8-cb1c-4da1-8c8c-262a0c5c5689/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3299,
+                "width": 2543,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/23f2abd8-cb1c-4da1-8c8c-262a0c5c5689",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3299,
+                  "width": 2543,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c38"
+            }
+          ],
+          "label": "38",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2543&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc38&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F23f2abd8-cb1c-4da1-8c8c-262a0c5c5689&height=3299",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c39",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/b918baeb-91dd-4ee6-a4bc-7dd6b59fb8a7/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/b918baeb-91dd-4ee6-a4bc-7dd6b59fb8a7",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3302,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/b918baeb-91dd-4ee6-a4bc-7dd6b59fb8a7/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/b918baeb-91dd-4ee6-a4bc-7dd6b59fb8a7/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3302,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/b918baeb-91dd-4ee6-a4bc-7dd6b59fb8a7",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3302,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c39"
+            }
+          ],
+          "label": "39",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2539&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc39&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fb918baeb-91dd-4ee6-a4bc-7dd6b59fb8a7&height=3302",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c40",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/2850b93e-c6ae-4383-95d4-af60dce352a9/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/2850b93e-c6ae-4383-95d4-af60dce352a9",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3298,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/2850b93e-c6ae-4383-95d4-af60dce352a9/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/2850b93e-c6ae-4383-95d4-af60dce352a9/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3298,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/2850b93e-c6ae-4383-95d4-af60dce352a9",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3298,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c40"
+            }
+          ],
+          "label": "40",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2538&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc40&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F2850b93e-c6ae-4383-95d4-af60dce352a9&height=3298",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c41",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/73f7962a-5040-4bbf-8836-dd7ef140df7b/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/73f7962a-5040-4bbf-8836-dd7ef140df7b",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2542,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/73f7962a-5040-4bbf-8836-dd7ef140df7b/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/73f7962a-5040-4bbf-8836-dd7ef140df7b/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2542,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/73f7962a-5040-4bbf-8836-dd7ef140df7b",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2542,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c41"
+            }
+          ],
+          "label": "41",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2542&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc41&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F73f7962a-5040-4bbf-8836-dd7ef140df7b&height=3296",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/f6e3d50a5521ea145a803fe52ebf3332/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c42",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/ca472872-1e97-4d08-925b-a09b6538015f/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/ca472872-1e97-4d08-925b-a09b6538015f",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3299,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/ca472872-1e97-4d08-925b-a09b6538015f/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/ca472872-1e97-4d08-925b-a09b6538015f/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3299,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/ca472872-1e97-4d08-925b-a09b6538015f",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3299,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c42"
+            }
+          ],
+          "label": "42",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42%2Fcanvas%2Fc42&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fca472872-1e97-4d08-925b-a09b6538015f&height=3299",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/c9cbf923e00346685f39ea4ca871776c/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attribution": "<a href=\"https://www.sfis.k12.nm.us\">From the Santa Fe Indian School Library</a>",
+  "title": "Santa Fe Indian School Yearbooks, 1959-1960.",
+  "label": "Santa Fe Indian School Yearbooks, 1959-1960."
+}

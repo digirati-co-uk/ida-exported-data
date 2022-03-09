@@ -16,6 +16,3 @@ def oa_from_id(identifier, elucidate="https://elucidate.dlcs-ida.org/", request_
     content = format_results(list(annotations), request_uri=request_uri)
     return content
 
-
-print(json.dumps(oa_from_id(identifier="c9771adc54a57864d8e1239a1d9f074c"), indent=2))
-
