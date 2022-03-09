@@ -1,0 +1,543 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/_roll_M-1011_110_cvs-945-951/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Eastern Navajo Agency Statistical Report, 1926",
+  "sequences": [
+    {
+      "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Default sequence",
+      "canvases": [
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c945",
+          "@type": "sc:Canvas",
+          "height": 2376,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/945",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 2376,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65",
+                  "height": 2376,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3104
+                },
+                "width": 3104
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65",
+              "height": 995,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 115,
+                  "width": 150
+                },
+                {
+                  "height": 306,
+                  "width": 400
+                },
+                {
+                  "height": 995,
+                  "width": 1300
+                }
+              ],
+              "width": 1300
+            }
+          },
+          "width": 3104,
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=3104&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_M-1011_110_cvs-945-951%2Fcanvas%2Fc945&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fcb4504d7-f113-42b2-bb5f-b67638341f65&height=2376",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c946",
+          "@type": "sc:Canvas",
+          "height": 3104,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/946",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3104,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6",
+                  "height": 3104,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2352
+                },
+                "width": 2352
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 114
+                },
+                {
+                  "height": 400,
+                  "width": 303
+                },
+                {
+                  "height": 1300,
+                  "width": 985
+                }
+              ],
+              "width": 985
+            }
+          },
+          "width": 2352,
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2352&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_M-1011_110_cvs-945-951%2Fcanvas%2Fc946&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F9c605a20-eaa9-4862-8186-75cb4e7b08c6&height=3104",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/fabe4e07e1dfb608a23246af079e63cd/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c947",
+          "@type": "sc:Canvas",
+          "height": 2360,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/35a085fc-4dee-43f2-a248-7b6430660916/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/947",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/35a085fc-4dee-43f2-a248-7b6430660916/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 2360,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/35a085fc-4dee-43f2-a248-7b6430660916",
+                  "height": 2360,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3104
+                },
+                "width": 3104
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/35a085fc-4dee-43f2-a248-7b6430660916/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/35a085fc-4dee-43f2-a248-7b6430660916",
+              "height": 988,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 114,
+                  "width": 150
+                },
+                {
+                  "height": 304,
+                  "width": 400
+                },
+                {
+                  "height": 988,
+                  "width": 1300
+                }
+              ],
+              "width": 1300
+            }
+          },
+          "width": 3104,
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=3104&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_M-1011_110_cvs-945-951%2Fcanvas%2Fc947&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F35a085fc-4dee-43f2-a248-7b6430660916&height=2360",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c948",
+          "@type": "sc:Canvas",
+          "height": 3112,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/948",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3112,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5",
+                  "height": 3112,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2352
+                },
+                "width": 2352
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 113
+                },
+                {
+                  "height": 400,
+                  "width": 302
+                },
+                {
+                  "height": 1300,
+                  "width": 983
+                }
+              ],
+              "width": 983
+            }
+          },
+          "width": 2352,
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2352&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_M-1011_110_cvs-945-951%2Fcanvas%2Fc948&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F67c10dcd-b961-4d79-9616-cd76255fa6d5&height=3112",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c949",
+          "@type": "sc:Canvas",
+          "height": 3104,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/949",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3104,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33",
+                  "height": 3104,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2360
+                },
+                "width": 2360
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 114
+                },
+                {
+                  "height": 400,
+                  "width": 304
+                },
+                {
+                  "height": 1300,
+                  "width": 988
+                }
+              ],
+              "width": 988
+            }
+          },
+          "width": 2360,
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2360&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_M-1011_110_cvs-945-951%2Fcanvas%2Fc949&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2F9b8e39e2-739c-4ca6-bbd8-895e778c5f33&height=3104",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://annotations.dlcs-ida.org/annotationlist/bdb219dbff5a0e90078df0fcb467bbb3/",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c950",
+          "@type": "sc:Canvas",
+          "height": 3104,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/950",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3104,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b",
+                  "height": 3104,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2360
+                },
+                "width": 2360
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 114
+                },
+                {
+                  "height": 400,
+                  "width": 304
+                },
+                {
+                  "height": 1300,
+                  "width": 988
+                }
+              ],
+              "width": 988
+            }
+          },
+          "width": 2360,
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2360&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_M-1011_110_cvs-945-951%2Fcanvas%2Fc950&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Ff44e5cc3-d6b2-4e65-9759-4fc40583652b&height=3104",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c951",
+          "@type": "sc:Canvas",
+          "height": 3112,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/951",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3112,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d",
+                  "height": 3112,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2352
+                },
+                "width": 2352
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 113
+                },
+                {
+                  "height": 400,
+                  "width": 302
+                },
+                {
+                  "height": 1300,
+                  "width": 983
+                }
+              ],
+              "width": 983
+            }
+          },
+          "width": 2352,
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2352&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_M-1011_110_cvs-945-951%2Fcanvas%2Fc951&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fc0cccc05-1635-45d3-9bbe-213cbb02654d&height=3112",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "service": {
+    "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/manifest/canvasmap",
+    "@context": "https://dlcs.info/context/presley",
+    "profile": "https://dlcs.info/profiles/canvasmap",
+    "canvasMap": {
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c945": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/945",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c946": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/946",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c947": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/947",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c948": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/948",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c949": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/949",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c950": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/950",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c951": "https://manifests.dlcs-ida.org/roll/M-1011/110/canvas/951"
+    }
+  }
+}

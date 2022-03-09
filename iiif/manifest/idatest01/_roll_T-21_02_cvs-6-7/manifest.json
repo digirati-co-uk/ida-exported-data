@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/_roll_T-21_02_cvs-6-7/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "STEPHEN TEST - 2",
+  "sequences": [
+    {
+      "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_T-21_02_cvs-6-7/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Default sequence",
+      "canvases": [
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_T-21_02_cvs-6-7/canvas/c6",
+          "@type": "sc:Canvas",
+          "height": 1800,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/T-21_ROLL-02_0007/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/T-21/02/canvas/6",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/T-21_ROLL-02_0007/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 1800,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/T-21_ROLL-02_0007",
+                  "height": 1800,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1480
+                },
+                "width": 1480
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/T-21_ROLL-02_0007/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/T-21_ROLL-02_0007",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 123
+                },
+                {
+                  "height": 400,
+                  "width": 329
+                },
+                {
+                  "height": 1300,
+                  "width": 1069
+                }
+              ],
+              "width": 1069
+            }
+          },
+          "width": 1480
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_T-21_02_cvs-6-7/canvas/c7",
+          "@type": "sc:Canvas",
+          "height": 1824,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/T-21_ROLL-02_0008/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/T-21/02/canvas/7",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/T-21_ROLL-02_0008/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 1824,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/T-21_ROLL-02_0008",
+                  "height": 1824,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1640
+                },
+                "width": 1640
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/T-21_ROLL-02_0008/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/T-21_ROLL-02_0008",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 135
+                },
+                {
+                  "height": 400,
+                  "width": 360
+                },
+                {
+                  "height": 1300,
+                  "width": 1169
+                }
+              ],
+              "width": 1169
+            }
+          },
+          "width": 1640
+        }
+      ]
+    }
+  ],
+  "service": {
+    "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_T-21_02_cvs-6-7/manifest/canvasmap",
+    "@context": "https://dlcs.info/context/presley",
+    "profile": "https://dlcs.info/profiles/canvasmap",
+    "canvasMap": {
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_T-21_02_cvs-6-7/canvas/c6": "https://manifests.dlcs-ida.org/roll/T-21/02/canvas/6",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_T-21_02_cvs-6-7/canvas/c7": "https://manifests.dlcs-ida.org/roll/T-21/02/canvas/7"
+    }
+  }
+}

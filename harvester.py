@@ -202,18 +202,14 @@ def fetch_all_annos():
         harvest_annotations(manifest_f, False)
 
 
-# fetch_all_annos()
+def fetch_all_manifests(collections=("./iiif/collection/rollcollection.json", "./iiif/collection/top.json")):
+    for collpath in collections:
+        with open(collpath, "r") as coll_file:
+            coll = json.load(coll_file)
+            for manifest in coll["members"]:
+                manifest_id = manifest["@id"]
+                print(manifest_id)
+                fetch(at_id=manifest_id, upgrade=False)
 
-with open("./iiif/collection/rollcollection.json", "r") as coll_file:
-    coll = json.load(coll_file)
-    for manifest in coll["members"]:
-        manifest_id = manifest["@id"]
-        print(manifest_id)
-        fetch(at_id=manifest_id, upgrade=False)
 
-# with open("./iiif/collection/top.json", "r") as coll_file:
-#     coll = json.load(coll_file)
-#     for manifest in coll["members"]:
-#         manifest_id = manifest["@id"]
-#         print(manifest_id)
-#         fetch(at_id=manifest_id, upgrade=False)
+fetch_all_manifests(collections=("./iiif/collection/top.json",))

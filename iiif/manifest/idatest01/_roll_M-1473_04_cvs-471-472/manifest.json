@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/_roll_M-1473_04_cvs-471-472/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Superintendent of the Santa Fe Indian School's Press Copies of Miscellaneous Letters, 1897 10 31",
+  "sequences": [
+    {
+      "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_04_cvs-471-472/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Default sequence",
+      "canvases": [
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_04_cvs-471-472/canvas/c471",
+          "@type": "sc:Canvas",
+          "height": 4544,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c2881ebd-15d4-4eb2-82ad-1d1ebc5ad001/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1473/04/canvas/471",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c2881ebd-15d4-4eb2-82ad-1d1ebc5ad001/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4544,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c2881ebd-15d4-4eb2-82ad-1d1ebc5ad001",
+                  "height": 4544,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2632
+                },
+                "width": 2632
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c2881ebd-15d4-4eb2-82ad-1d1ebc5ad001/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c2881ebd-15d4-4eb2-82ad-1d1ebc5ad001",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 87
+                },
+                {
+                  "height": 400,
+                  "width": 232
+                },
+                {
+                  "height": 1300,
+                  "width": 753
+                }
+              ],
+              "width": 753
+            }
+          },
+          "width": 2632
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_04_cvs-471-472/canvas/c472",
+          "@type": "sc:Canvas",
+          "height": 4544,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c840d4dd-7dc1-4be3-acde-5ed462ef7b2d/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://manifests.dlcs-ida.org/roll/M-1473/04/canvas/472",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c840d4dd-7dc1-4be3-acde-5ed462ef7b2d/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4544,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c840d4dd-7dc1-4be3-acde-5ed462ef7b2d",
+                  "height": 4544,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2560
+                },
+                "width": 2560
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c840d4dd-7dc1-4be3-acde-5ed462ef7b2d/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c840d4dd-7dc1-4be3-acde-5ed462ef7b2d",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 85
+                },
+                {
+                  "height": 400,
+                  "width": 225
+                },
+                {
+                  "height": 1300,
+                  "width": 732
+                }
+              ],
+              "width": 732
+            }
+          },
+          "width": 2560
+        }
+      ]
+    }
+  ],
+  "service": {
+    "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_04_cvs-471-472/manifest/canvasmap",
+    "@context": "https://dlcs.info/context/presley",
+    "profile": "https://dlcs.info/profiles/canvasmap",
+    "canvasMap": {
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_04_cvs-471-472/canvas/c471": "https://manifests.dlcs-ida.org/roll/M-1473/04/canvas/471",
+      "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_04_cvs-471-472/canvas/c472": "https://manifests.dlcs-ida.org/roll/M-1473/04/canvas/472"
+    }
+  }
+}
