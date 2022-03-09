@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-468-497/ocr_a66570c9-2fe3-477b-8c3d-ce529a280b57/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2ae615dcdcec970bc05a44f9943bc391/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c480#xywh=635,1511,1330,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Improved and not improved, 2 at left from good rams ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2ae615dcdcec970bc05a44f9943bc391/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c480#xywh=452,1568,1041,63",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "two at right from ordinary Navajo rams. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2ae615dcdcec970bc05a44f9943bc391/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c480#xywh=268,2591,52,11",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "! ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

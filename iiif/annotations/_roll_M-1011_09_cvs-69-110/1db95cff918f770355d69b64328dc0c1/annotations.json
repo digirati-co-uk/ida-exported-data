@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_09_cvs-69-110/1db95cff918f770355d69b64328dc0c1/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-69-110/canvas/c95",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/1db95cff918f770355d69b64328dc0c1/d561288a-15f0-4f22-b4b9-1ac0d0890ad9",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_09"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:53:42.600Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-69-110/canvas/c95#xywh=1262,127,62,19",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/1db95cff918f770355d69b64328dc0c1/95191743-2f55-4e9e-a68e-b24a362d06c2",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/indiaa\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/indiaa</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "INDIAA"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:53:42.650Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-69-110/canvas/c95#xywh=1000,1590,176,29",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/1db95cff918f770355d69b64328dc0c1/d312a8ca-cfe3-4346-ad38-7cf820cbcdb7",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/week\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/week</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "week"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

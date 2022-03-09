@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_59cb20f5-2bfe-40bc-bfa1-dc296fedbcc4/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/3caf089ed23d9b09804508dcee11f18c/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c553#xywh=896,1311,519,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Students' Work Shop. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/3caf089ed23d9b09804508dcee11f18c/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c553#xywh=876,2269,643,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Coal Shed and Storehouse. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

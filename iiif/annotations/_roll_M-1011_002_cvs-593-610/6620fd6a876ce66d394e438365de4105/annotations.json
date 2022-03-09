@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-593-610/6620fd6a876ce66d394e438365de4105/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-593-610/canvas/c593#xywh=1376,245,376,51",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/6620fd6a876ce66d394e438365de4105/4f9c27e7-b91f-440f-a267-7329e7076512",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/gpe/albuquerque\">https://omeka.dlcs-ida.org/s/ida/page/topics/gpe/albuquerque</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:gpe"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Albuquerque"
+        }
+      ]
+    },
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-593-610/canvas/c593#xywh=2003,207,713,107",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/6620fd6a876ce66d394e438365de4105/62fca751-8b4b-4467-ab43-b59197ea2464",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "Narrativa 1024"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/narrativa+1024\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/narrativa+1024</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:date"
+        }
+      ]
+    }
+  ]
+}

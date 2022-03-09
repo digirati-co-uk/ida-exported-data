@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_23e83cb0-7042-4ecc-9ee0-47e164ce71ca/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2a3f34ee873d3b1d7bf7bf046a519934/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c537#xywh=924,1111,547,54",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Base Ball club, 1925. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2a3f34ee873d3b1d7bf7bf046a519934/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c537#xywh=654,2155,1043,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "View in One of the Second- Mesa Villagos. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

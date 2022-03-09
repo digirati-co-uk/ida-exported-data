@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-766-805/ocr_1f042e5d-a45b-4d88-9fb7-796e15926ef2/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1f350350e70e88cd39eea474978dad15/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c797#xywh=901,580,649,56",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Indians Developdng Water, ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1f350350e70e88cd39eea474978dad15/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c797#xywh=900,628,653,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Ropi Rosorvation, Arizopa. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

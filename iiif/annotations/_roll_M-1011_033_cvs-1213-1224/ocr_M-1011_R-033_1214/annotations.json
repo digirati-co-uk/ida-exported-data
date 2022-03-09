@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_033_cvs-1213-1224/ocr_M-1011_R-033_1214/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0d2b232816ea83b184d454f9bc3b8625/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_033_cvs-1213-1224/canvas/c1213#xywh=126,329,114,304",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1930 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0d2b232816ea83b184d454f9bc3b8625/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_033_cvs-1213-1224/canvas/c1213#xywh=197,2456,57,328",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "GASTERN NAVAJO ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0d2b232816ea83b184d454f9bc3b8625/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_033_cvs-1213-1224/canvas/c1213#xywh=254,333,55,270",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NARRATIVE ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

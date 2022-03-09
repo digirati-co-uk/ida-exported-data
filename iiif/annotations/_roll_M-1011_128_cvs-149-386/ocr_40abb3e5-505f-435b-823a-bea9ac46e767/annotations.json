@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_128_cvs-149-386/ocr_40abb3e5-505f-435b-823a-bea9ac46e767/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/267ee0616a5ab3eebfdce787aafe8432/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_128_cvs-149-386/canvas/c335#xywh=971,1307,318,54",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Santa Fe School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/267ee0616a5ab3eebfdce787aafe8432/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_128_cvs-149-386/canvas/c335#xywh=859,1393,497,53",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1932 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

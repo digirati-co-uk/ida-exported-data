@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-619-701/ocr_faf502e7-b6cf-4cb8-8cc0-0e6a1c74be94/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ec39a3b0223ff8d947a2aa79c29abb27/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-619-701/canvas/c685#xywh=879,190,19,58",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ec39a3b0223ff8d947a2aa79c29abb27/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-619-701/canvas/c685#xywh=674,1230,911,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "View from Hospital Showing Laundry. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ec39a3b0223ff8d947a2aa79c29abb27/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-619-701/canvas/c685#xywh=885,2274,308,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Campus View. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

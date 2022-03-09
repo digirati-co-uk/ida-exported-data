@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_067_cvs-299-310/ocr_d87691e6-e56f-4328-97ea-3b0e058ce2df/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fe69539eaebce25553882a9fc7fc54bb/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-299-310/canvas/c299#xywh=904,1250,498,40",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "JICARILLA INDIAN AGENCY ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fe69539eaebce25553882a9fc7fc54bb/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-299-310/canvas/c299#xywh=947,1331,366,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "DULCE, NEW MEXICO ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fe69539eaebce25553882a9fc7fc54bb/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-299-310/canvas/c299#xywh=754,1448,731,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1933 FISCAL YEAR NARRATIVE REPORT. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

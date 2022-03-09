@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_088_cvs-358-425/ocr_1e0d1083-7b41-4e1f-bf7e-eba4c825b774/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2c8c3e69b3cc4d4d06c61a7304f37114/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_088_cvs-358-425/canvas/c417#xywh=1256,2147,657,37",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NAVAJO WOMEN and children ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2c8c3e69b3cc4d4d06c61a7304f37114/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_088_cvs-358-425/canvas/c417#xywh=1388,2188,359,38",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "of the desert. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-611-684/851d39f106e4ef97fa9a0c55d85b2661/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-611-684/canvas/c636#xywh=1779,580,292,46",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/851d39f106e4ef97fa9a0c55d85b2661/209bddcd-15dc-488c-8c4a-b6525079a671",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:org"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/indian+school.\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/indian+school.</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Indian School."
+        }
+      ]
+    },
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-611-684/canvas/c636#xywh=1250,2278,207,44",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/851d39f106e4ef97fa9a0c55d85b2661/e58cafb6-1125-4511-9ca2-5324d98315d7",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:gpe/paid-----\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:gpe/paid-----</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Paid-----"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:gpe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-219-282/5d45a30a37255eaf38fc0a9bd2b6c074/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-219-282/canvas/c219",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/5d45a30a37255eaf38fc0a9bd2b6c074/91910fcd-5595-4977-9e7f-c23488e06566",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:55:25.446Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-219-282/canvas/c219#xywh=2120,340,200,134",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/5d45a30a37255eaf38fc0a9bd2b6c074/5fbb8061-af08-4872-952a-ceb1c6f00771",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1927\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1927</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "1927"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-283-371/4a770bb091ba9921cfe379a66f3efe36/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-283-371/canvas/c283",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/4a770bb091ba9921cfe379a66f3efe36/25bc0893-5cf1-4c22-a7cc-d0f4c8b4856e",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:25:51.992Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-283-371/canvas/c283#xywh=1489,389,271,48",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/4a770bb091ba9921cfe379a66f3efe36/19f3380b-d43f-45ec-a8ce-705bf315ede6",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/narrative+1925\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/narrative+1925</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "NARRATIVE 1925"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

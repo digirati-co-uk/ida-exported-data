@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-562-601/958e09f01d8dfd3f6bbf41ea798e6fbf/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-562-601/canvas/c577",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/958e09f01d8dfd3f6bbf41ea798e6fbf/5cd73a01-bcde-4df4-a84c-e1a73d363c77",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:02:58.166Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-562-601/canvas/c577#xywh=786,1512,208,61",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/958e09f01d8dfd3f6bbf41ea798e6fbf/bf178b32-9fc2-45ff-8686-8377b0535dac",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "Leesory"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/leesory\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/leesory</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    }
+  ]
+}

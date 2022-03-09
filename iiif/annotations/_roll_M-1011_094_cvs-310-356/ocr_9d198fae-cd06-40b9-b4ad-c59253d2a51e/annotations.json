@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_094_cvs-310-356/ocr_9d198fae-cd06-40b9-b4ad-c59253d2a51e/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1110c3cbd96c1f77c7dc80980b8495d4/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_094_cvs-310-356/canvas/c310#xywh=191,185,760,77",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NORTHERN PUEBLOS ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1110c3cbd96c1f77c7dc80980b8495d4/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_094_cvs-310-356/canvas/c310#xywh=1358,193,408,86",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "STATISTICAL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1110c3cbd96c1f77c7dc80980b8495d4/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_094_cvs-310-356/canvas/c310#xywh=2060,188,235,155",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1925 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

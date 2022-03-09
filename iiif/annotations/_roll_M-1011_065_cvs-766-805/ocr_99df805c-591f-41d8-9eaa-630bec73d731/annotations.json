@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-766-805/ocr_99df805c-591f-41d8-9eaa-630bec73d731/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/155603fb0761d9a0e0a4cd0df71d0a82/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c791#xywh=922,464,696,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Ieva jos at Council leeting. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/155603fb0761d9a0e0a4cd0df71d0a82/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c791#xywh=920,508,653,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "topi Reservation, Arizona. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_089_cvs-740-768/ocr_c4a98b90-03c4-4a89-a0c8-6d538c757c40/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6af7f7c509620511903907fa5b02e373/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-740-768/canvas/c740#xywh=399,169,196,66",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NAVAJO ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6af7f7c509620511903907fa5b02e373/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-740-768/canvas/c740#xywh=1100,137,341,106",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Satire ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-454-462/5a83c5dff0d5c483ef3d253a675a2208/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-454-462/canvas/c454",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/5a83c5dff0d5c483ef3d253a675a2208/0a8b049c-4fd7-47fa-b23f-de4911b22cd6",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:44:32.142Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-454-462/canvas/c454#xywh=598,426,160,49",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/5a83c5dff0d5c483ef3d253a675a2208/19c668e8-7d71-41b7-9a03-6434413f1a35",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "SANTA"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/santa\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/santa</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    }
+  ]
+}

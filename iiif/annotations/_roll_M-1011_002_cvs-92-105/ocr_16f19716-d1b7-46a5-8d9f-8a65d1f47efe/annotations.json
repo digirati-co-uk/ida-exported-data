@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-92-105/ocr_16f19716-d1b7-46a5-8d9f-8a65d1f47efe/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c6de7999221eb349071879a1751ad0ee/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-92-105/canvas/c92#xywh=567,187,402,77",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ALBUQUERQUE. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c6de7999221eb349071879a1751ad0ee/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-92-105/canvas/c92#xywh=455,737,625,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "RETURN TO STAliwalls( A, E) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

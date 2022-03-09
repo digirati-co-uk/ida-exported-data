@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_067_cvs-388-422/ocr_fa1f07ab-66d6-4776-894c-14f2eb6f2a77/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1b6be00d8a78ec3ad86f52481a16207b/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-388-422/canvas/c396#xywh=751,1279,963,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "BOTLARINDO JO 00000d cope& EALOGNK A 0% ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1b6be00d8a78ec3ad86f52481a16207b/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-388-422/canvas/c396#xywh=764,1271,84,60",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "A** ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

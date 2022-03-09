@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-685-708/2ed17b8cd31bf9f00ec6ce0107f49d78/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c689#xywh=1744,564,286,45",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/2ed17b8cd31bf9f00ec6ce0107f49d78/819beb24-8f00-419a-83d4-eb231a7f1de1",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:org"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/indian+school.\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/indian+school.</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Indian School."
+        }
+      ]
+    },
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c689#xywh=1289,549,282,68",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/2ed17b8cd31bf9f00ec6ce0107f49d78/05b31194-982d-4ad8-8f01-bd1d62171392",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/gpe/albuquerque\">https://omeka.dlcs-ida.org/s/ida/page/topics/gpe/albuquerque</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:gpe"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Albuquerque"
+        }
+      ]
+    }
+  ]
+}

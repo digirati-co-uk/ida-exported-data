@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_067_cvs-49-114/ocr_ff76cfba-9529-40b9-ac29-290b604aeb64/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/eeed53ff1b2b8493ba51d55c2d136fc2/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-49-114/canvas/c49#xywh=617,161,2021,301",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Jicarilla Apache Hospital, 1999 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/eeed53ff1b2b8493ba51d55c2d136fc2/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-49-114/canvas/c49#xywh=2164,344,591,195",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Statistical ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

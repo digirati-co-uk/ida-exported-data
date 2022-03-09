@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_d28c2225-b5b6-456f-acdb-f5ca3e8c466f/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c78576b7336fde6772ba27f056e878bf/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c547#xywh=873,1319,624,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Types of Girls Students. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c78576b7336fde6772ba27f056e878bf/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c547#xywh=859,2144,598,62",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Types of Boys Students. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

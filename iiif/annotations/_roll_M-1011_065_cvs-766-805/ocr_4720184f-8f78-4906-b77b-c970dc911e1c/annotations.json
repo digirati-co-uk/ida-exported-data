@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-766-805/ocr_4720184f-8f78-4906-b77b-c970dc911e1c/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0e52e68f18d3f3268b1ab62076305682/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c800#xywh=832,470,415,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Some Hopi Houses ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0e52e68f18d3f3268b1ab62076305682/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c800#xywh=830,512,569,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Built away from Mesas. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0e52e68f18d3f3268b1ab62076305682/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c800#xywh=828,551,651,50",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Hopi Reservation, Arizona. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

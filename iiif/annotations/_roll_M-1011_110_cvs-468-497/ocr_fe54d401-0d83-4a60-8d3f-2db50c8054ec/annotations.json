@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-468-497/ocr_fe54d401-0d83-4a60-8d3f-2db50c8054ec/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/686f872a467026ff8802b6a98e20ebf6/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c489#xywh=1640,321,517,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Problo Bonito Sohool ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/686f872a467026ff8802b6a98e20ebf6/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c489#xywh=1721,367,379,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "in winter 1920. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

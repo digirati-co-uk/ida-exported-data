@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-685-708/459d85c3c1404e777e8cd105243aac84/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c692#xywh=2588,155,236,174",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/459d85c3c1404e777e8cd105243aac84/f2c7834a-33ae-4176-ab87-046a50115269",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1927\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1927</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:date"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "1927"
+        }
+      ]
+    },
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c692#xywh=923,164,464,101",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/459d85c3c1404e777e8cd105243aac84/61868433-02a7-472b-b143-12e89b9acf29",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/gpe/albuquerque\">https://omeka.dlcs-ida.org/s/ida/page/topics/gpe/albuquerque</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:gpe"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Albuquerque"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_067_cvs-311-330/ocr_91e9ec64-ec54-4fe2-a9e1-5ed731db8b5f/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ae1deeccda70c4a0aaa384edc3cbbaa6/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-311-330/canvas/c311#xywh=948,1300,344,38",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Jicarilla School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ae1deeccda70c4a0aaa384edc3cbbaa6/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-311-330/canvas/c311#xywh=864,1388,493,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1933 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

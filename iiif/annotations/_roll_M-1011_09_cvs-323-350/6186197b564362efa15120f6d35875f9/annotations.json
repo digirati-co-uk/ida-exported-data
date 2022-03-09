@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_09_cvs-323-350/6186197b564362efa15120f6d35875f9/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-323-350/canvas/c325",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/6186197b564362efa15120f6d35875f9/218567c0-3f19-467f-9962-372cef860d61",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_09"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:12:39.001Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-323-350/canvas/c325#xywh=262,350,84,22",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/6186197b564362efa15120f6d35875f9/c155a1ca-4fb3-4073-a3a4-c1c23e0c253c",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:PERSON"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Pound"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/pound\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/pound</a>",
+          "format": "application/html"
+        }
+      ]
+    }
+  ]
+}

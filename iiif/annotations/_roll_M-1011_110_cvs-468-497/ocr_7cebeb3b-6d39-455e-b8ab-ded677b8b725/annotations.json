@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-468-497/ocr_7cebeb3b-6d39-455e-b8ab-ded677b8b725/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/feada96312a9b2ed0f3c4d5e1a7fb20f/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c491#xywh=524,1388,1065,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "The new band of the puoblo Bonito School, ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/feada96312a9b2ed0f3c4d5e1a7fb20f/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c491#xywh=790,1434,513,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "J.C.Morgan Director. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

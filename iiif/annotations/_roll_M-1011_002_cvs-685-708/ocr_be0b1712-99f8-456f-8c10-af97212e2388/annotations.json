@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-685-708/ocr_be0b1712-99f8-456f-8c10-af97212e2388/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/27b1a3f4ff6cd29e424fdc7ea8842c05/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c685#xywh=1095,177,814,89",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ALBUQUERQUE SCHOOL. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/27b1a3f4ff6cd29e424fdc7ea8842c05/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c685#xywh=450,248,267,59",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "STATISTICA ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/27b1a3f4ff6cd29e424fdc7ea8842c05/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c685#xywh=2426,269,183,144",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1926 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

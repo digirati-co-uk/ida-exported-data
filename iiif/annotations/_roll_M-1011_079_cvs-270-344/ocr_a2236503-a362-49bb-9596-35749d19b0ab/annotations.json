@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_079_cvs-270-344/ocr_a2236503-a362-49bb-9596-35749d19b0ab/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/39f7a88c93289daa48ad10c9dc41d237/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_079_cvs-270-344/canvas/c282#xywh=1279,244,295,103",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ITOLLSILVL8 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/39f7a88c93289daa48ad10c9dc41d237/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_079_cvs-270-344/canvas/c282#xywh=651,317,253,87",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "LEUPP. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

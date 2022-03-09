@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_093_cvs-441-483/ocr_3ea8caf1-c4cf-471b-8106-9cea53322dbb/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/50b57eaf57648051e1f7da9967b81f0d/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-441-483/canvas/c441#xywh=1925,150,296,168",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1920 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/50b57eaf57648051e1f7da9967b81f0d/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-441-483/canvas/c441#xywh=246,243,317,64",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "STATISTICAL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/50b57eaf57648051e1f7da9967b81f0d/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-441-483/canvas/c441#xywh=770,254,330,43",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NORSKERN NAVAJO ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

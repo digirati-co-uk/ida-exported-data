@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-388-490/ocr_6622b0ce-6a05-41ef-bbd3-23f7652f9094/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ad1eb432d14b5b826edc89d9a46b301e/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-388-490/canvas/c403#xywh=585,190,274,83",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "RATISTICAL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ad1eb432d14b5b826edc89d9a46b301e/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-388-490/canvas/c403#xywh=2011,164,370,83",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ORIGINAL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ad1eb432d14b5b826edc89d9a46b301e/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-388-490/canvas/c403#xywh=1110,298,509,90",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ALBUQUERQUE. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

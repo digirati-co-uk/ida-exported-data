@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_090_cvs-239-297/ocr_ecba06e4-08a5-4207-8206-8c46eb83d9e4/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8bbaab0a551de7004b97fecbfe61a0ef/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_090_cvs-239-297/canvas/c283#xywh=1085,1308,128,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Navajo ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8bbaab0a551de7004b97fecbfe61a0ef/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_090_cvs-239-297/canvas/c283#xywh=911,1385,454,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1926 Narrative Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-562-601/7c978bf712b13975b82ffbe1309e00c1/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-562-601/canvas/c592",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/7c978bf712b13975b82ffbe1309e00c1/175b4f98-c12a-4509-984c-8b80da5d685c",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:04:22.261Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-562-601/canvas/c592#xywh=1214,1674,425,48",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/7c978bf712b13975b82ffbe1309e00c1/a6c323ff-a8e6-4347-a848-80c21760180f",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "Sennon"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:PERSON"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/sennon\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/sennon</a>",
+          "format": "application/html"
+        }
+      ]
+    }
+  ]
+}

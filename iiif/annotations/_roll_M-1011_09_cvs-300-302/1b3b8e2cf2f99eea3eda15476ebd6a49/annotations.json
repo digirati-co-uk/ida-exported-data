@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_09_cvs-300-302/1b3b8e2cf2f99eea3eda15476ebd6a49/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-300-302/canvas/c300",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/1b3b8e2cf2f99eea3eda15476ebd6a49/9840dc8c-6345-4a55-82de-a9aa8fea3a5e",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_09"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:50:15.099Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-300-302/canvas/c300#xywh=1147,144,190,29",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/1b3b8e2cf2f99eea3eda15476ebd6a49/96120963-1760-4a2e-8fb1-42b145b4d37d",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/carlisle\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/carlisle</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "CARLISLE"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:PERSON"
+        }
+      ]
+    }
+  ]
+}

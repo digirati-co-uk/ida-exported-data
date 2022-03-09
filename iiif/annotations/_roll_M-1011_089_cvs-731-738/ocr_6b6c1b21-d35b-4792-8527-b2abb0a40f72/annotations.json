@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_089_cvs-731-738/ocr_6b6c1b21-d35b-4792-8527-b2abb0a40f72/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/78508c76106c3f94a47e6c06625e7780/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-731-738/canvas/c731#xywh=958,1261,404,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mt. Pleasant School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/78508c76106c3f94a47e6c06625e7780/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-731-738/canvas/c731#xywh=912,1351,496,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1933 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

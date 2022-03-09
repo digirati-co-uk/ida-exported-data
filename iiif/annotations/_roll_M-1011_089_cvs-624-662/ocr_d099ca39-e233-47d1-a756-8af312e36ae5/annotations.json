@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_089_cvs-624-662/ocr_d099ca39-e233-47d1-a756-8af312e36ae5/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fd2a8bb3dbef83ff07e4b1611d31cc54/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-624-662/canvas/c632#xywh=510,258,813,87",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "MT. PLEASANT SCHOOL. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fd2a8bb3dbef83ff07e4b1611d31cc54/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-624-662/canvas/c632#xywh=1954,237,246,161",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1929 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fd2a8bb3dbef83ff07e4b1611d31cc54/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-624-662/canvas/c632#xywh=1945,417,290,97",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "STATISTICAL ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

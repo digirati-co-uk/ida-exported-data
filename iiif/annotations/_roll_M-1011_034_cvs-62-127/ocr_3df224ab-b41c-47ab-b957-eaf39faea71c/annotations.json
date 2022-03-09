@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_034_cvs-62-127/ocr_3df224ab-b41c-47ab-b957-eaf39faea71c/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1086feb013b89695ce80c108285cdf13/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c115#xywh=402,333,13,40",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1086feb013b89695ce80c108285cdf13/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c115#xywh=795,2240,1060,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Watering Place, two miles East of Agency. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-766-805/ocr_662370f9-746b-4a82-83d6-d90114022351/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/345098cccb2f0f41eb150aeb3711a7e8/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c798#xywh=823,475,337,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Dipping Views ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/345098cccb2f0f41eb150aeb3711a7e8/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c798#xywh=1240,482,441,43",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Hopi Reservation. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

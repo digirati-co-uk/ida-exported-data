@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-584-655/ocr_eb76a6d2-0b75-4e92-9fff-bab6fab0a51a/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/67421300d66bba96b4744bff5cb04435/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-584-655/canvas/c584#xywh=939,1303,437,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Pueblo Bonito School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/67421300d66bba96b4744bff5cb04435/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-584-655/canvas/c584#xywh=901,1383,498,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1921 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

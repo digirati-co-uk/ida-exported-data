@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_126_cvs-821-869/ocr_fd96e600-768a-4b15-a11a-a76afbec56f8/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/3ccbcb62a7c9711bc2637d1d9039594a/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c860#xywh=623,824,126,123",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "MAI ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/3ccbcb62a7c9711bc2637d1d9039594a/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c860#xywh=514,1407,1223,59",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "17. Dormitory Building, end view, Aneth School.. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/3ccbcb62a7c9711bc2637d1d9039594a/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c860#xywh=571,2630,936,44",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "18. Aneth Farm Station, Aneth, Uteh. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

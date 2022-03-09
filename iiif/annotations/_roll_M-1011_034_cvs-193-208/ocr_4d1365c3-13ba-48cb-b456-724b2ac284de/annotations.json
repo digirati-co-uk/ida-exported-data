@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_034_cvs-193-208/ocr_4d1365c3-13ba-48cb-b456-724b2ac284de/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/cca159c5a0cbb44c1552c6f7adb3bc39/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-193-208/canvas/c208#xywh=1485,217,62,88",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "0 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/cca159c5a0cbb44c1552c6f7adb3bc39/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-193-208/canvas/c208#xywh=997,1429,389,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Chaco Canyon Ruins ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

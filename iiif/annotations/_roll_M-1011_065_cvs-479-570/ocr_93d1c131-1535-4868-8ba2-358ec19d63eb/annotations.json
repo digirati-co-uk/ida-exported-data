@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_93d1c131-1535-4868-8ba2-358ec19d63eb/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/06bbaa47a1d19af9677097c202951152/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c539#xywh=953,1363,677,40",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "View of School Irom South. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/06bbaa47a1d19af9677097c202951152/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c539#xywh=1052,2414,441,43",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Principal's Home. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

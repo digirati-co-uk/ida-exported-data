@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-468-497/ocr_bb9ae9b2-1c3d-4b8f-9ebe-8e88a1f08127/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8abb6645666af3e5fd6608d343acc282/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c496#xywh=577,1434,962,68",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Pueblo Bonito School and Agency, 1918. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8abb6645666af3e5fd6608d343acc282/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c496#xywh=208,2589,55,29",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "B ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

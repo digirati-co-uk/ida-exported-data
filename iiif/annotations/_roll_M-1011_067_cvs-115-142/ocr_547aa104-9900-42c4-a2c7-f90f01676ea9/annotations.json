@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_067_cvs-115-142/ocr_547aa104-9900-42c4-a2c7-f90f01676ea9/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c9771adc54a57864d8e1239a1d9f074c/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-115-142/canvas/c115#xywh=607,69,2103,371",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ficarilla Sanatorium Started ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c9771adc54a57864d8e1239a1d9f074c/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-115-142/canvas/c115#xywh=2268,372,251,132",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1929 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

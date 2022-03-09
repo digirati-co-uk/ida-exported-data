@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_4f2969ef-555b-4289-a8fd-9a952fc6fedb/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1f41347c2be21231b8da52ab0ac5df98/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c542#xywh=967,1430,444,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Principal's Home: ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/1f41347c2be21231b8da52ab0ac5df98/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c542#xywh=874,2516,703,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Road in front of Buildings. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

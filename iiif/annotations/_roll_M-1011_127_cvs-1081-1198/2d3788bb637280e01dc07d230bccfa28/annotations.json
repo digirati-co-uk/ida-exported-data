@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-1081-1198/2d3788bb637280e01dc07d230bccfa28/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-1081-1198/canvas/c1090",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/2d3788bb637280e01dc07d230bccfa28/3d65f6a7-40e6-4371-8ed8-cb714e877a9c",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:29:11.201Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-1081-1198/canvas/c1090#xywh=939,479,682,66",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/2d3788bb637280e01dc07d230bccfa28/794bdec5-bfa4-4a61-a0ee-9330cc320cc8",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/school/santa+fe+indian+school\">https://omeka.dlcs-ida.org/s/ida/page/topics/school/santa+fe+indian+school</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "SANTA FE SCHOOL"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    }
+  ]
+}

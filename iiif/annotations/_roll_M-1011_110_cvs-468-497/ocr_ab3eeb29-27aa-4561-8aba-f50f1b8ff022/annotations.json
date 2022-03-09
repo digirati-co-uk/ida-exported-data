@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-468-497/ocr_ab3eeb29-27aa-4561-8aba-f50f1b8ff022/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c62e6f7b9e4e2c5867ee5005c2d02416/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c487#xywh=621,1380,1228,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Some of the girl students, Pueblo Bonito, 1920. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c62e6f7b9e4e2c5867ee5005c2d02416/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c487#xywh=201,2533,52,13",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

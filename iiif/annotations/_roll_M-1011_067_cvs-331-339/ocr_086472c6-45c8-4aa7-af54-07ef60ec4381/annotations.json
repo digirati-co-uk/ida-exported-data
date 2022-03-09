@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_067_cvs-331-339/ocr_086472c6-45c8-4aa7-af54-07ef60ec4381/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2f792537416c074be6299423de5ea6a2/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-331-339/canvas/c331#xywh=973,1623,352,295",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1934 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2f792537416c074be6299423de5ea6a2/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-331-339/canvas/c331#xywh=775,1119,703,455",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Jucarilla ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

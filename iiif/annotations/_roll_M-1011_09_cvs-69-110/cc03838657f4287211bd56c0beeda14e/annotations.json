@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_09_cvs-69-110/cc03838657f4287211bd56c0beeda14e/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-69-110/canvas/c72",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/cc03838657f4287211bd56c0beeda14e/5f454c54-b2ac-48e3-b60b-906afece4ea9",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_09</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_09"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:52:04.223Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-69-110/canvas/c72#xywh=671,354,163,37",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/cc03838657f4287211bd56c0beeda14e/5f1e30e2-b30e-4a3b-bdbe-ff79c87c7666",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/carlisle\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/carlisle</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Carlisle"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:52:04.300Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-69-110/canvas/c72#xywh=1144,486,241,28",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/cc03838657f4287211bd56c0beeda14e/ea8f308f-b34f-44ea-bc24-ce1757b978e9",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/past+year\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/past+year</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "past year"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-602-611/5843cb5aa5432574e23b6e653177aef6/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-602-611/canvas/c611",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/5843cb5aa5432574e23b6e653177aef6/468b0a4a-75de-4df3-8d23-e45769bbca60",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:51:08.531Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-602-611/canvas/c611#xywh=975,577,209,99",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/5843cb5aa5432574e23b6e653177aef6/4dd63277-fe45-4d38-b4e5-b54ce079ebb4",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "Judeau"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:gpe/judeau\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:gpe/judeau</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:GPE"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:51:08.680Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-602-611/canvas/c611#xywh=1554,577,145,99",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/5843cb5aa5432574e23b6e653177aef6/13a557b9-71ef-4f38-ad21-74f1763a4c71",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/ichor+the+icheoret+garden\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/ichor+the+icheoret+garden</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Ichor The Icheoret Garden"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    }
+  ]
+}

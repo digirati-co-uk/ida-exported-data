@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_4a8de278-fc4c-462d-a65d-96b0e89d65a0/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d0be2f466e44e57378606bceadfb1fd2/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c519#xywh=932,1392,389,38",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Base Ball Team. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d0be2f466e44e57378606bceadfb1fd2/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c519#xywh=930,2500,565,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Student Basket Makers. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

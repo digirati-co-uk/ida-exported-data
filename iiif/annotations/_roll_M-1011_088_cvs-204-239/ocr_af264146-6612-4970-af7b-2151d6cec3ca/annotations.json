@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_088_cvs-204-239/ocr_af264146-6612-4970-af7b-2151d6cec3ca/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e2a1fe79ae58d190e5bcfe004fc24050/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_088_cvs-204-239/canvas/c204#xywh=430,206,197,57",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "MOQUI ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e2a1fe79ae58d190e5bcfe004fc24050/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_088_cvs-204-239/canvas/c204#xywh=811,127,705,144",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "teodoy Mixer ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

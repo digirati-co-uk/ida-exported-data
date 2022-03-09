@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-656-688/ocr_8659857a-5e46-4129-b979-ff886f0192bc/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/513bfbf1a4019c05d33e1cc59165df14/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c678#xywh=659,1259,1280,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Sheep of Jesus Meag, watering at shallow well in ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/513bfbf1a4019c05d33e1cc59165df14/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c678#xywh=526,1302,1355,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "the bed of the Torreones wagh, 75 miles from agency. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

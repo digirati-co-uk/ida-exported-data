@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_1b599f21-d27b-4f30-9ef8-77cb45169db8/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/9ff35cab24a6259940c606a0f0fa21a6/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c566#xywh=867,1418,541,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "A Nature- Study Class. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/9ff35cab24a6259940c606a0f0fa21a6/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c566#xywh=874,2483,537,39",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Students with Melons. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

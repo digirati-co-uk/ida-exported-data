@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_033_cvs-1006-1013/ocr_M-1011_R-033_1007/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e60a29b4e117b9d2d32911eb7a9f07af/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_033_cvs-1006-1013/canvas/c1006#xywh=1837,70,299,180",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1928 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e60a29b4e117b9d2d32911eb7a9f07af/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_033_cvs-1006-1013/canvas/c1006#xywh=173,239,272,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NARRATIVE ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e60a29b4e117b9d2d32911eb7a9f07af/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_033_cvs-1006-1013/canvas/c1006#xywh=839,242,311,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "EASTERN NAVAJO ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

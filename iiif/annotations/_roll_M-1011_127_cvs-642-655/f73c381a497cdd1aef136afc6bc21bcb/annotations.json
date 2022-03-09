@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-642-655/f73c381a497cdd1aef136afc6bc21bcb/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-642-655/canvas/c648",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/f73c381a497cdd1aef136afc6bc21bcb/b4df7131-186e-4989-bbce-3d2d9c80eee9",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:15:05.591Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-642-655/canvas/c648#xywh=717,387,214,64",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/f73c381a497cdd1aef136afc6bc21bcb/297ce444-7f49-4dd8-8fab-748e37c52ec1",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "SANTA"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/santa\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/santa</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:15:05.684Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-642-655/canvas/c648#xywh=2139,677,144,65",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/f73c381a497cdd1aef136afc6bc21bcb/bd6b2d7c-a47a-49cd-993e-e6c6451f22c6",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1920\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1920</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "1920"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

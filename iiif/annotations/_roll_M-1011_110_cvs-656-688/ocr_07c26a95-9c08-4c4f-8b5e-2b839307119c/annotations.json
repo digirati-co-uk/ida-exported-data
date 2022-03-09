@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-656-688/ocr_07c26a95-9c08-4c4f-8b5e-2b839307119c/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ef11f7c13893bc5200738e3492e9decc/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c671#xywh=1181,328,96,96",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1.27 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ef11f7c13893bc5200738e3492e9decc/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c671#xywh=609,1219,541,44",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Interior Sewing Room. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ef11f7c13893bc5200738e3492e9decc/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c671#xywh=1233,1211,519,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mrs Ford Instructor. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_e80d7368-0da5-4f01-88eb-512f950fdba9/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/4ebcd2f98322b80e7d95c44c7fbc5803/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c551#xywh=903,1322,521,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Principal's Cottage. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/4ebcd2f98322b80e7d95c44c7fbc5803/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c551#xywh=935,2320,517,43",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Horse Barn and Shed. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

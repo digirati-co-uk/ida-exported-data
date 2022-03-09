@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_066_cvs-28-70/cb57d1ed0de7fff5fae78c5fbf10d86e/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-28-70/canvas/c28",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/cb57d1ed0de7fff5fae78c5fbf10d86e/3fc20836-545d-4814-94ee-d49a1ff6f152",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_066\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_066</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_066"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-11T21:17:59.687Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-28-70/canvas/c28#xywh=1109,1338,78,39",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/cb57d1ed0de7fff5fae78c5fbf10d86e/ef1c3b60-f033-44dd-9886-339df0da5792",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:tribe"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "hopi"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/tribe/hopi\">https://omeka.dlcs-ida.org/s/ida/page/topics/tribe/hopi</a>",
+          "format": "application/html"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-11T21:17:59.741Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-28-70/canvas/c28#xywh=911,1420,80,37",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/cb57d1ed0de7fff5fae78c5fbf10d86e/aba164d9-11e6-4310-b36e-001d44d53c0b",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1932\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1932</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "1932"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_f93f743e-5709-4877-81a1-9ca9e64167a2/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/940b5b1f621456e82141a4c4d1b69bfc/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c510#xywh=866,1279,591,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Group Polacca Students. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/940b5b1f621456e82141a4c4d1b69bfc/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c510#xywh=957,2345,438,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Laundry Building. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

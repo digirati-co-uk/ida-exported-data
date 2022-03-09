@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_9f936d43-f8d7-428b-8e0f-b52e70df57ae/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6de41a177c3eb11c8727cfa518cbe409/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c523#xywh=892,1359,592,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "View Principal's House. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6de41a177c3eb11c8727cfa518cbe409/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c523#xywh=949,2487,437,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Laundry Building. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-656-688/ocr_c42318d0-817b-4293-b95b-d5c3a2e26345/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/4b6a6bfe26b4f085c00f794a2904b0a0/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c672#xywh=623,1367,594,59",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Childrens' Dining Hall. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/4b6a6bfe26b4f085c00f794a2904b0a0/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c672#xywh=1278,1361,359,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Pueblo Bonito. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

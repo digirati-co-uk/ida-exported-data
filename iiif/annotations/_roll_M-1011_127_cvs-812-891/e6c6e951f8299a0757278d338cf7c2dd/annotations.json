@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-812-891/e6c6e951f8299a0757278d338cf7c2dd/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-812-891/canvas/c812",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/e6c6e951f8299a0757278d338cf7c2dd/25144361-5465-46f2-b6b8-20369b9df526",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:40:57.316Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-812-891/canvas/c812#xywh=2562,208,388,71",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/e6c6e951f8299a0757278d338cf7c2dd/08411d8e-4454-48a5-8e7f-bfdeb93a0044",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/original\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/original</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "ORIGINAL"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:40:57.378Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-812-891/canvas/c812#xywh=749,262,269,38",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/e6c6e951f8299a0757278d338cf7c2dd/f0a9d2b6-599f-49ed-9aa9-4c5a5f287116",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/narrative+1922\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/narrative+1922</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "NARRATIVE 1922"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

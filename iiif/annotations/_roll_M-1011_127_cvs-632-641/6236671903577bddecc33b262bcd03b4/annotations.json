@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-632-641/6236671903577bddecc33b262bcd03b4/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-632-641/canvas/c636",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/6236671903577bddecc33b262bcd03b4/277f257b-84e4-4689-8825-efda4f221c5d",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:35:12.814Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-632-641/canvas/c636#xywh=889,1422,392,38",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/6236671903577bddecc33b262bcd03b4/825e7d6d-a654-42eb-9d3b-5f9492ffa844",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "fiscal year"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/fiscal+year\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/fiscal+year</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T01:35:12.941Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-632-641/canvas/c636#xywh=1623,1466,76,38",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/6236671903577bddecc33b262bcd03b4/1d592b38-b98c-4f7e-8d6e-ca3e3ff558b0",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "previous year"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/previous+year\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/previous+year</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

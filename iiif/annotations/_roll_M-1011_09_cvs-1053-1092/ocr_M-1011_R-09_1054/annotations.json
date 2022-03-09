@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_09_cvs-1053-1092/ocr_M-1011_R-09_1054/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/5c97cde8ab86838c46a2e8d0153175f9/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-1053-1092/canvas/c1053#xywh=119,90,192,55",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "MARRATIVE ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/5c97cde8ab86838c46a2e8d0153175f9/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-1053-1092/canvas/c1053#xywh=564,42,445,83",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "CARSON SCHOOL. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/5c97cde8ab86838c46a2e8d0153175f9/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-1053-1092/canvas/c1053#xywh=765,106,57,62",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "15 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

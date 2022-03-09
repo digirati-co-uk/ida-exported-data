@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_079_cvs-529-547/ocr_d86b6f8b-1a7a-4856-86f7-5c8eb4a4db2e/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/64e34998331fcb9aecf46f0791fd8042/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_079_cvs-529-547/canvas/c529#xywh=1098,1281,107,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Leupp ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/64e34998331fcb9aecf46f0791fd8042/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_079_cvs-529-547/canvas/c529#xywh=922,1365,446,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1926 Narrative Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

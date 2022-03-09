@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_809bdd19-d458-42e9-8dfa-e97c86ccef2a/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a9f11208a1542c82f7df15c6a38d7525/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c556#xywh=800,1378,779,53",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Physician's Residence, Oraibi. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a9f11208a1542c82f7df15c6a38d7525/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c556#xywh=792,2423,855,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Boiler House, Oraibi Water Works, ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a9f11208a1542c82f7df15c6a38d7525/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c556#xywh=1001,2467,362,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "built in 1925. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

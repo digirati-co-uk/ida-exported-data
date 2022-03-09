@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_09_cvs-433-460/ocr_M-1011_R-09_0449/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/28ff737606d9100d27bdab3627792373/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-433-460/canvas/c448#xywh=1302,234,143,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Page 12. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/28ff737606d9100d27bdab3627792373/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-433-460/canvas/c448#xywh=256,365,1020,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "towns, where the conditions are worse then they are at ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/28ff737606d9100d27bdab3627792373/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_09_cvs-433-460/canvas/c448#xywh=257,432,71,26",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "home ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

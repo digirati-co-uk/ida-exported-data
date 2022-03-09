@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_093_cvs-1087-1132/ocr_b93ae411-3c4e-4cfb-8bf9-2856b19c557c/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d396de8d6354911d0a6f15290321507d/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-1087-1132/canvas/c1096#xywh=789,378,99,109",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ins ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d396de8d6354911d0a6f15290321507d/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-1087-1132/canvas/c1096#xywh=996,1255,329,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Northern Navajo ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d396de8d6354911d0a6f15290321507d/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-1087-1132/canvas/c1096#xywh=890,1340,499,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1935 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

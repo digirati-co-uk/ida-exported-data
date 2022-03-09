@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_093_cvs-418-440/ocr_89491be1-7ceb-467a-8f66-9faa4a00ee9e/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a7ffcb634f77f1984ea71f836dbbdb6a/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-418-440/canvas/c418#xywh=245,251,290,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NARRATIVE ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a7ffcb634f77f1984ea71f836dbbdb6a/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-418-440/canvas/c418#xywh=975,264,319,39",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NORTHERN NAVAJO ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a7ffcb634f77f1984ea71f836dbbdb6a/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-418-440/canvas/c418#xywh=1925,190,276,186",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1928 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

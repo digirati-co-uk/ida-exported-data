@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_b2483439-4fbf-4815-8c61-c8b2b67500c3/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/bf18e939ea0ada721183d1f5140fb48d/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c520#xywh=764,270,65,78",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "0 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/bf18e939ea0ada721183d1f5140fb48d/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c520#xywh=1004,1367,259,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Work Shop. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

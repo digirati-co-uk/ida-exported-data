@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_034_cvs-62-127/ocr_69339d90-ecce-4d81-8ff8-178bc5403474/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6bf1d2fc4120125b20a1f84e1fef1c96/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c99#xywh=589,1236,562,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Open Air Indian Court. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6bf1d2fc4120125b20a1f84e1fef1c96/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c99#xywh=585,2271,699,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Open Air Indian Court Mee. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

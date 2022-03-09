@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-766-805/ocr_f4afd051-be19-4107-b8a2-bd83cd634afe/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2d74105d943ba197338ba2b2ef0f20cb/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c796#xywh=958,476,645,43",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Indians Developing Water, ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2d74105d943ba197338ba2b2ef0f20cb/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c796#xywh=952,520,656,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Hopi Reservation, Arizona. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_32f90860-ce98-477d-a63c-17f856cfc557/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f3e02eea43b2bceb72e698d3593a0cc2/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c555#xywh=941,1411,182,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Student ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f3e02eea43b2bceb72e698d3593a0cc2/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c555#xywh=1153,1416,150,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Types. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

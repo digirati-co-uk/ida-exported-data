@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-766-805/ocr_3726151d-5a5e-4fd8-8f69-0569517c93cc/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6417ff60eaf1d25bdf8d267a517476c2/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c801#xywh=849,457,414,50",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Some Hopi Housee ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6417ff60eaf1d25bdf8d267a517476c2/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c801#xywh=848,500,567,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Bailt away from Kesas. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6417ff60eaf1d25bdf8d267a517476c2/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-766-805/canvas/c801#xywh=846,544,649,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Hopi Reservation, Arisons. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

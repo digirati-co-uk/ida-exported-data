@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-685-708/a62ed846b3f2fcb08acc725d62110e6c/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c695#xywh=449,545,224,60",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/a62ed846b3f2fcb08acc725d62110e6c/50275566-ea1d-444d-9cfc-2e0b1ee5ee48",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/s+prayer\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/s+prayer</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "S Prayer"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:person"
+        }
+      ]
+    },
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-685-708/canvas/c695#xywh=1798,273,65,65",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/a62ed846b3f2fcb08acc725d62110e6c/40725b66-a807-40f6-92e9-32013952447f",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "Law"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:person"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/law\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/law</a>",
+          "format": "application/html"
+        }
+      ]
+    }
+  ]
+}

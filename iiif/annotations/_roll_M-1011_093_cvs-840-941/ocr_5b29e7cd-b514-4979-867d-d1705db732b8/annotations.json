@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_093_cvs-840-941/ocr_5b29e7cd-b514-4979-867d-d1705db732b8/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/474055603ccd265a8ad774d8f3402815/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-840-941/canvas/c840#xywh=984,1287,327,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Northern Navajo ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/474055603ccd265a8ad774d8f3402815/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_093_cvs-840-941/canvas/c840#xywh=897,1373,501,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1932 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

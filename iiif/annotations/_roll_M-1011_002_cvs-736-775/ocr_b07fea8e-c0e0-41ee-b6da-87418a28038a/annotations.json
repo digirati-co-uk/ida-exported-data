@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_002_cvs-736-775/ocr_b07fea8e-c0e0-41ee-b6da-87418a28038a/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/741920bb09f0b2e3575815864d627bb9/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-736-775/canvas/c736#xywh=479,229,259,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "NARRATIVA ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/741920bb09f0b2e3575815864d627bb9/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_002_cvs-736-775/canvas/c736#xywh=1070,224,805,97",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ALBUQUERQUE SCHOOL. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

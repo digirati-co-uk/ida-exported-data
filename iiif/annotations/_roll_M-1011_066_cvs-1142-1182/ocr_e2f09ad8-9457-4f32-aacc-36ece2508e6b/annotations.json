@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_066_cvs-1142-1182/ocr_e2f09ad8-9457-4f32-aacc-36ece2508e6b/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/43aa3fefb5ff0e4c6d47efad3e4eb4d5/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-1142-1182/canvas/c1159#xywh=753,1350,780,41",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "ENTHUSIASTIC CLUB MEMBERS WITH ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/43aa3fefb5ff0e4c6d47efad3e4eb4d5/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-1142-1182/canvas/c1159#xywh=939,1483,330,44",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "THEIR SHEEP. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_126_cvs-821-869/ocr_2e381da4-8dbc-4806-807a-8725bebe7502/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e916269cd007805bdc0a6f03f8349191/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c852#xywh=560,391,91,304",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "F ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e916269cd007805bdc0a6f03f8349191/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c852#xywh=895,1419,461,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1. The\" Shiprock.\" ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e916269cd007805bdc0a6f03f8349191/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c852#xywh=541,2635,1196,59",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "2. View of Shiprock School from the Roservoir. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

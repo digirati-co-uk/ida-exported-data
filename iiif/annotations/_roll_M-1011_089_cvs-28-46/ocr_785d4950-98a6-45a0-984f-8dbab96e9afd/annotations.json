@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_089_cvs-28-46/ocr_785d4950-98a6-45a0-984f-8dbab96e9afd/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fa40eb8f7beb9e0019c14d9afb8b3798/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-28-46/canvas/c28#xywh=233,125,1371,90",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "MOUNT PLEASANT, D. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fa40eb8f7beb9e0019c14d9afb8b3798/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_089_cvs-28-46/canvas/c28#xywh=906,141,685,127",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Vairdeire Reports ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

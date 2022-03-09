@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-468-497/ocr_5cc2dd9c-0e85-4f6d-b24c-4bda19159da2/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c570e87a46ed67934ea4fe5d9fdf56f2/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c492#xywh=909,832,39,135",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "f ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c570e87a46ed67934ea4fe5d9fdf56f2/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c492#xywh=528,1378,1364,63",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "some of the pupils of the Pueblo Bonito School, 1920 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

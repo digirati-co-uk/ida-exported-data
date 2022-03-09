@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_126_cvs-821-869/ocr_e2bf1aa8-bce9-49c4-a493-ebcb1fe1f683/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/998670fcbb517c64944305618e85aa9f/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c858#xywh=618,1352,1168,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "13. Sheep Dipping Scene Shiprock, Now loxico. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/998670fcbb517c64944305618e85aa9f/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_126_cvs-821-869/canvas/c858#xywh=596,2574,1091,57",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "14. Agency Hospital, Shiprock, New Mexico. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-562-601/f2fe44bd0d03ca42b3e7130ac734790e/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-562-601/canvas/c585",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/f2fe44bd0d03ca42b3e7130ac734790e/6bb9a379-216e-44a2-8346-24e559f38958",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-07T02:03:39.591Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-562-601/canvas/c585#xywh=656,1519,1275,64",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/f2fe44bd0d03ca42b3e7130ac734790e/464abf6f-7b72-4158-9968-3bd9dc2e01ca",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:NORP"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:norp/american+taser+eric+c.\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:norp/american+taser+eric+c.</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "American Taser Eric C."
+        }
+      ]
+    }
+  ]
+}

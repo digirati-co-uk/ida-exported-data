@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-619-701/ocr_f40ef5d3-2160-44aa-a374-6c8454791d29/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d68396a846bdeb1d69951d32fcfef0b0/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-619-701/canvas/c649#xywh=768,1312,784,55",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "School Building and Auditorium ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d68396a846bdeb1d69951d32fcfef0b0/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-619-701/canvas/c649#xywh=785,2354,810,59",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Class Rooms and School Building ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

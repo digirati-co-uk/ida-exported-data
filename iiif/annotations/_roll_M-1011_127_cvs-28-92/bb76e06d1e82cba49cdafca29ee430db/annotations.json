@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_127_cvs-28-92/bb76e06d1e82cba49cdafca29ee430db/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-28-92/canvas/c68",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/bb76e06d1e82cba49cdafca29ee430db/9818f0ea-7756-4f53-8b19-af6c00cb1967",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/m-1011_127</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "m-1011_127"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-06T23:01:45.757Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_127_cvs-28-92/canvas/c68#xywh=971,1008,295,32",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/bb76e06d1e82cba49cdafca29ee430db/7b40183c-7c4b-4831-b975-eafa01d8e54b",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "current fiscal year"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/current+fiscal+year\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/current+fiscal+year</a>",
+          "format": "application/html"
+        }
+      ]
+    }
+  ]
+}

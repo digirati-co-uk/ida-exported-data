@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_926db18a-7c7c-4346-b735-5782e5798c09/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/7e2d830961ce473069f10340889e0a27/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c567#xywh=939,1406,542,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "On the Way to School. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/7e2d830961ce473069f10340889e0a27/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c567#xywh=788,2471,750,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Going Home to Bicabi Village. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_079_cvs-1016-1068/ocr_d55aaf6c-1293-491a-bd76-a9932163bf96/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/452eef320925a9c3da0f74913854c0da/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_079_cvs-1016-1068/canvas/c1038#xywh=1089,1250,105,50",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Leupp ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/452eef320925a9c3da0f74913854c0da/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_079_cvs-1016-1068/canvas/c1038#xywh=890,1332,498,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1935 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

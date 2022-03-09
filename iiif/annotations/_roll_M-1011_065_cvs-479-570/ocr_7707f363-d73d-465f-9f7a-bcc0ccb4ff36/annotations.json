@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-479-570/ocr_7707f363-d73d-465f-9f7a-bcc0ccb4ff36/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/878d288e64fa9a411b4a104ebf5cd0e5/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c552#xywh=737,1242,1014,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Laundry, Auditorium, Returned Students' ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/878d288e64fa9a411b4a104ebf5cd0e5/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c552#xywh=891,1293,653,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Meeting Room and Library. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/878d288e64fa9a411b4a104ebf5cd0e5/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-479-570/canvas/c552#xywh=749,2341,909,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Guest Rooms, Commissary and Garage. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

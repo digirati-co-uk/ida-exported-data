@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_066_cvs-879-913/ocr_c4499279-f35f-465f-ae92-f1fc027ab868/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/89e4ae7875390dfd8523fd97678924fd/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-879-913/canvas/c911#xywh=1035,995,127,40",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Dulce ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/89e4ae7875390dfd8523fd97678924fd/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-879-913/canvas/c911#xywh=826,1737,591,37",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Reformed Church Mission ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

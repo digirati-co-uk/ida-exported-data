@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-656-688/ocr_2e1a9d76-ab2d-4103-926f-69c7a044dc13/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0a8614396391eea03adca1df7e4010a6/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c676#xywh=541,1123,1178,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Bashful and afraid, gee whiz yes. but healthy ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/0a8614396391eea03adca1df7e4010a6/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c676#xywh=436,1177,620,59",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "and happy in the desert. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

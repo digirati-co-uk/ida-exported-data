@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_034_cvs-62-127/ocr_fcdafc6c-3011-4d65-b5e0-72b51a8f608b/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/de50ac0274599e74c982acfc50501fbc/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c121#xywh=533,1557,1453,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Picnic dinner. Dedication, Wingate Valley Chapter House. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/de50ac0274599e74c982acfc50501fbc/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c121#xywh=1864,2414,83,122",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "/ ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/de50ac0274599e74c982acfc50501fbc/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c121#xywh=537,2596,1267,53",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Fish fry. Dedication, Mariana Lake Chapter House. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/de50ac0274599e74c982acfc50501fbc/3",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c121#xywh=537,2640,1217,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "250 fish caught for this fry from Mariana Lake. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

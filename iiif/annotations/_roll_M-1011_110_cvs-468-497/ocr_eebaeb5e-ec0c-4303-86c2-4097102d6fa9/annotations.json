@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-468-497/ocr_eebaeb5e-ec0c-4303-86c2-4097102d6fa9/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/b7bf6f379c7097925004eebbb05c6502/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c482#xywh=642,1476,1097,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "New Dinibg Hall Pueblo Bonito School, 1920. ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/b7bf6f379c7097925004eebbb05c6502/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-468-497/canvas/c482#xywh=241,2610,54,13",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

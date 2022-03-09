@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-656-688/ocr_b833a4b9-c752-4018-a2a0-caca96dd209a/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/01d5db5935edb6fa7c2bc6ff45665d96/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c666#xywh=1195,305,163,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "S'UNEI ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/01d5db5935edb6fa7c2bc6ff45665d96/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c666#xywh=674,1265,812,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Grades 4 and 5, Mrs Wade Smith ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

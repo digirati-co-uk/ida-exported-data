@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_066_cvs-217-302/ocr_348cce02-0282-4b0b-8dfa-fa6217fd3f9b/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/06c434be16f613b93cb31c21dd8607db/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-217-302/canvas/c217#xywh=1110,1286,85,39",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Hopi ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/06c434be16f613b93cb31c21dd8607db/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-217-302/canvas/c217#xywh=891,1367,498,43",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1935 Statistical Report ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

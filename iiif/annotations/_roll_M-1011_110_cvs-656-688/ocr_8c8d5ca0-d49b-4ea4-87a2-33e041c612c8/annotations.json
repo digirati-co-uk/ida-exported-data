@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-656-688/ocr_8c8d5ca0-d49b-4ea4-87a2-33e041c612c8/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8ea5b64349ae294034fe5f9afca59e79/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c665#xywh=737,1295,336,50",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Kindergarten, ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8ea5b64349ae294034fe5f9afca59e79/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-656-688/canvas/c665#xywh=1131,1291,411,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mrg Irene Heger. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_067_cvs-388-422/ocr_ae86c88b-f278-4587-b05c-0aedfe329fc1/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/5cfa5f1f42d386b20c0cd033b631ef52/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-388-422/canvas/c389#xywh=2359,1247,40,17",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "To ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/5cfa5f1f42d386b20c0cd033b631ef52/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_067_cvs-388-422/canvas/c389#xywh=791,1595,1467,47",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Panoramio vier of the Agendy group of buildings. Looking south weat. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

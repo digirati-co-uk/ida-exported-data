@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_034_cvs-62-127/ocr_1b99e228-af7d-4583-b533-4073526a5b1f/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/937b6289d5923e0c8c1c03e197824827/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c111#xywh=2005,295,11,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/937b6289d5923e0c8c1c03e197824827/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c111#xywh=717,2079,255,40",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Dedication ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/937b6289d5923e0c8c1c03e197824827/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_034_cvs-62-127/canvas/c111#xywh=1053,2061,748,56",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Wingate Valley Chapter House. ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_065_cvs-880-920/77e3e19ff48ba44b6c05d794fa3862d8/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-880-920/canvas/c908#xywh=2670,301,105,46",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/77e3e19ff48ba44b6c05d794fa3862d8/753b93d4-a892-4611-be2f-8e257b937162",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/31165\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/31165</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:date"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "31165"
+        }
+      ]
+    },
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_065_cvs-880-920/canvas/c908#xywh=2117,633,208,65",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/77e3e19ff48ba44b6c05d794fa3862d8/78a62f96-af2f-4734-aa7f-f170ac908857",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:person"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Nono"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/nono\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/nono</a>",
+          "format": "application/html"
+        }
+      ]
+    }
+  ]
+}
