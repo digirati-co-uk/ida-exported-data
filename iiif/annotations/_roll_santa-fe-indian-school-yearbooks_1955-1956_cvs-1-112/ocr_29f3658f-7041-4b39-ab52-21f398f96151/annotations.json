@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1955-1956_cvs-1-112/ocr_29f3658f-7041-4b39-ab52-21f398f96151/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/99b9b8987e3d18b4962070c9b2e047ad/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1955-1956_cvs-1-112/canvas/c96#xywh=1069,276,424,126",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Agriculture ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/99b9b8987e3d18b4962070c9b2e047ad/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1955-1956_cvs-1-112/canvas/c96#xywh=1946,1986,251,131",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Baking ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

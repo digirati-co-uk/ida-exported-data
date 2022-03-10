@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_03_cvs-733-741/ocr_M-1070_R-03_0734/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/5a31069136307ab7e09b159ad114b19f/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-733-741/canvas/c733#xywh=548,646,460,62",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Carlisle School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/5a31069136307ab7e09b159ad114b19f/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-733-741/canvas/c733#xywh=548,753,549,73",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Sept. 28 1897( TO53) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

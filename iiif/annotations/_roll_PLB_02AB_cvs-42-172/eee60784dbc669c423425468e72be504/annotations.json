@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_PLB_02AB_cvs-42-172/eee60784dbc669c423425468e72be504/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-42-172/canvas/c55",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/eee60784dbc669c423425468e72be504/a918637d-61a2-44cd-a115-86a40fca4eeb",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "plb_02ab"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-14T02:19:36.661Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-42-172/canvas/c55#xywh=1475,1695,244,78",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/eee60784dbc669c423425468e72be504/4b6f5a2b-5824-4e15-bf8f-67d1cbf5688a",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "16 2 2"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/16+2+2\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/16+2+2</a>",
+          "format": "application/html"
+        }
+      ]
+    }
+  ]
+}

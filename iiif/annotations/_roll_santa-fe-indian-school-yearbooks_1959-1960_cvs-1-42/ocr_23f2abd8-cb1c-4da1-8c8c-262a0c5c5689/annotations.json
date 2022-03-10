@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/ocr_23f2abd8-cb1c-4da1-8c8c-262a0c5c5689/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f6582c73a88fb1b9c81d029d67a53c5b/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c38#xywh=620,65,819,141",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "BOYS' PHYSICAL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f6582c73a88fb1b9c81d029d67a53c5b/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c38#xywh=1539,75,578,138",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "EDUCATION ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_2006-2007_cvs-1-120/ocr_1e4985ea-1733-4646-84ae-33ab11d1a47f/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2f0882199721a08f143091c98c1871ac/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2006-2007_cvs-1-120/canvas/c74#xywh=292,279,1577,225",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Student Autographs ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2f0882199721a08f143091c98c1871ac/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2006-2007_cvs-1-120/canvas/c74#xywh=259,3251,43,40",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "70 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

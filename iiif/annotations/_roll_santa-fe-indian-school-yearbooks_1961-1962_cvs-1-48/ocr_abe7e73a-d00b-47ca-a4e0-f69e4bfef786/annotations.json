@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_abe7e73a-d00b-47ca-a4e0-f69e4bfef786/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/cd7c049c0a81b90bfce399a521b296b4/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c48#xywh=1537,2481,703,139",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "CHRISTMAS ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/cd7c049c0a81b90bfce399a521b296b4/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c48#xywh=1549,2815,569,135",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "PROGRAM ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

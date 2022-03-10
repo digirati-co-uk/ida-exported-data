@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_2002-2003_cvs-1-120/ocr_3ad99ec5-d586-49b5-b36c-d1f970609b27/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6bfa169d53238c7dbced81e9983294ab/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2002-2003_cvs-1-120/canvas/c56#xywh=484,192,1754,174",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "MID SCHOOL VOLLEYBALL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6bfa169d53238c7dbced81e9983294ab/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2002-2003_cvs-1-120/canvas/c56#xywh=1379,2073,73,44",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "22 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

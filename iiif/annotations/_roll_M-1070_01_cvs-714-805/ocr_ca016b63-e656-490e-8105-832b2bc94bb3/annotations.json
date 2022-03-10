@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-714-805/ocr_ca016b63-e656-490e-8105-832b2bc94bb3/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/3eb06b8c5aafadb70225594696af546f/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-714-805/canvas/c763#xywh=717,857,205,31",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "The ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/3eb06b8c5aafadb70225594696af546f/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-714-805/canvas/c763#xywh=896,845,350,37",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Ontario ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

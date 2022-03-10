@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-368-386/ocr_0e208915-487f-4759-8c96-095e554fdca6/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fe8344cb219e1e7c14c37c705175d511/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-368-386/canvas/c377#xywh=636,1212,459,68",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Albuquerque ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fe8344cb219e1e7c14c37c705175d511/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-368-386/canvas/c377#xywh=1159,1221,292,66",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/fe8344cb219e1e7c14c37c705175d511/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-368-386/canvas/c377#xywh=626,1321,801,82",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "June 24 1889( 3754) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

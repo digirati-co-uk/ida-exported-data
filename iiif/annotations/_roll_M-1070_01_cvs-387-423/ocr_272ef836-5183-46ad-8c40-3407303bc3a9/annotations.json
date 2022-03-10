@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-387-423/ocr_272ef836-5183-46ad-8c40-3407303bc3a9/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d635c2b79333a7003facc6406e7841c0/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-387-423/canvas/c405#xywh=637,1192,430,74",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Albuquerque ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d635c2b79333a7003facc6406e7841c0/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-387-423/canvas/c405#xywh=1153,1215,287,51",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d635c2b79333a7003facc6406e7841c0/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-387-423/canvas/c405#xywh=626,1300,804,87",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Aug. 13, 1890( 5352) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

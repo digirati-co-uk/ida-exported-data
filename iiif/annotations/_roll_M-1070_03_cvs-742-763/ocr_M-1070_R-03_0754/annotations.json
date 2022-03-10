@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_03_cvs-742-763/ocr_M-1070_R-03_0754/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e7ad233aea29fdd116637ba42107ba46/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-742-763/canvas/c753#xywh=541,642,480,65",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Carlisle School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e7ad233aea29fdd116637ba42107ba46/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-742-763/canvas/c753#xywh=540,750,246,83",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mov., 1898 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e7ad233aea29fdd116637ba42107ba46/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-742-763/canvas/c753#xywh=929,752,174,63",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "( 1898) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

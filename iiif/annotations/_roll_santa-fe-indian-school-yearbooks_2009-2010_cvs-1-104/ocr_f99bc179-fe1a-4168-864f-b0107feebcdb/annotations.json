@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_2009-2010_cvs-1-104/ocr_f99bc179-fe1a-4168-864f-b0107feebcdb/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2adb127c9048730277eace2104b09b48/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2009-2010_cvs-1-104/canvas/c30#xywh=687,1095,46,31",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "IN ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/2adb127c9048730277eace2104b09b48/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2009-2010_cvs-1-104/canvas/c30#xywh=1524,2559,424,77",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "FRESHMEN ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/ocr_553f5db4-aa4b-4a57-9440-ddf839f75714/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f16cbe9133fa7d8742153390f561eaae/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c1#xywh=1049,498,445,178",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "1960 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f16cbe9133fa7d8742153390f561eaae/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1959-1960_cvs-1-42/canvas/c1#xywh=231,2629,2073,501",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "TEGUAYO ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

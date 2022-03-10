@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/ocr_c993e781-6979-4f3b-b2e5-9e8277e9d47f/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a80bc786d43a8925db67d3ff5ac4d1e9/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/canvas/c111#xywh=1023,1370,220,133",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Staff ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a80bc786d43a8925db67d3ff5ac4d1e9/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/canvas/c111#xywh=706,2273,57,42",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "TASONO ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

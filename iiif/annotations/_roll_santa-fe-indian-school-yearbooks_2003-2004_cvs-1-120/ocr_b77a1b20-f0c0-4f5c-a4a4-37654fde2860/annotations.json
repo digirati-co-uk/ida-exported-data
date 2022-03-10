@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_2003-2004_cvs-1-120/ocr_b77a1b20-f0c0-4f5c-a4a4-37654fde2860/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6f589b52c5f27aba318e92f728673534/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2003-2004_cvs-1-120/canvas/c1#xywh=563,133,1523,96",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "HOME OF THE BRAVES AND LADY BRAVES ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6f589b52c5f27aba318e92f728673534/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2003-2004_cvs-1-120/canvas/c1#xywh=243,2486,2170,147",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "SANTA FE INDIAN SCHOOL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6f589b52c5f27aba318e92f728673534/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2003-2004_cvs-1-120/canvas/c1#xywh=769,2725,1175,212",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "= 2003= 2004= ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

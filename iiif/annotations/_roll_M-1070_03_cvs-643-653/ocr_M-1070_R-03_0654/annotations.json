@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_03_cvs-643-653/ocr_M-1070_R-03_0654/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/22fa9ff31ab4c2dfc3f7c6b0ef91adaa/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-643-653/canvas/c653#xywh=1330,108,8,23",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "S ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/22fa9ff31ab4c2dfc3f7c6b0ef91adaa/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-643-653/canvas/c653#xywh=1003,463,53,17",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "poor ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

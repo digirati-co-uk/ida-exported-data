@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/ocr_a24d9cbc-071b-4d6a-acb9-4f23ebb1ad59/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/20778110b960c9381b09237e060e1e2a/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/canvas/c95#xywh=906,156,666,98",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "SFIS North Campus ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/20778110b960c9381b09237e060e1e2a/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/canvas/c95#xywh=2284,3110,39,16",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "91 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

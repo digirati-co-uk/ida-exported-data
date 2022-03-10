@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/ocr_fc558af6-73ff-4455-9f2a-a2a41c826d85/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6ea983caa811d969537d1f23d7b68a6b/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/canvas/c47#xywh=883,181,569,89",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Braves in Action! ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6ea983caa811d969537d1f23d7b68a6b/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/canvas/c47#xywh=193,483,76,27",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "FRAVES ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

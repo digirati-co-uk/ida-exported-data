@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_2007-2008_cvs-1-128/ocr_89888fd6-c332-4d3d-9f5e-cce0a11c6db3/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/391c3594884f9d0a185f08bfa366abac/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2007-2008_cvs-1-128/canvas/c68#xywh=302,304,1128,152",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Student Living Program ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/391c3594884f9d0a185f08bfa366abac/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2007-2008_cvs-1-128/canvas/c68#xywh=274,469,1696,100",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "High School Student Living Advisors and Guidance Staff ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

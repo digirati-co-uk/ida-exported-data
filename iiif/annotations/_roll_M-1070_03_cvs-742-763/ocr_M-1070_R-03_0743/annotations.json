@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_03_cvs-742-763/ocr_M-1070_R-03_0743/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/67a30e0c5a3086504564f67f59f81ba6/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-742-763/canvas/c742#xywh=552,651,471,64",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Carlisle School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/67a30e0c5a3086504564f67f59f81ba6/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-742-763/canvas/c742#xywh=552,765,517,62",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Feb 22 1898( 1487) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

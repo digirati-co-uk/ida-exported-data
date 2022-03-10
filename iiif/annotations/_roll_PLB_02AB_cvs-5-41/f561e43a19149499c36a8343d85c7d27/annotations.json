@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_PLB_02AB_cvs-5-41/f561e43a19149499c36a8343d85c7d27/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-5-41/canvas/c22",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/f561e43a19149499c36a8343d85c7d27/3bc367cf-2b15-4991-ab36-068f479356ac",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "plb_02ab"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-14T02:16:00.552Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-5-41/canvas/c22#xywh=2137,1480,582,43",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/f561e43a19149499c36a8343d85c7d27/ee8b41a0-4a42-4d8d-ac55-f523b0c613df",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "PEBLO LANDS- ISLER"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/peblo+lands-+isler\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/peblo+lands-+isler</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    }
+  ]
+}

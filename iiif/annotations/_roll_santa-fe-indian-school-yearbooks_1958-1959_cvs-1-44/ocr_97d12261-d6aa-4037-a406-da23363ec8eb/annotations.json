@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1958-1959_cvs-1-44/ocr_97d12261-d6aa-4037-a406-da23363ec8eb/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a0f9099fc3c10108dfbf4ebcf5354602/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1958-1959_cvs-1-44/canvas/c36#xywh=1415,121,111,19",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "BERNAMA ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/a0f9099fc3c10108dfbf4ebcf5354602/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1958-1959_cvs-1-44/canvas/c36#xywh=679,317,969,152",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "PHYSICAL EDUCATION ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

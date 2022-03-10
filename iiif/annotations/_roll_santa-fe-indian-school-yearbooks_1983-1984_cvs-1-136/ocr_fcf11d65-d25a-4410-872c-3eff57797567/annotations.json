@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/ocr_fcf11d65-d25a-4410-872c-3eff57797567/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/19f83423e68692bc81d534e0e9f86ef6/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/canvas/c42#xywh=413,553,1763,251",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "At the edge of light ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/19f83423e68692bc81d534e0e9f86ef6/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/canvas/c42#xywh=1530,1954,21,28",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "PAE ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

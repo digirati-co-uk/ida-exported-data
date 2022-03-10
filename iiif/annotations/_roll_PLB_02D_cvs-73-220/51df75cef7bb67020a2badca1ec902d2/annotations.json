@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_PLB_02D_cvs-73-220/51df75cef7bb67020a2badca1ec902d2/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02D_cvs-73-220/canvas/c73",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/51df75cef7bb67020a2badca1ec902d2/d0d4de4c-0c54-469b-af34-d8b947812957",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02d\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02d</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "plb_02d"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-08T16:16:30.194Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02D_cvs-73-220/canvas/c73#xywh=1778,2596,137,43",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/51df75cef7bb67020a2badca1ec902d2/8bc1dfe1-24ef-4831-bf36-3fc503fe9d60",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1931\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/1931</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "1931"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-08T16:16:30.283Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02D_cvs-73-220/canvas/c73#xywh=1899,3967,449,31",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/51df75cef7bb67020a2badca1ec902d2/5936a82d-b1e6-421e-92ed-04bc4613bc69",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/southwest+microfilm+division\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/southwest+microfilm+division</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Southwest Microfilm Division"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    }
+  ]
+}

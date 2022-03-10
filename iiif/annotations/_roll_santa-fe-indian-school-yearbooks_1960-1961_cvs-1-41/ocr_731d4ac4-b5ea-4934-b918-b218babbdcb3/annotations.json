@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1960-1961_cvs-1-41/ocr_731d4ac4-b5ea-4934-b918-b218babbdcb3/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/74421b0ad32004205f7f403aa5c80f8e/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1960-1961_cvs-1-41/canvas/c25#xywh=939,189,575,136",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "DORMITORY ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/74421b0ad32004205f7f403aa5c80f8e/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1960-1961_cvs-1-41/canvas/c25#xywh=1556,209,316,129",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "LIVING ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_2002-2003_cvs-1-120/ocr_1057d4cd-104b-407c-a50a-a57875431395/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c7ae37155fa1de49f4e253ac507f86d4/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2002-2003_cvs-1-120/canvas/c94#xywh=433,951,264,266",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Our ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c7ae37155fa1de49f4e253ac507f86d4/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_2002-2003_cvs-1-120/canvas/c94#xywh=713,990,386,282",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "School ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_PLB_02D_cvs-73-220/81d88e264e1bca9df6d1f64f3bc3965d/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02D_cvs-73-220/canvas/c86",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/81d88e264e1bca9df6d1f64f3bc3965d/f889f1df-be56-411f-85f3-c970abd03796",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02d\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02d</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "plb_02d"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-08T16:42:47.732Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02D_cvs-73-220/canvas/c86#xywh=1669,3350,794,80",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/81d88e264e1bca9df6d1f64f3bc3965d/b4e5201d-f0b7-4d61-8d7d-fe23766daaa5",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "CONDITION OF"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/condition+of\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:org/condition+of</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:ORG"
+        }
+      ]
+    }
+  ]
+}

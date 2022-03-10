@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-806-950/ocr_74c792fd-5b3b-470e-88dd-064617113ba8/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f8a35ae1b8cf85f44ec801c02e2d22d7/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-806-950/canvas/c813#xywh=503,1205,1005,87",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Arizona Superintendency ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/f8a35ae1b8cf85f44ec801c02e2d22d7/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-806-950/canvas/c813#xywh=501,1318,992,70",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Sept 29 187( 121) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

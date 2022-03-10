@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1947-1948_cvs-1-52/ocr_4fa114ee-4486-4d1a-a60a-142171dfe865/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e41c66cbf320687eeb73148b2070ea43/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1947-1948_cvs-1-52/canvas/c30#xywh=1117,1268,273,49",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Acapella Choir ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e41c66cbf320687eeb73148b2070ea43/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1947-1948_cvs-1-52/canvas/c30#xywh=1015,3367,410,52",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Why the Chimes Rang ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

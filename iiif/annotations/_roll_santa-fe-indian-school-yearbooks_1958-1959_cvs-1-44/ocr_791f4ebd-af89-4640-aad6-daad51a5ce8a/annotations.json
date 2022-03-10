@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1958-1959_cvs-1-44/ocr_791f4ebd-af89-4640-aad6-daad51a5ce8a/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e6cefbec31f11135b8a3a85cb463811b/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1958-1959_cvs-1-44/canvas/c41#xywh=1110,1329,1139,61",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "GOVERNOR BURROUGHS SIGNING THE THA PROCLAMATION ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e6cefbec31f11135b8a3a85cb463811b/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1958-1959_cvs-1-44/canvas/c41#xywh=40,2662,9,3",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": ". ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

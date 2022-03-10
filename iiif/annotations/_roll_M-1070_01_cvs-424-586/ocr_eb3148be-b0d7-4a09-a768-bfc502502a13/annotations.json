@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-424-586/ocr_eb3148be-b0d7-4a09-a768-bfc502502a13/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8f5ca29d1cfcc84856e608be10f9ccf1/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-424-586/canvas/c424#xywh=603,1197,790,72",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Albuquerque School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/8f5ca29d1cfcc84856e608be10f9ccf1/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-424-586/canvas/c424#xywh=589,1302,801,65",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mo. 4, 1891( 2024) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

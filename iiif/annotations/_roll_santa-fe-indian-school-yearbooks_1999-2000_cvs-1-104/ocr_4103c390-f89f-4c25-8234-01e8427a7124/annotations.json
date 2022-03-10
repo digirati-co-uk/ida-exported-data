@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/ocr_4103c390-f89f-4c25-8234-01e8427a7124/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d3123c9357c67cc9b4aa6052db807b71/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/canvas/c92#xywh=783,119,1057,149",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Student Life at SFIS ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/d3123c9357c67cc9b4aa6052db807b71/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1999-2000_cvs-1-104/canvas/c92#xywh=612,1152,55,16",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "URDE ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_03_cvs-630-642/ocr_M-1070_R-03_0631/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/737bed18e6f5b475b3cf9c5fcc51eac1/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-630-642/canvas/c630#xywh=562,641,410,57",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Carlisle School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/737bed18e6f5b475b3cf9c5fcc51eac1/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-630-642/canvas/c630#xywh=555,745,524,61",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mar 16, 1882( 600) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

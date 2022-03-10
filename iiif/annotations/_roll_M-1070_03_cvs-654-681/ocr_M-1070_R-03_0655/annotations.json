@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_03_cvs-654-681/ocr_M-1070_R-03_0655/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6ac223b12d6286e95c6b64fe60114672/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-654-681/canvas/c654#xywh=613,647,399,61",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Carlisle School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/6ac223b12d6286e95c6b64fe60114672/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-654-681/canvas/c654#xywh=548,754,542,63",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "June 15 1888( 2773) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

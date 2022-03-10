@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_PLB_02AB_cvs-42-172/7cadd75a7677f9b19a14f6359d35f70a/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-42-172/canvas/c163",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/7cadd75a7677f9b19a14f6359d35f70a/0cab920b-d292-4e8f-a473-b1c147b75644",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "plb_02ab"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-14T02:30:27.138Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-42-172/canvas/c163#xywh=2468,2273,612,57",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/7cadd75a7677f9b19a14f6359d35f70a/47652196-d351-4a18-a60a-09a028707f21",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "Conse 1"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:PERSON"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/conse+1\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:person/conse+1</a>",
+          "format": "application/html"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-14T02:30:27.215Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-42-172/canvas/c163#xywh=1952,3084,30,97",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/7cadd75a7677f9b19a14f6359d35f70a/b8c10f67-bc57-4734-87ef-a66ba78d3512",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/72+1994\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:date/72+1994</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "72 1994"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:DATE"
+        }
+      ]
+    }
+  ]
+}

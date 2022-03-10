@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1989-1990_cvs-1-184/ocr_ddb122ba-4e34-41fb-b25e-d16c44929c25/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/53a08bd94fe248da1c3ac01795f88d33/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1989-1990_cvs-1-184/canvas/c6#xywh=789,1834,876,79",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "THE FIRST ONE HUNDRED YEARS ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/53a08bd94fe248da1c3ac01795f88d33/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1989-1990_cvs-1-184/canvas/c6#xywh=774,1900,906,71",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "SANTA FE INDIAN SCHOOL ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

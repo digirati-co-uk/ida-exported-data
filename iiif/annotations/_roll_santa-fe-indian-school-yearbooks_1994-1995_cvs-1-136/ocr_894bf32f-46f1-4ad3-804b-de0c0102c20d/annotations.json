@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1994-1995_cvs-1-136/ocr_894bf32f-46f1-4ad3-804b-de0c0102c20d/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/db7004f8ed0341366452508b351fd4cb/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1994-1995_cvs-1-136/canvas/c97#xywh=374,658,888,155",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "CADEMICS ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/db7004f8ed0341366452508b351fd4cb/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1994-1995_cvs-1-136/canvas/c97#xywh=2143,3229,340,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Academics • 93 ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

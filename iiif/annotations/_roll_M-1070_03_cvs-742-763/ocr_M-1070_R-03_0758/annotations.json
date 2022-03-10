@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_03_cvs-742-763/ocr_M-1070_R-03_0758/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/51327ae9f4e32437bdb24b89e20a7f8b/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-742-763/canvas/c757#xywh=548,649,471,57",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Carlisle School ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/51327ae9f4e32437bdb24b89e20a7f8b/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_03_cvs-742-763/canvas/c757#xywh=535,760,551,61",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Mar. 1 1898( 1901) ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

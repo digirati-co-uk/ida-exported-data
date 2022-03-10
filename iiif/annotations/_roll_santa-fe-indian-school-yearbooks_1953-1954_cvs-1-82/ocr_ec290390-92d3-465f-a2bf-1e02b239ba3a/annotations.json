@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1953-1954_cvs-1-82/ocr_ec290390-92d3-465f-a2bf-1e02b239ba3a/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c70e144613c8af8b67f9014357a7d0d8/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1953-1954_cvs-1-82/canvas/c67#xywh=162,139,2075,837",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Campus Review ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/c70e144613c8af8b67f9014357a7d0d8/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1953-1954_cvs-1-82/canvas/c67#xywh=1419,2949,234,101",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "By Lujan ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

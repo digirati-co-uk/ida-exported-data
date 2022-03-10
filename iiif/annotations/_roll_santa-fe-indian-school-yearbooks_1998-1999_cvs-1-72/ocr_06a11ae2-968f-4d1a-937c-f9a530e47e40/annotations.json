@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1998-1999_cvs-1-72/ocr_06a11ae2-968f-4d1a-937c-f9a530e47e40/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ccdbc898ed5ed0ee998bcfa19b0df3d8/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1998-1999_cvs-1-72/canvas/c17#xywh=-2,218,526,149",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "S JUNIORS ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/ccdbc898ed5ed0ee998bcfa19b0df3d8/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1998-1999_cvs-1-72/canvas/c17#xywh=691,475,206,38",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Joshua Zunie ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

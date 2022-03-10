@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1981-1982_cvs-1-144/ocr_5315d6a3-42af-4f42-ad51-abfec3a74333/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/44b124d53330f70ff3e4e26c3d28e68f/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1981-1982_cvs-1-144/canvas/c23#xywh=1355,315,669,223",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "JUNIORS ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/44b124d53330f70ff3e4e26c3d28e68f/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1981-1982_cvs-1-144/canvas/c23#xywh=660,1303,308,82",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Lewis TRAHERO ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1070_01_cvs-714-805/ocr_e45ccc31-3aad-4b07-820f-905f29e5542d/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/4fcbd38bbd2f1fd69fce1695c3909a88/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-714-805/canvas/c749#xywh=1018,365,222,50",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "OLAS PIL ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/4fcbd38bbd2f1fd69fce1695c3909a88/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1070_01_cvs-714-805/canvas/c749#xywh=1013,629,44,26",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Ta ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

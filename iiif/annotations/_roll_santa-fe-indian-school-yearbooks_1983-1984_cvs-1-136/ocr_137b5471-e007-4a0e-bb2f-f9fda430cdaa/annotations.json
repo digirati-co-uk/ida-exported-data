@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/ocr_137b5471-e007-4a0e-bb2f-f9fda430cdaa/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/55a0f13ae9f0f010b85e58d73c20707e/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/canvas/c11#xywh=939,1465,464,148",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Students ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/55a0f13ae9f0f010b85e58d73c20707e/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1983-1984_cvs-1-136/canvas/c11#xywh=1109,2473,92,21",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "CASANOJ ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

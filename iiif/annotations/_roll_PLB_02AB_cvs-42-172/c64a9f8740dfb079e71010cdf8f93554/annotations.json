@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_PLB_02AB_cvs-42-172/c64a9f8740dfb079e71010cdf8f93554/annotations.json",
+  "resources": [
+    {
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-42-172/canvas/c171",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/c64a9f8740dfb079e71010cdf8f93554/ef132d1d-b1b2-4ba8-bdb7-6cafd0641078",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:Roll"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab\">https://omeka.dlcs-ida.org/s/ida/page/topics/roll/plb_02ab</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "plb_02ab"
+        }
+      ]
+    },
+    {
+      "created": "2017-10-14T02:31:23.508Z",
+      "motivation": "oa:tagging",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_PLB_02AB_cvs-42-172/canvas/c171#xywh=2037,51,428,55",
+      "@id": "https://elucidate.dlcs-ida.org/annotation/w3c/c64a9f8740dfb079e71010cdf8f93554/a60edec3-2af8-4b3e-85fa-d68ee74185a1",
+      "@type": "oa:Annotation",
+      "resource": [
+        {
+          "@type": "oa:Tag",
+          "chars": "entity:GPE"
+        },
+        {
+          "chars": "<a href=\"https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:gpe/detroit\">https://omeka.dlcs-ida.org/s/ida/page/topics/virtual:gpe/detroit</a>",
+          "format": "application/html"
+        },
+        {
+          "@type": "oa:Tag",
+          "chars": "Detroit"
+        }
+      ]
+    }
+  ]
+}

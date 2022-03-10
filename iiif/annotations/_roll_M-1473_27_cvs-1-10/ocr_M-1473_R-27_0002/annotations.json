@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1473_27_cvs-1-10/ocr_M-1473_R-27_0002/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/24fb0cf66ec9469b38da5aff84d7786e/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_27_cvs-1-10/canvas/c1#xywh=289,293,1124,46",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "National Archives Microfilm Publication M1473 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/24fb0cf66ec9469b38da5aff84d7786e/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_27_cvs-1-10/canvas/c1#xywh=292,386,1398,48",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "Records Created by the Santa Fe Indian School, 1890- 1918 ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/24fb0cf66ec9469b38da5aff84d7786e/2",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1473_27_cvs-1-10/canvas/c1#xywh=1431,2601,778,58",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "National Archives- Denver Branch ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1986-1987_cvs-1-160/ocr_62b94c29-ba66-4bc0-9fce-8231d21906d6/annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e79e360ab5e19824f4912004134c7094/0",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1986-1987_cvs-1-160/canvas/c156#xywh=2345,3057,183,15",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "PRINTING AND PUBLISHING DIVISON ",
+        "format": "text/plain"
+      }
+    },
+    {
+      "@id": "https://elucidate.dlcs-ida.org/anno/e79e360ab5e19824f4912004134c7094/1",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1986-1987_cvs-1-160/canvas/c156#xywh=2405,3087,127,45",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "chars": "JOSTENS ",
+        "format": "text/plain"
+      }
+    }
+  ]
+}
