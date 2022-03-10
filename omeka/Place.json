@@ -1,0 +1,60 @@
+[
+  {
+    "@context": "https://omeka.dlcs-ida.org/api-context",
+    "@id": "https://omeka.dlcs-ida.org/api/items/1745",
+    "@type": [
+      "o:Item",
+      "schema:Place"
+    ],
+    "o:id": 1745,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "https://omeka.dlcs-ida.org/api/users/65",
+      "o:id": 65
+    },
+    "o:resource_class": {
+      "@id": "https://omeka.dlcs-ida.org/api/resource_classes/144",
+      "o:id": 144
+    },
+    "o:resource_template": {
+      "@id": "https://omeka.dlcs-ida.org/api/resource_templates/8",
+      "o:id": 8
+    },
+    "o:created": {
+      "@value": "2018-10-11T17:58:51+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2018-10-11T17:58:51+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "@value": "Agency Guard House"
+      }
+    ],
+    "schema:mainEntityOfPage": [
+      {
+        "type": "uri",
+        "property_id": 763,
+        "property_label": "mainEntityOfPage",
+        "@id": "https://omeka.dlcs-ida.org/s/ida/page/topics/place/agency+guard+house",
+        "o:label": "Agency+Guard+House"
+      }
+    ],
+    "crowds:uiComponent": [
+      {
+        "type": "uri",
+        "property_id": 1377,
+        "property_label": "uiComponent",
+        "@id": "https://omeka.dlcs-ida.org/s/ida/annotation-studio/open/resource/1305",
+        "o:label": "Resource"
+      }
+    ]
+  }
+]
