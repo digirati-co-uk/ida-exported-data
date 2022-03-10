@@ -211,7 +211,7 @@ def fetch_all_annos():
         harvest_annotations(manifest_f, False)
 
 
-def fetch_all_manifests(collections=("./iiif/collection/rollcollection.json", "./iiif/collection/top.json")):
+def fetch_all_manifests(collections=("./iiif/collection/rollcollection.json", "./iiif/collection/newtop.json")):
     for collpath in collections:
         with open(collpath, "r") as coll_file:
             coll = json.load(coll_file)
