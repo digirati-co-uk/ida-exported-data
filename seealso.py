@@ -92,6 +92,7 @@ def parse_manifest(manifest, text_meta_dir):
             for k, v in anno_content.items():
                 manifest_metadata[k] += v
     manifest["metadata"] = simplify_metadata(manifest_metadata)
+    del manifest["service"]
     return manifest
 
 
