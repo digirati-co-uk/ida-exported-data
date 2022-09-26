@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/ocr/_roll_M-1011_066_cvs-503-524/manifest.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/_roll_M-1011_066_cvs-503-524/manifest.json",
   "@type": "sc:Manifest",
-  "label": "Jicarilla Indian School Superintendent Annual Report, 1918.",
+  "label": "Jicarilla Indian School Superintendent Annual Report, 1918",
   "sequences": [
     {
       "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-503-524/sequence/s0",
@@ -1764,5 +1764,19 @@
       "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-503-524/canvas/c523": "https://manifests.dlcs-ida.org/roll/M-1011/066/canvas/523",
       "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_066_cvs-503-524/canvas/c524": "https://manifests.dlcs-ida.org/roll/M-1011/066/canvas/524"
     }
-  }
+  },
+  "metadata": [
+    {
+      "label": "Series",
+      "value": "M-1011"
+    },
+    {
+      "label": "Roll",
+      "value": "M-1011_066"
+    },
+    {
+      "label": "Tribe",
+      "value": "Jicarilla Apache"
+    }
+  ]
 }
