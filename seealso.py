@@ -164,7 +164,7 @@ def make_collection():
         "/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/ocr/**/manifest.json"
     )
     collection = {
-        "@id": "https://github.com/digirati-co-uk/ida-exported-data/blob/main/iiif/collection/madoc_spike.json",
+        "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/collection/madoc_spike.json",
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "label": "Madoc Spike Collection",
         "@type": "sc:Collection",
