@@ -83,8 +83,10 @@ def simplify_metadata(metadata_dict, filter_keys=("series", "roll", "school", "t
 
 def parse_manifest(manifest, text_meta_dir):
     manifest_metadata = defaultdict(list)
-    for c in manifest["sequences"][0]["canvases"]:
+    for i, c in enumerate(manifest["sequences"][0]["canvases"]):
         c = parse_canvas(c, text_meta_dir=text_meta_dir)
+        if not c.get("label"):
+            c["label"] = f"{i}"
         anno_content = extract_metadata(c)
         if anno_content:
             for k, v in anno_content.items():
