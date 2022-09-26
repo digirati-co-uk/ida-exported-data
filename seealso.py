@@ -84,8 +84,9 @@ def parse_canvas(canvas, text_meta_dir):
             if lines and plain_path:
                 see_alsos.append(
                     {
-                        "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/"
-                        + hocr_path.replace(text_meta_dir, "plaintext")
+                        "@id": hocr_url.replace(
+                            "/ida-starsky-text-meta/", "/plaintext/"
+                        )
                         + ".txt",
                         "format": "text/plain",
                     }
@@ -127,7 +128,8 @@ def parse_manifest(manifest, text_meta_dir, base_dir=os.getcwd()):
         if anno_content:
             for k, v in anno_content.items():
                 manifest_metadata[k] += v
-    manifest["metadata"] = simplify_metadata(manifest_metadata)
+    if new_metadata := simplify_metadata(manifest_metadata):
+        manifest["metadata"] = new_metadata
     if manifest.get("service"):
         del manifest["service"]
     manifest["@id"] = manifest["@id"].replace("idatest01", "ocr")
@@ -137,7 +139,7 @@ def parse_manifest(manifest, text_meta_dir, base_dir=os.getcwd()):
     return manifest, filepath
 
 
-def iterate_dir(manifest_dir, limit=10, dry_run=True):
+def iterate_dir(manifest_dir, limit=20, dry_run=True):
     files = glob.glob(manifest_dir + "/**/manifest.json", recursive=True)
     for file in files[0:limit]:
         manifest = json.load(open(file))
@@ -146,21 +148,45 @@ def iterate_dir(manifest_dir, limit=10, dry_run=True):
             text_meta_dir="/Volumes/MMcG_SSD/Github/ida-exported-data/"
             "backups/ida-starsky-text-meta",
         )
-        if not dry_run:
+        if not dry_run and _manifest.get("metadata"):
             manifest_dir = os.path.dirname(filepath)
             Path(manifest_dir).mkdir(parents=True, exist_ok=True)
             with open(filepath, "w") as manf:
                 json.dump(_manifest, manf, ensure_ascii=False, indent=2)
                 print(_manifest["@id"])
+        else:
+            print("No manifest metadata")
     return files
 
 
-if __name__ == "__main__":
-    f = iterate_dir(
-        "/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/idatest01",
-        limit=10,
-        dry_run=False,
+def make_collection():
+    manifests = glob.glob(
+        "/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/ocr/**/manifest.json"
     )
+    collection = {
+        "@id": "https://github.com/digirati-co-uk/ida-exported-data/blob/main/iiif/collection/madoc_spike.json",
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "label": "Madoc Spike Collection",
+        "@type": "sc:Collection",
+        "members": [],
+    }
+    for manifest in manifests:
+        with open(manifest, "r") as f:
+            m = json.load(f)
+            collection["members"].append(
+                {"@id": m["@id"], "label": m["label"], "@type": "sc:Manifest"}
+            )
+    with open("/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/collection/madoc_spike.json", "w") as c:
+        json.dump(collection, c, indent=2, ensure_ascii=False)
+
+
+if __name__ == "__main__":
+    # f = iterate_dir(
+    #     "/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/idatest01",
+    #     limit=40,
+    #     dry_run=False,
+    # )
+    make_collection()
     # m = requests.get(
     #     "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/"
     #     "_roll_M-1011_066_cvs-503-524/manifest.json"
