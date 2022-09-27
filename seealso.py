@@ -168,7 +168,7 @@ def make_collection():
         "/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/ocr/**/manifest.json"
     )
     collection = {
-        "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/collection/madoc_spike.json",
+        "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/collection/madoc_spike2.json",
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "label": "Madoc Spike Collection",
         "@type": "sc:Collection",
@@ -180,7 +180,7 @@ def make_collection():
             collection["members"].append(
                 {"@id": m["@id"], "label": m["label"], "@type": "sc:Manifest"}
             )
-    with open("/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/collection/madoc_spike.json", "w") as c:
+    with open("/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/collection/madoc_spike2.json", "w") as c:
         json.dump(collection, c, indent=2, ensure_ascii=False)
 
 

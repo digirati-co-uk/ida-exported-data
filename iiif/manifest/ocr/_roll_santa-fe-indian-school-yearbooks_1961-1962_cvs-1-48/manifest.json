@@ -1,0 +1,4117 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/ocr/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/manifest.json",
+  "@type": "sc:Manifest",
+  "metadata": [
+    {
+      "label": "Series",
+      "value": "Santa-Fe-Indian-School-Yearbooks"
+    },
+    {
+      "label": "Roll",
+      "value": "Santa-Fe-Indian-School-Yearbooks_1961-1962"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Default sequence",
+      "canvases": [
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c1",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c5523208-f2cb-4ea8-9cc1-5fdf9aa44d04/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c5523208-f2cb-4ea8-9cc1-5fdf9aa44d04",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3293,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c5523208-f2cb-4ea8-9cc1-5fdf9aa44d04/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c5523208-f2cb-4ea8-9cc1-5fdf9aa44d04/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3293,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c5523208-f2cb-4ea8-9cc1-5fdf9aa44d04",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3293,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c1"
+            }
+          ],
+          "label": "1",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2540&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48%2Fcanvas%2Fc1&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fc5523208-f2cb-4ea8-9cc1-5fdf9aa44d04&height=3293",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c2",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/b5832f9a-b08c-41a5-b668-37471b1c27e4/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/b5832f9a-b08c-41a5-b668-37471b1c27e4",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/b5832f9a-b08c-41a5-b668-37471b1c27e4/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/b5832f9a-b08c-41a5-b668-37471b1c27e4/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/b5832f9a-b08c-41a5-b668-37471b1c27e4",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c2"
+            }
+          ],
+          "label": "2",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_b5832f9a-b08c-41a5-b668-37471b1c27e4/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fb5832f9a-b08c-41a5-b668-37471b1c27e4.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fb5832f9a-b08c-41a5-b668-37471b1c27e4",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c3",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/88a31608-34d3-4946-9f17-2fbaf7382dad/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/88a31608-34d3-4946-9f17-2fbaf7382dad",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3292,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/88a31608-34d3-4946-9f17-2fbaf7382dad/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/88a31608-34d3-4946-9f17-2fbaf7382dad/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3292,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/88a31608-34d3-4946-9f17-2fbaf7382dad",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3292,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c3"
+            }
+          ],
+          "label": "3",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_88a31608-34d3-4946-9f17-2fbaf7382dad/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F88a31608-34d3-4946-9f17-2fbaf7382dad.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F88a31608-34d3-4946-9f17-2fbaf7382dad",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c4",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1004,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1004,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3289,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3289,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3289,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c4"
+            }
+          ],
+          "label": "4",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F4b3da7b6-8c45-452d-b7a0-ca8b9132c7f6",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c5",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/1f503999-0094-4a5a-bc93-58dd735c60b8/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/1f503999-0094-4a5a-bc93-58dd735c60b8",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1004,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1004,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3290,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/1f503999-0094-4a5a-bc93-58dd735c60b8/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/1f503999-0094-4a5a-bc93-58dd735c60b8/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3290,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/1f503999-0094-4a5a-bc93-58dd735c60b8",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3290,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c5"
+            }
+          ],
+          "label": "5",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_1f503999-0094-4a5a-bc93-58dd735c60b8/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F1f503999-0094-4a5a-bc93-58dd735c60b8.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F1f503999-0094-4a5a-bc93-58dd735c60b8",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c6",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/6cc1f317-794f-4d4a-a07a-e1b9f23ac56a/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/6cc1f317-794f-4d4a-a07a-e1b9f23ac56a",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2536,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/6cc1f317-794f-4d4a-a07a-e1b9f23ac56a/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/6cc1f317-794f-4d4a-a07a-e1b9f23ac56a/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2536,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/6cc1f317-794f-4d4a-a07a-e1b9f23ac56a",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2536,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c6"
+            }
+          ],
+          "label": "6",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_6cc1f317-794f-4d4a-a07a-e1b9f23ac56a/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F6cc1f317-794f-4d4a-a07a-e1b9f23ac56a.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F6cc1f317-794f-4d4a-a07a-e1b9f23ac56a",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c7",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/75364767-f58c-4c01-bc9f-8032b7db1976/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/75364767-f58c-4c01-bc9f-8032b7db1976",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/75364767-f58c-4c01-bc9f-8032b7db1976/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/75364767-f58c-4c01-bc9f-8032b7db1976/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/75364767-f58c-4c01-bc9f-8032b7db1976",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c7"
+            }
+          ],
+          "label": "7",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_75364767-f58c-4c01-bc9f-8032b7db1976/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F75364767-f58c-4c01-bc9f-8032b7db1976.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F75364767-f58c-4c01-bc9f-8032b7db1976",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c8",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/db0d088c-595e-4dac-9b7c-ef3c67bace9c/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/db0d088c-595e-4dac-9b7c-ef3c67bace9c",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/db0d088c-595e-4dac-9b7c-ef3c67bace9c/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/db0d088c-595e-4dac-9b7c-ef3c67bace9c/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/db0d088c-595e-4dac-9b7c-ef3c67bace9c",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c8"
+            }
+          ],
+          "label": "8",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_db0d088c-595e-4dac-9b7c-ef3c67bace9c/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fdb0d088c-595e-4dac-9b7c-ef3c67bace9c.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fdb0d088c-595e-4dac-9b7c-ef3c67bace9c",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c9",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c9"
+            }
+          ],
+          "label": "9",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F64fc66ed-5ea2-4e39-b686-1a2c0e4db7dd",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c10",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/eab0be70-2d3d-4501-85df-84c1007b15dc/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/eab0be70-2d3d-4501-85df-84c1007b15dc",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/eab0be70-2d3d-4501-85df-84c1007b15dc/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/eab0be70-2d3d-4501-85df-84c1007b15dc/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/eab0be70-2d3d-4501-85df-84c1007b15dc",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c10"
+            }
+          ],
+          "label": "10",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_eab0be70-2d3d-4501-85df-84c1007b15dc/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Feab0be70-2d3d-4501-85df-84c1007b15dc.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Feab0be70-2d3d-4501-85df-84c1007b15dc",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c11",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c79a805e-e3e7-4ae4-ba60-57047585a671/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c79a805e-e3e7-4ae4-ba60-57047585a671",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3292,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c79a805e-e3e7-4ae4-ba60-57047585a671/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c79a805e-e3e7-4ae4-ba60-57047585a671/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3292,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c79a805e-e3e7-4ae4-ba60-57047585a671",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3292,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c11"
+            }
+          ],
+          "label": "11",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_c79a805e-e3e7-4ae4-ba60-57047585a671/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc79a805e-e3e7-4ae4-ba60-57047585a671.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc79a805e-e3e7-4ae4-ba60-57047585a671",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c12",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/ade5d835-f27d-4b2a-8fc3-2f686c17bd1c/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/ade5d835-f27d-4b2a-8fc3-2f686c17bd1c",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3291,
+          "width": 2537,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/ade5d835-f27d-4b2a-8fc3-2f686c17bd1c/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/ade5d835-f27d-4b2a-8fc3-2f686c17bd1c/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3291,
+                "width": 2537,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/ade5d835-f27d-4b2a-8fc3-2f686c17bd1c",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3291,
+                  "width": 2537,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c12"
+            }
+          ],
+          "label": "12",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_ade5d835-f27d-4b2a-8fc3-2f686c17bd1c/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fade5d835-f27d-4b2a-8fc3-2f686c17bd1c.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fade5d835-f27d-4b2a-8fc3-2f686c17bd1c",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c13",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/49d9fb88-a273-454b-b9f4-2bc13f99997f/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/49d9fb88-a273-454b-b9f4-2bc13f99997f",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/49d9fb88-a273-454b-b9f4-2bc13f99997f/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/49d9fb88-a273-454b-b9f4-2bc13f99997f/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/49d9fb88-a273-454b-b9f4-2bc13f99997f",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c13"
+            }
+          ],
+          "label": "13",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_49d9fb88-a273-454b-b9f4-2bc13f99997f/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F49d9fb88-a273-454b-b9f4-2bc13f99997f.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F49d9fb88-a273-454b-b9f4-2bc13f99997f",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c14",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/7f56a37e-427d-4762-a41e-4e3d45bce982/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/7f56a37e-427d-4762-a41e-4e3d45bce982",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/7f56a37e-427d-4762-a41e-4e3d45bce982/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/7f56a37e-427d-4762-a41e-4e3d45bce982/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/7f56a37e-427d-4762-a41e-4e3d45bce982",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c14"
+            }
+          ],
+          "label": "14",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_7f56a37e-427d-4762-a41e-4e3d45bce982/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F7f56a37e-427d-4762-a41e-4e3d45bce982.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F7f56a37e-427d-4762-a41e-4e3d45bce982",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c15",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/8e3c42e6-6a77-48b0-af3a-eb29ca2ff339/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/8e3c42e6-6a77-48b0-af3a-eb29ca2ff339",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3292,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/8e3c42e6-6a77-48b0-af3a-eb29ca2ff339/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/8e3c42e6-6a77-48b0-af3a-eb29ca2ff339/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3292,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/8e3c42e6-6a77-48b0-af3a-eb29ca2ff339",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3292,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c15"
+            }
+          ],
+          "label": "15",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_8e3c42e6-6a77-48b0-af3a-eb29ca2ff339/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F8e3c42e6-6a77-48b0-af3a-eb29ca2ff339.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F8e3c42e6-6a77-48b0-af3a-eb29ca2ff339",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c16",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/fc370f6e-fe0f-483c-bf87-100ad46ce08d/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/fc370f6e-fe0f-483c-bf87-100ad46ce08d",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1004,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1004,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3290,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/fc370f6e-fe0f-483c-bf87-100ad46ce08d/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/fc370f6e-fe0f-483c-bf87-100ad46ce08d/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3290,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/fc370f6e-fe0f-483c-bf87-100ad46ce08d",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3290,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c16"
+            }
+          ],
+          "label": "16",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_fc370f6e-fe0f-483c-bf87-100ad46ce08d/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ffc370f6e-fe0f-483c-bf87-100ad46ce08d.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ffc370f6e-fe0f-483c-bf87-100ad46ce08d",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c17",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/19cf7376-698a-4bd9-bc5a-4d027318696a/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/19cf7376-698a-4bd9-bc5a-4d027318696a",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3298,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/19cf7376-698a-4bd9-bc5a-4d027318696a/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/19cf7376-698a-4bd9-bc5a-4d027318696a/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3298,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/19cf7376-698a-4bd9-bc5a-4d027318696a",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3298,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c17"
+            }
+          ],
+          "label": "17",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_19cf7376-698a-4bd9-bc5a-4d027318696a/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F19cf7376-698a-4bd9-bc5a-4d027318696a.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F19cf7376-698a-4bd9-bc5a-4d027318696a",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c18",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/07312d7d-b75c-4a7f-97cf-72302e5a5b29/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/07312d7d-b75c-4a7f-97cf-72302e5a5b29",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3291,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/07312d7d-b75c-4a7f-97cf-72302e5a5b29/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/07312d7d-b75c-4a7f-97cf-72302e5a5b29/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3291,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/07312d7d-b75c-4a7f-97cf-72302e5a5b29",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3291,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c18"
+            }
+          ],
+          "label": "18",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_07312d7d-b75c-4a7f-97cf-72302e5a5b29/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F07312d7d-b75c-4a7f-97cf-72302e5a5b29.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F07312d7d-b75c-4a7f-97cf-72302e5a5b29",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c19",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/5e66b279-2260-4760-a91c-699e09de6d5a/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/5e66b279-2260-4760-a91c-699e09de6d5a",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3293,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/5e66b279-2260-4760-a91c-699e09de6d5a/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/5e66b279-2260-4760-a91c-699e09de6d5a/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3293,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/5e66b279-2260-4760-a91c-699e09de6d5a",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3293,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c19"
+            }
+          ],
+          "label": "19",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_5e66b279-2260-4760-a91c-699e09de6d5a/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F5e66b279-2260-4760-a91c-699e09de6d5a.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F5e66b279-2260-4760-a91c-699e09de6d5a",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c20",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/8af01447-09a5-4362-8c8a-2cf9d35a0943/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/8af01447-09a5-4362-8c8a-2cf9d35a0943",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3293,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/8af01447-09a5-4362-8c8a-2cf9d35a0943/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/8af01447-09a5-4362-8c8a-2cf9d35a0943/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3293,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/8af01447-09a5-4362-8c8a-2cf9d35a0943",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3293,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c20"
+            }
+          ],
+          "label": "20",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_8af01447-09a5-4362-8c8a-2cf9d35a0943/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F8af01447-09a5-4362-8c8a-2cf9d35a0943.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F8af01447-09a5-4362-8c8a-2cf9d35a0943",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c21",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/679817b1-0fc9-47b8-907c-59a12d98f1cd/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/679817b1-0fc9-47b8-907c-59a12d98f1cd",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/679817b1-0fc9-47b8-907c-59a12d98f1cd/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/679817b1-0fc9-47b8-907c-59a12d98f1cd/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/679817b1-0fc9-47b8-907c-59a12d98f1cd",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c21"
+            }
+          ],
+          "label": "21",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_679817b1-0fc9-47b8-907c-59a12d98f1cd/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F679817b1-0fc9-47b8-907c-59a12d98f1cd.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F679817b1-0fc9-47b8-907c-59a12d98f1cd",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c22",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/785e2058-0794-4148-a5cf-051cdde39570/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/785e2058-0794-4148-a5cf-051cdde39570",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/785e2058-0794-4148-a5cf-051cdde39570/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/785e2058-0794-4148-a5cf-051cdde39570/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/785e2058-0794-4148-a5cf-051cdde39570",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c22"
+            }
+          ],
+          "label": "22",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_785e2058-0794-4148-a5cf-051cdde39570/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F785e2058-0794-4148-a5cf-051cdde39570.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F785e2058-0794-4148-a5cf-051cdde39570",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c23",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/807fba27-20a6-4682-b982-3c944e1c4b04/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/807fba27-20a6-4682-b982-3c944e1c4b04",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3292,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/807fba27-20a6-4682-b982-3c944e1c4b04/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/807fba27-20a6-4682-b982-3c944e1c4b04/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3292,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/807fba27-20a6-4682-b982-3c944e1c4b04",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3292,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c23"
+            }
+          ],
+          "label": "23",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_807fba27-20a6-4682-b982-3c944e1c4b04/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F807fba27-20a6-4682-b982-3c944e1c4b04.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F807fba27-20a6-4682-b982-3c944e1c4b04",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c24",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c82762af-4fc2-4da8-a60a-48a23b14024c/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c82762af-4fc2-4da8-a60a-48a23b14024c",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3290,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c82762af-4fc2-4da8-a60a-48a23b14024c/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c82762af-4fc2-4da8-a60a-48a23b14024c/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3290,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c82762af-4fc2-4da8-a60a-48a23b14024c",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3290,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c24"
+            }
+          ],
+          "label": "24",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_c82762af-4fc2-4da8-a60a-48a23b14024c/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/bf5a2027425daa24134069989e0d1350/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc82762af-4fc2-4da8-a60a-48a23b14024c.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc82762af-4fc2-4da8-a60a-48a23b14024c",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c25",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/7d6b176d-89ad-43d0-8755-e8508b30e528/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/7d6b176d-89ad-43d0-8755-e8508b30e528",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3291,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/7d6b176d-89ad-43d0-8755-e8508b30e528/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/7d6b176d-89ad-43d0-8755-e8508b30e528/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3291,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/7d6b176d-89ad-43d0-8755-e8508b30e528",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3291,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c25"
+            }
+          ],
+          "label": "25",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_7d6b176d-89ad-43d0-8755-e8508b30e528/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/474b655d246f5b013d47955c5e5862dd/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F7d6b176d-89ad-43d0-8755-e8508b30e528.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F7d6b176d-89ad-43d0-8755-e8508b30e528",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c26",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c67b47fa-82c5-4866-83c7-41d04fedba8d/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c67b47fa-82c5-4866-83c7-41d04fedba8d",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1004,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1004,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3289,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c67b47fa-82c5-4866-83c7-41d04fedba8d/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c67b47fa-82c5-4866-83c7-41d04fedba8d/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3289,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c67b47fa-82c5-4866-83c7-41d04fedba8d",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3289,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c26"
+            }
+          ],
+          "label": "26",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_c67b47fa-82c5-4866-83c7-41d04fedba8d/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc67b47fa-82c5-4866-83c7-41d04fedba8d.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc67b47fa-82c5-4866-83c7-41d04fedba8d",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c27",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/de076fb2-bb9c-4d9d-8ac8-f847c456b172/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/de076fb2-bb9c-4d9d-8ac8-f847c456b172",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3293,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/de076fb2-bb9c-4d9d-8ac8-f847c456b172/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/de076fb2-bb9c-4d9d-8ac8-f847c456b172/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3293,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/de076fb2-bb9c-4d9d-8ac8-f847c456b172",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3293,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c27"
+            }
+          ],
+          "label": "27",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_de076fb2-bb9c-4d9d-8ac8-f847c456b172/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/3579a8cb2bcf7a762b91fb4465580e4e/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fde076fb2-bb9c-4d9d-8ac8-f847c456b172.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fde076fb2-bb9c-4d9d-8ac8-f847c456b172",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c28",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/253a86d7-23b9-4094-b785-1a83f78d615c/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/253a86d7-23b9-4094-b785-1a83f78d615c",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1005,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1005,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3286,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/253a86d7-23b9-4094-b785-1a83f78d615c/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/253a86d7-23b9-4094-b785-1a83f78d615c/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3286,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/253a86d7-23b9-4094-b785-1a83f78d615c",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3286,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c28"
+            }
+          ],
+          "label": "28",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_253a86d7-23b9-4094-b785-1a83f78d615c/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/a06a43d3a0dc3b74f260965090985a30/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F253a86d7-23b9-4094-b785-1a83f78d615c.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F253a86d7-23b9-4094-b785-1a83f78d615c",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c29",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/d2152331-7a90-413e-b6d7-79b705a8f122/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/d2152331-7a90-413e-b6d7-79b705a8f122",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3294,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/d2152331-7a90-413e-b6d7-79b705a8f122/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/d2152331-7a90-413e-b6d7-79b705a8f122/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3294,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/d2152331-7a90-413e-b6d7-79b705a8f122",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3294,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c29"
+            }
+          ],
+          "label": "29",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_d2152331-7a90-413e-b6d7-79b705a8f122/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/2ed113fe269a0e7034902004236d9f6b/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fd2152331-7a90-413e-b6d7-79b705a8f122.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fd2152331-7a90-413e-b6d7-79b705a8f122",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c30",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/78a0b059-9acc-412c-9ac6-2b9c42d9af85/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/78a0b059-9acc-412c-9ac6-2b9c42d9af85",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3292,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/78a0b059-9acc-412c-9ac6-2b9c42d9af85/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/78a0b059-9acc-412c-9ac6-2b9c42d9af85/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3292,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/78a0b059-9acc-412c-9ac6-2b9c42d9af85",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3292,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c30"
+            }
+          ],
+          "label": "30",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_78a0b059-9acc-412c-9ac6-2b9c42d9af85/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/24075ccb30ec81aa13f920f8f0a81927/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F78a0b059-9acc-412c-9ac6-2b9c42d9af85.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F78a0b059-9acc-412c-9ac6-2b9c42d9af85",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c31",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/f33bb60d-29d9-4731-ab3c-a6da1eb36df6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/f33bb60d-29d9-4731-ab3c-a6da1eb36df6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3297,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/f33bb60d-29d9-4731-ab3c-a6da1eb36df6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/f33bb60d-29d9-4731-ab3c-a6da1eb36df6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3297,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/f33bb60d-29d9-4731-ab3c-a6da1eb36df6",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3297,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c31"
+            }
+          ],
+          "label": "31",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_f33bb60d-29d9-4731-ab3c-a6da1eb36df6/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ff33bb60d-29d9-4731-ab3c-a6da1eb36df6.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ff33bb60d-29d9-4731-ab3c-a6da1eb36df6",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c32",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/a77c0686-66fc-4a38-9e6e-d9170764aac1/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/a77c0686-66fc-4a38-9e6e-d9170764aac1",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3295,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/a77c0686-66fc-4a38-9e6e-d9170764aac1/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/a77c0686-66fc-4a38-9e6e-d9170764aac1/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3295,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/a77c0686-66fc-4a38-9e6e-d9170764aac1",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3295,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c32"
+            }
+          ],
+          "label": "32",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_a77c0686-66fc-4a38-9e6e-d9170764aac1/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fa77c0686-66fc-4a38-9e6e-d9170764aac1.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fa77c0686-66fc-4a38-9e6e-d9170764aac1",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c33",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/cc4c903e-33a8-4a0a-8fa1-091f560e6214/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/cc4c903e-33a8-4a0a-8fa1-091f560e6214",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/cc4c903e-33a8-4a0a-8fa1-091f560e6214/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/cc4c903e-33a8-4a0a-8fa1-091f560e6214/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/cc4c903e-33a8-4a0a-8fa1-091f560e6214",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c33"
+            }
+          ],
+          "label": "33",
+          "otherContent": [
+            {
+              "@id": "https://transcriptions.dlcs-ida.org/annotations/line/?width=2539&canvas=https%3A%2F%2Fpresley.dlcs-ida.org%2Fiiif%2Fidatest01%2F_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48%2Fcanvas%2Fc33&image=https%3A%2F%2Fdlcs-ida.org%2Fiiif-img%2F2%2F1%2Fcc4c903e-33a8-4a0a-8fa1-091f560e6214&height=3296",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c34",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/06f66c43-0cea-456f-b387-46bfda0363d3/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/06f66c43-0cea-456f-b387-46bfda0363d3",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1004,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1004,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3290,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/06f66c43-0cea-456f-b387-46bfda0363d3/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/06f66c43-0cea-456f-b387-46bfda0363d3/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3290,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/06f66c43-0cea-456f-b387-46bfda0363d3",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3290,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c34"
+            }
+          ],
+          "label": "34",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_06f66c43-0cea-456f-b387-46bfda0363d3/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/5d8f26586866c40bcad13fb9ec0c0da8/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F06f66c43-0cea-456f-b387-46bfda0363d3.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F06f66c43-0cea-456f-b387-46bfda0363d3",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c35",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/d0194b90-f2f7-4295-b9b1-5652ed6b0cbc/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/d0194b90-f2f7-4295-b9b1-5652ed6b0cbc",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1004,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1004,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3289,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/d0194b90-f2f7-4295-b9b1-5652ed6b0cbc/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/d0194b90-f2f7-4295-b9b1-5652ed6b0cbc/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3289,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/d0194b90-f2f7-4295-b9b1-5652ed6b0cbc",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3289,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c35"
+            }
+          ],
+          "label": "35",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_d0194b90-f2f7-4295-b9b1-5652ed6b0cbc/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/572a14033eeacb0c0040dfe6b02c16a2/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fd0194b90-f2f7-4295-b9b1-5652ed6b0cbc.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fd0194b90-f2f7-4295-b9b1-5652ed6b0cbc",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c36",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/1a5e4feb-48bf-4656-84c4-d465532d33fe/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/1a5e4feb-48bf-4656-84c4-d465532d33fe",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2537,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/1a5e4feb-48bf-4656-84c4-d465532d33fe/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/1a5e4feb-48bf-4656-84c4-d465532d33fe/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2537,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/1a5e4feb-48bf-4656-84c4-d465532d33fe",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2537,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c36"
+            }
+          ],
+          "label": "36",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_1a5e4feb-48bf-4656-84c4-d465532d33fe/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F1a5e4feb-48bf-4656-84c4-d465532d33fe.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F1a5e4feb-48bf-4656-84c4-d465532d33fe",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c37",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/e76cf252-8a64-4f50-95f3-40fc707be9ad/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/e76cf252-8a64-4f50-95f3-40fc707be9ad",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1000,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1000,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3298,
+          "width": 2537,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/e76cf252-8a64-4f50-95f3-40fc707be9ad/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/e76cf252-8a64-4f50-95f3-40fc707be9ad/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3298,
+                "width": 2537,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/e76cf252-8a64-4f50-95f3-40fc707be9ad",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3298,
+                  "width": 2537,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c37"
+            }
+          ],
+          "label": "37",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_e76cf252-8a64-4f50-95f3-40fc707be9ad/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/b705c648cc3f0f8149e891afb2f171ce/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fe76cf252-8a64-4f50-95f3-40fc707be9ad.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fe76cf252-8a64-4f50-95f3-40fc707be9ad",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c38",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/b3465025-41d3-4e51-a4f9-b8ab56fdb11c/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/b3465025-41d3-4e51-a4f9-b8ab56fdb11c",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/b3465025-41d3-4e51-a4f9-b8ab56fdb11c/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/b3465025-41d3-4e51-a4f9-b8ab56fdb11c/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/b3465025-41d3-4e51-a4f9-b8ab56fdb11c",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c38"
+            }
+          ],
+          "label": "38",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_b3465025-41d3-4e51-a4f9-b8ab56fdb11c/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/2f6b4b258b7e3b33e329b4238bc0a8e1/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fb3465025-41d3-4e51-a4f9-b8ab56fdb11c.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fb3465025-41d3-4e51-a4f9-b8ab56fdb11c",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c39",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/1ad81efd-8b37-4f00-aa94-0261ee4fbc62/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/1ad81efd-8b37-4f00-aa94-0261ee4fbc62",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3296,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/1ad81efd-8b37-4f00-aa94-0261ee4fbc62/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/1ad81efd-8b37-4f00-aa94-0261ee4fbc62/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3296,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/1ad81efd-8b37-4f00-aa94-0261ee4fbc62",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3296,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c39"
+            }
+          ],
+          "label": "39",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_1ad81efd-8b37-4f00-aa94-0261ee4fbc62/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F1ad81efd-8b37-4f00-aa94-0261ee4fbc62.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F1ad81efd-8b37-4f00-aa94-0261ee4fbc62",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c40",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/73d20668-84ac-40ea-bfef-cb6d0e01fc0a/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/73d20668-84ac-40ea-bfef-cb6d0e01fc0a",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1001,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1001,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 115,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3299,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/73d20668-84ac-40ea-bfef-cb6d0e01fc0a/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/73d20668-84ac-40ea-bfef-cb6d0e01fc0a/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3299,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/73d20668-84ac-40ea-bfef-cb6d0e01fc0a",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3299,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c40"
+            }
+          ],
+          "label": "40",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_73d20668-84ac-40ea-bfef-cb6d0e01fc0a/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F73d20668-84ac-40ea-bfef-cb6d0e01fc0a.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F73d20668-84ac-40ea-bfef-cb6d0e01fc0a",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c41",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/a2c5ff98-3a53-4d30-94fc-be96c65fba45/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/a2c5ff98-3a53-4d30-94fc-be96c65fba45",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1007,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1007,
+                  "height": 1300
+                },
+                {
+                  "width": 310,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3281,
+          "width": 2541,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/a2c5ff98-3a53-4d30-94fc-be96c65fba45/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/a2c5ff98-3a53-4d30-94fc-be96c65fba45/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3281,
+                "width": 2541,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/a2c5ff98-3a53-4d30-94fc-be96c65fba45",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3281,
+                  "width": 2541,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c41"
+            }
+          ],
+          "label": "41",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_a2c5ff98-3a53-4d30-94fc-be96c65fba45/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/42572c809d16e2eacfe051ac18060cce/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fa2c5ff98-3a53-4d30-94fc-be96c65fba45.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fa2c5ff98-3a53-4d30-94fc-be96c65fba45",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c42",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/d833fc8f-4aeb-499b-9310-718cc9bdaf33/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/d833fc8f-4aeb-499b-9310-718cc9bdaf33",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3291,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/d833fc8f-4aeb-499b-9310-718cc9bdaf33/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/d833fc8f-4aeb-499b-9310-718cc9bdaf33/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3291,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/d833fc8f-4aeb-499b-9310-718cc9bdaf33",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3291,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c42"
+            }
+          ],
+          "label": "42",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_d833fc8f-4aeb-499b-9310-718cc9bdaf33/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/c6ad79a1ec171ba4ab156549375c3e4c/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fd833fc8f-4aeb-499b-9310-718cc9bdaf33.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fd833fc8f-4aeb-499b-9310-718cc9bdaf33",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c43",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/ede89796-fdad-4b49-b402-7b1f1dba221d/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/ede89796-fdad-4b49-b402-7b1f1dba221d",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1002,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1002,
+                  "height": 1300
+                },
+                {
+                  "width": 308,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3294,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/ede89796-fdad-4b49-b402-7b1f1dba221d/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/ede89796-fdad-4b49-b402-7b1f1dba221d/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3294,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/ede89796-fdad-4b49-b402-7b1f1dba221d",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3294,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c43"
+            }
+          ],
+          "label": "43",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_ede89796-fdad-4b49-b402-7b1f1dba221d/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fede89796-fdad-4b49-b402-7b1f1dba221d.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fede89796-fdad-4b49-b402-7b1f1dba221d",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c44",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/fd8ba860-2a5b-4ab3-9cf2-260a17853134/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/fd8ba860-2a5b-4ab3-9cf2-260a17853134",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3293,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/fd8ba860-2a5b-4ab3-9cf2-260a17853134/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/fd8ba860-2a5b-4ab3-9cf2-260a17853134/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3293,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/fd8ba860-2a5b-4ab3-9cf2-260a17853134",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3293,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c44"
+            }
+          ],
+          "label": "44",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_fd8ba860-2a5b-4ab3-9cf2-260a17853134/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/6465a961fa5d363ebb6404f3ca574c67/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ffd8ba860-2a5b-4ab3-9cf2-260a17853134.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ffd8ba860-2a5b-4ab3-9cf2-260a17853134",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c45",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c73f139b-89f6-420c-9afe-dfe035b5d562/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c73f139b-89f6-420c-9afe-dfe035b5d562",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3291,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c73f139b-89f6-420c-9afe-dfe035b5d562/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c73f139b-89f6-420c-9afe-dfe035b5d562/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3291,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c73f139b-89f6-420c-9afe-dfe035b5d562",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3291,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c45"
+            }
+          ],
+          "label": "45",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_c73f139b-89f6-420c-9afe-dfe035b5d562/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc73f139b-89f6-420c-9afe-dfe035b5d562.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc73f139b-89f6-420c-9afe-dfe035b5d562",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c46",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/cd5af87c-9c44-406d-9fdc-30372bd7c775/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/cd5af87c-9c44-406d-9fdc-30372bd7c775",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1003,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1003,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3291,
+          "width": 2539,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/cd5af87c-9c44-406d-9fdc-30372bd7c775/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/cd5af87c-9c44-406d-9fdc-30372bd7c775/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3291,
+                "width": 2539,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/cd5af87c-9c44-406d-9fdc-30372bd7c775",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3291,
+                  "width": 2539,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c46"
+            }
+          ],
+          "label": "46",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_cd5af87c-9c44-406d-9fdc-30372bd7c775/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/b28e5cf5564b60321db1d6cbd4a29d47/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fcd5af87c-9c44-406d-9fdc-30372bd7c775.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fcd5af87c-9c44-406d-9fdc-30372bd7c775",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c47",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/f532333a-7af0-4b2c-ba3e-351109bb1550/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/f532333a-7af0-4b2c-ba3e-351109bb1550",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1006,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1006,
+                  "height": 1300
+                },
+                {
+                  "width": 310,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3279,
+          "width": 2538,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/f532333a-7af0-4b2c-ba3e-351109bb1550/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/f532333a-7af0-4b2c-ba3e-351109bb1550/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3279,
+                "width": 2538,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/f532333a-7af0-4b2c-ba3e-351109bb1550",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3279,
+                  "width": 2538,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c47"
+            }
+          ],
+          "label": "47",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_f532333a-7af0-4b2c-ba3e-351109bb1550/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/58d187412e6a9784b779d0449e65c8e1/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ff532333a-7af0-4b2c-ba3e-351109bb1550.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ff532333a-7af0-4b2c-ba3e-351109bb1550",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c48",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/abe7e73a-d00b-47ca-a4e0-f69e4bfef786/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/abe7e73a-d00b-47ca-a4e0-f69e4bfef786",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1004,
+              "height": 1300,
+              "sizes": [
+                {
+                  "width": 1004,
+                  "height": 1300
+                },
+                {
+                  "width": 309,
+                  "height": 400
+                },
+                {
+                  "width": 116,
+                  "height": 150
+                }
+              ]
+            }
+          },
+          "height": 3290,
+          "width": 2540,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/abe7e73a-d00b-47ca-a4e0-f69e4bfef786/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/abe7e73a-d00b-47ca-a4e0-f69e4bfef786/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3290,
+                "width": 2540,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/abe7e73a-d00b-47ca-a4e0-f69e4bfef786",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3290,
+                  "width": 2540,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/canvas/c48"
+            }
+          ],
+          "label": "48",
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/ocr_abe7e73a-d00b-47ca-a4e0-f69e4bfef786/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_santa-fe-indian-school-yearbooks_1961-1962_cvs-1-48/cd7c049c0a81b90bfce399a521b296b4/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fabe7e73a-d00b-47ca-a4e0-f69e4bfef786.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fabe7e73a-d00b-47ca-a4e0-f69e4bfef786",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attribution": "<a href=\"https://www.sfis.k12.nm.us\">From the Santa Fe Indian School Library</a>",
+  "title": "Santa Fe Indian School Yearbooks, 1961-1962.",
+  "label": "Santa Fe Indian School Yearbooks, 1961-1962."
+}
