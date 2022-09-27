@@ -7,6 +7,7 @@ import glob
 from lxml import html
 import re
 from pathlib import Path
+import random
 
 
 def find_url(img_resource, search_dir):
@@ -69,7 +70,6 @@ def parse_canvas(canvas, text_meta_dir):
         try:
             hocr_url, hocr_path = find_url(resource, text_meta_dir)
         except TypeError:
-            print("Shit")
             print(resource)
         if hocr_path:
             doc = html.parse(hocr_path)
@@ -139,9 +139,13 @@ def parse_manifest(manifest, text_meta_dir, base_dir=os.getcwd()):
     return manifest, filepath
 
 
-def iterate_dir(manifest_dir, limit=20, dry_run=True):
+def iterate_dir(manifest_dir, limit=40, dry_run=True, rnd=True):
     files = glob.glob(manifest_dir + "/**/manifest.json", recursive=True)
-    for file in files[0:limit]:
+    if rnd:
+        file_choices = random.choices(files, k=limit)
+    else:
+        file_choices = files[0:limit]
+    for file in file_choices:
         manifest = json.load(open(file))
         _manifest, filepath = parse_manifest(
             manifest=manifest,
@@ -181,11 +185,11 @@ def make_collection():
 
 
 if __name__ == "__main__":
-    # f = iterate_dir(
-    #     "/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/idatest01",
-    #     limit=40,
-    #     dry_run=False,
-    # )
+    f = iterate_dir(
+        "/Volumes/MMcG_SSD/Github/ida-exported-data/iiif/manifest/idatest01",
+        limit=40,
+        dry_run=False,
+    )
     make_collection()
     # m = requests.get(
     #     "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/"
