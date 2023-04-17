@@ -8,6 +8,7 @@ from lxml import html
 import re
 from pathlib import Path
 import random
+import tqdm
 
 
 def find_url(img_resource, search_dir):
@@ -92,7 +93,7 @@ def parse_canvas(canvas, text_meta_dir):
                     }
                 )
             with open(plain_path, "w", encoding="utf-8") as pf:
-                pf.writelines(lines)
+                pf.writelines(line + "\n" for line in lines)
         if hocr_url:
             see_alsos.append(
                 {
@@ -145,7 +146,7 @@ def iterate_dir(manifest_dir, limit=40, dry_run=True, rnd=True, num=1):
         file_choices = random.choices(files, k=limit)
     else:
         file_choices = files[0:limit]
-    for file in file_choices:
+    for file in tqdm.tqdm(file_choices):
         manifest = json.load(open(file))
         _manifest, filepath = parse_manifest(
             manifest=manifest,
@@ -190,14 +191,22 @@ def make_collection(num=1):
 
 
 if __name__ == "__main__":
-    for n in range(6, 10):
-        f = iterate_dir(
-            "/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/idatest01",
-            limit=40,
-            dry_run=False,
-            num=n
-        )
-        make_collection(num=n)
+    # for n in range(6, 10):
+    #     f = iterate_dir(
+    #         "/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/idatest01",
+    #         limit=40,
+    #         dry_run=False,
+    #         num=n
+    #     )
+    #     make_collection(num=n)
+    f = iterate_dir(
+        "/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/idatest01",
+        limit=1000,
+        dry_run=False,
+        num=0,
+        rnd=False
+    )
+    make_collection(num=0)
     # m = requests.get(
     #     "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/"
     #     "_roll_M-1011_066_cvs-503-524/manifest.json"
