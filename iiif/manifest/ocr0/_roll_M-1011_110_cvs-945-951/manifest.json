@@ -1,0 +1,623 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/ocr0/_roll_M-1011_110_cvs-945-951/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Eastern Navajo Agency Statistical Report, 1926",
+  "sequences": [
+    {
+      "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Default sequence",
+      "canvases": [
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c945",
+          "@type": "sc:Canvas",
+          "height": 2376,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c945",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 2376,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65",
+                  "height": 2376,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3104
+                },
+                "width": 3104
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/cb4504d7-f113-42b2-bb5f-b67638341f65",
+              "height": 995,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 115,
+                  "width": 150
+                },
+                {
+                  "height": 306,
+                  "width": 400
+                },
+                {
+                  "height": 995,
+                  "width": 1300
+                }
+              ],
+              "width": 1300
+            }
+          },
+          "width": 3104,
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/ocr_cb4504d7-f113-42b2-bb5f-b67638341f65/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fcb4504d7-f113-42b2-bb5f-b67638341f65.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fcb4504d7-f113-42b2-bb5f-b67638341f65",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ],
+          "label": "0"
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c946",
+          "@type": "sc:Canvas",
+          "height": 3104,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c946",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3104,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6",
+                  "height": 3104,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2352
+                },
+                "width": 2352
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/9c605a20-eaa9-4862-8186-75cb4e7b08c6",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 114
+                },
+                {
+                  "height": 400,
+                  "width": 303
+                },
+                {
+                  "height": 1300,
+                  "width": 985
+                }
+              ],
+              "width": 985
+            }
+          },
+          "width": 2352,
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/ocr_9c605a20-eaa9-4862-8186-75cb4e7b08c6/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/fabe4e07e1dfb608a23246af079e63cd/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F9c605a20-eaa9-4862-8186-75cb4e7b08c6.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F9c605a20-eaa9-4862-8186-75cb4e7b08c6",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ],
+          "label": "1"
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c947",
+          "@type": "sc:Canvas",
+          "height": 2360,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/35a085fc-4dee-43f2-a248-7b6430660916/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c947",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/35a085fc-4dee-43f2-a248-7b6430660916/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 2360,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/35a085fc-4dee-43f2-a248-7b6430660916",
+                  "height": 2360,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3104
+                },
+                "width": 3104
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/35a085fc-4dee-43f2-a248-7b6430660916/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/35a085fc-4dee-43f2-a248-7b6430660916",
+              "height": 988,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 114,
+                  "width": 150
+                },
+                {
+                  "height": 304,
+                  "width": 400
+                },
+                {
+                  "height": 988,
+                  "width": 1300
+                }
+              ],
+              "width": 1300
+            }
+          },
+          "width": 3104,
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/ocr_35a085fc-4dee-43f2-a248-7b6430660916/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F35a085fc-4dee-43f2-a248-7b6430660916.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F35a085fc-4dee-43f2-a248-7b6430660916",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ],
+          "label": "2"
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c948",
+          "@type": "sc:Canvas",
+          "height": 3112,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c948",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3112,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5",
+                  "height": 3112,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2352
+                },
+                "width": 2352
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/67c10dcd-b961-4d79-9616-cd76255fa6d5",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 113
+                },
+                {
+                  "height": 400,
+                  "width": 302
+                },
+                {
+                  "height": 1300,
+                  "width": 983
+                }
+              ],
+              "width": 983
+            }
+          },
+          "width": 2352,
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/ocr_67c10dcd-b961-4d79-9616-cd76255fa6d5/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F67c10dcd-b961-4d79-9616-cd76255fa6d5.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F67c10dcd-b961-4d79-9616-cd76255fa6d5",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ],
+          "label": "3"
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c949",
+          "@type": "sc:Canvas",
+          "height": 3104,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c949",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3104,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33",
+                  "height": 3104,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2360
+                },
+                "width": 2360
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/9b8e39e2-739c-4ca6-bbd8-895e778c5f33",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 114
+                },
+                {
+                  "height": 400,
+                  "width": 304
+                },
+                {
+                  "height": 1300,
+                  "width": 988
+                }
+              ],
+              "width": 988
+            }
+          },
+          "width": 2360,
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/ocr_9b8e39e2-739c-4ca6-bbd8-895e778c5f33/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/bdb219dbff5a0e90078df0fcb467bbb3/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Named Entity Extraction Annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F9b8e39e2-739c-4ca6-bbd8-895e778c5f33.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252F9b8e39e2-739c-4ca6-bbd8-895e778c5f33",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ],
+          "label": "4"
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c950",
+          "@type": "sc:Canvas",
+          "height": 3104,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c950",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3104,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b",
+                  "height": 3104,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2360
+                },
+                "width": 2360
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/f44e5cc3-d6b2-4e65-9759-4fc40583652b",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 114
+                },
+                {
+                  "height": 400,
+                  "width": 304
+                },
+                {
+                  "height": 1300,
+                  "width": 988
+                }
+              ],
+              "width": 988
+            }
+          },
+          "width": 2360,
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/ocr_f44e5cc3-d6b2-4e65-9759-4fc40583652b/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ff44e5cc3-d6b2-4e65-9759-4fc40583652b.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Ff44e5cc3-d6b2-4e65-9759-4fc40583652b",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ],
+          "label": "5"
+        },
+        {
+          "@id": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c951",
+          "@type": "sc:Canvas",
+          "height": 3112,
+          "images": [
+            {
+              "@id": "https://dlcs-ida.org/iiif-img/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://presley.dlcs-ida.org/iiif/idatest01/_roll_M-1011_110_cvs-945-951/canvas/c951",
+              "resource": {
+                "@id": "https://dlcs-ida.org/iiif-img/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3112,
+                "service": {
+                  "@id": "https://dlcs-ida.org/iiif-img/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d",
+                  "height": 3112,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2352
+                },
+                "width": 2352
+              }
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://dlcs-ida.org/thumbs/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-ida.org/thumbs/2/1/c0cccc05-1635-45d3-9bbe-213cbb02654d",
+              "height": 1300,
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "sizes": [
+                {
+                  "height": 150,
+                  "width": 113
+                },
+                {
+                  "height": 400,
+                  "width": 302
+                },
+                {
+                  "height": 1300,
+                  "width": 983
+                }
+              ],
+              "width": 983
+            }
+          },
+          "width": 2352,
+          "otherContent": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/iiif/annotations/_roll_M-1011_110_cvs-945-951/ocr_c0cccc05-1635-45d3-9bbe-213cbb02654d/annotations.json",
+              "@type": "sc:AnnotationList",
+              "label": "Transcription annotations"
+            }
+          ],
+          "seeAlso": [
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/plaintext/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc0cccc05-1635-45d3-9bbe-213cbb02654d.txt",
+              "format": "text/plain"
+            },
+            {
+              "@id": "https://digirati-co-uk.github.io/ida-exported-data/backups/ida-starsky-text-meta/https%253A%252F%252Fdlcs-ida.org%252Fiiif-img%252F2%252F1%252Fc0cccc05-1635-45d3-9bbe-213cbb02654d",
+              "format": "text/vnd.hocr+html",
+              "profile": "http://kba.github.io/hocr-spec/"
+            }
+          ],
+          "label": "6"
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": "Series",
+      "value": "M-1011"
+    },
+    {
+      "label": "Roll",
+      "value": "M-1011_110"
+    }
+  ]
+}
