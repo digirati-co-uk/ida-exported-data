@@ -152,7 +152,7 @@ def iterate_dir(manifest_dir, limit=40, dry_run=True, rnd=True, num=1):
             manifest=manifest,
             text_meta_dir="/Users/matt.mcgrattan/code/ida-exported-data/"
             "backups/ida-starsky-text-meta",
-            num=num
+            num=num,
         )
         if not dry_run and _manifest.get("metadata"):
             manifest_dir = os.path.dirname(filepath)
@@ -190,7 +190,108 @@ def make_collection(num=1):
         json.dump(collection, c, indent=2, ensure_ascii=False)
 
 
+def make_series_roll_collections(update_roll_manifests=False):
+    manifests = glob.glob(
+        f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/ocr*/**/manifest.json"
+    )
+    # defaultdict of defaultdicts of lists
+    roll_manifests = glob.glob(
+        f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/roll/*/**/manifest.json"
+    )
+    series_roll = defaultdict(lambda: defaultdict(lambda: []))
+    for manifest in manifests:
+        series = [
+            x["value"].upper()
+            for x in json.load(open(manifest)).get("metadata")
+            if x["label"] == "Series"
+        ]
+        roll = [
+            x["value"].upper()
+            for x in json.load(open(manifest)).get("metadata")
+            if x["label"] == "Roll"
+        ]
+        if series and roll:
+            if "year" not in series[0].lower():
+                series_roll[series[0]][roll[0]].append(manifest)
+    for manifest in roll_manifests:
+        series = manifest.split("/")[-3].upper()
+        _roll = manifest.split("/")[-2]
+        roll = "_".join([series, _roll])
+        if update_roll_manifests:
+            m = json.load(open(manifest))
+            # m["metadata"].append({"label": "Series", "value": f"{series}"})
+            # m["metadata"].append({"label": "Roll", "value": f"{roll}"})
+            titles = [m["value"] for m in m["metadata"] if m["label"] == "Title"]
+            dates = [m["value"] for m in m["metadata"] if m["label"] == "Date"]
+            if titles and dates:
+                m["label"] = f"Microfilm Reel: {titles[0]}: ({dates[0]})"
+            with open(manifest, "w") as f:
+                json.dump(m, f, indent=2, ensure_ascii=False)
+        series_roll[series][roll].append(manifest)
+    for series, rolls in series_roll.items():
+        print("Processing series", series)
+
+        series_collection = {
+            "@id": f"https://digirati-co-uk.github.io/ida-exported-data/iiif/collection/{series}.json",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "label": f"Rolls from Series {series}",
+            "@type": "sc:Collection",
+            "members": [],
+        }
+        # sort the rolls within the series ascending by the roll number
+        rolls = dict(
+            sorted(
+                rolls.items(),
+                key=lambda x: int(
+                    "".join([y for y in x[0].split("_")[-1] if y.isdigit()])
+                ),
+            )
+        )
+        for roll, manifests in rolls.items():
+            print("Processing roll", roll)
+            collection = {
+                "@id": f"https://digirati-co-uk.github.io/ida-exported-data/iiif/collection/{roll}.json",
+                "@context": "http://iiif.io/api/presentation/2/context.json",
+                "label": f"Documents from Series {series}, Roll {roll.split('_')[-1]}",
+                "@type": "sc:Collection",
+                "members": [],
+            }
+            series_collection["members"].append(
+                {
+                    "@id": collection["@id"],
+                    "label": collection["label"],
+                    "@type": "sc:Collection",
+                }
+            )
+            for manifest in manifests:
+                with open(manifest, "r") as f:
+                    m = json.load(f)
+                    if m.get("label"):
+                        collection["members"].append(
+                            {
+                                "@id": m["@id"],
+                                "label": m["label"],
+                                "@type": "sc:Manifest",
+                            }
+                        )
+            # sort the members by their label
+            collection["members"] = sorted(
+                collection["members"], key=lambda x: x["@id"]
+            )
+            with open(
+                f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/collection/{roll}.json",
+                "w",
+            ) as c:
+                json.dump(collection, c, indent=2, ensure_ascii=False)
+        with open(
+            f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/collection/{series}.json",
+            "w",
+        ) as c:
+            json.dump(series_collection, c, indent=2, ensure_ascii=False)
+
+
 if __name__ == "__main__":
+    make_series_roll_collections(update_roll_manifests=True)
     # for n in range(6, 10):
     #     f = iterate_dir(
     #         "/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/idatest01",
@@ -199,14 +300,14 @@ if __name__ == "__main__":
     #         num=n
     #     )
     #     make_collection(num=n)
-    f = iterate_dir(
-        "/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/idatest01",
-        limit=1000,
-        dry_run=False,
-        num=0,
-        rnd=False
-    )
-    make_collection(num=0)
+    # f = iterate_dir(
+    #     "/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/idatest01",
+    #     limit=1000,
+    #     dry_run=False,
+    #     num=0,
+    #     rnd=False
+    # )
+    # make_collection(num=0)
     # m = requests.get(
     #     "https://digirati-co-uk.github.io/ida-exported-data/iiif/manifest/idatest01/"
     #     "_roll_M-1011_066_cvs-503-524/manifest.json"
