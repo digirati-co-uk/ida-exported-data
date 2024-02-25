@@ -9,6 +9,7 @@ import re
 from pathlib import Path
 import random
 import tqdm
+from iteration_utilities import unique_everseen
 
 
 def find_url(img_resource, search_dir):
@@ -169,6 +170,14 @@ def make_collection(num=1):
     manifests = glob.glob(
         f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/ocr{num}/**/manifest.json"
     )
+    # filter the list of manifests to only include one instance of each label
+    # where the label is a field in the manifest JSON called "label"
+    for manifest in manifests:
+        identifier = manifest.split("/")[-2]
+        print(identifier)
+
+    manifests = list(unique_everseen(sorted(manifests, key=lambda x: x.split("/")[-2])))
+    print(manifests)
     collection = {
         "@id": f"https://digirati-co-uk.github.io/ida-exported-data/iiif/collection/qa{num}.json",
         "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -191,10 +200,20 @@ def make_collection(num=1):
 
 
 def make_series_roll_collections(update_roll_manifests=False):
-    manifests = glob.glob(
+    _manifests = glob.glob(
         f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/ocr*/**/manifest.json"
     )
-    # defaultdict of defaultdicts of lists
+    manifests = []
+    # Crude removal of manifests that appear in more than one test collection
+    seen = set()
+    for manifest in _manifests:
+        identifier = manifest.split("/")[-2]
+        if identifier in seen:
+            print("Duplicate", identifier)
+        else:
+            manifests.append(manifest)
+            seen.add(identifier)
+
     roll_manifests = glob.glob(
         f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/manifest/roll/*/**/manifest.json"
     )
@@ -275,9 +294,10 @@ def make_series_roll_collections(update_roll_manifests=False):
                             }
                         )
             # sort the members by their label
-            collection["members"] = sorted(
-                collection["members"], key=lambda x: x["@id"]
-            )
+            collection["members"] = list(unique_everseen(sorted(
+                collection["members"], key=lambda x: x["label"]
+            )))
+
             with open(
                 f"/Users/matt.mcgrattan/code/ida-exported-data/iiif/collection/{roll}.json",
                 "w",
